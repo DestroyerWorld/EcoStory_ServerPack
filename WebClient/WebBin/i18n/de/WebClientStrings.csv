@@ -1,0 +1,161 @@
+1;404 Seite nicht gefunden
+2;Debugaufrufe erlauben
+3;Privater Server
+4;Whitelist
+5;Blacklist
+6;Admin
+7;Max Slots
+8;Spawnpunkt
+9;Ansehen
+10;Abfall verwenden
+11;Netzwerkkonfiguration
+12;Öffentlicher Server
+13;IP-Adresse
+14;Port des Spielservers
+15;Port des Webservers
+16;Zins
+17;Server-Browser-Dienst
+18;SPEICHERN
+19;Ursachen und Auswirkungen
+20;Kategorie auswählen
+21;Ebene auswählen
+22;Karten zeigen 400 Quadratmetern zentriert auf die Koordinaten 50,50
+23;Ecowahlen
+24;Wählen Sie eine Abstimmung aus dem Menü oder bewirb dich für ein Amt
+25;Kandidaten
+26;Gewählte Beamte erhalten 15 Eigentumsansprüche
+27;Wenn eine Schatzkammer gebaut ist, kannst du Steuern festlegen
+28;Diese Wahl benutzt
+29;Wahl mit sofortiger Stichwahl
+30;Stimme abgeben
+31;Kandidieren
+32;Sich selbst entfernen
+33;Aktuelle Ergebnisse
+34;Niemand hat bis jetzt abgestimmt
+35;Stimmen pro Runde
+36;Alle Stimmen ansehen
+37;Diskussion
+38;Tag
+39;Gib deine Antwort ein
+40;Graphen entfernen
+41;Karte entfernen
+42;Abgeben
+43;Abbrechen
+44;Um eine neue Wahl zu starten, musst du dich selbst als Kandidaten hinzufügen
+45;Bitte erkläre, wieso du gewählt werden solltest
+46;Gib deine Rede ein
+47;Wahlen
+48;Weltstatus
+49;Wissenschaftliche Daten
+50;Ursache und Auswirkung
+51;Kandidieren
+52;Aktuelle Wahl
+53;Vorherige Wahlen
+54;Gesetze
+55;Ein neues Gesetz vorschlagen
+56;Aktive Gesetze
+57;Gesetzesentwürfe
+58;Bezirke anzeigen
+59;Kartenebene auswählen
+60;Daten
+61;Graph
+62;Linien
+63;Balken
+64;Tag
+65;Anzeigen der globalen Auswirkungen, die diese Welt formen und wie sie sich gegenseitig beeinflussen
+66;Wähle oben eine Kategorie und benutze die Zeitleiste unten, um durch den Verlauf zu scrollen
+67;Erkundung von Ursachen und Wirkungen
+68;Benutzerkonfiguration
+69;Authentifizierung erforderlich
+70;Tage/Sekunde
+71;Aktionen im Spiel
+72;Ecogesetze
+73;Wähle ein Gesetz aus oder füge ein neues hinzu
+74;Gesetzesinfo
+75;Begründung
+76;Aktuelle Ergebnisse
+77;Dieses Gesetz wurde verabschiedet
+78;Ja
+79;Nein
+80;Graphen hinzufügen
+81;Karte hinzufügen
+82;Abbrechen
+83;Name des Gesetzes
+84;Bezirke hinzufügen
+85;Bezirke entfernen
+86;Neuen Bezirk hinzufügen
+87;Halte Rechtsklick gedrückt um eine Zone zu erstellen
+88;Argumentation
+89;Gesetz vorschlagen
+90;Dropdownliste zur Ebenenauswahl
+91;Gelände
+92;Temperatur
+93;Höhe
+94;Unity könnte später eine vollständige Liste von Optionen an das Dropdownmenü senden
+95;Ebene auswählen nach Name oder Zahl
+96;Diskussionen zu Gesetzen erfolgen hier, die Kartengröße kann angepasst werden um später besser mit Text zusammenzuwirken
+97;Lernfortschritt
+98;Es sind noch keine Bezirke festgelegt
+99;Aktive Bezirke
+100;Kandidatenränge je Jahr
+101;Keine aktiven Gesetze
+102;Keine Gesetzesentwürfe
+103;Spieler, die online sind
+104;Zeit
+105;Einschlag des Meteors
+106;Pflanzen
+107;Größe der Welt
+108;Voreingestellte Graphen
+109;Meine gespeicherten Graphen
+110;OK
+111;Macht etwas...
+112;Zusätzliche Informationen!
+113;Datensets
+114;Kategorien zurücksetzen
+115;Kurven
+116;Kuchen
+117;Lade
+118;Bevölkerungen
+119;Spielerfertigkeitsfortschritt
+120;Umweltverschmutzungsfortschritt
+121;Ein Graph mit diesem Namen existíert bereits! Wähle bitte einen anderen.
+122;Füge ein Datenset zu deinem Graphen hinzu, bevor du speicherst.
+123;Graphen kopiert. Gib einen Namen ein speichere ihn.
+124;Willst du deine Änderungen speichern, bevor du fortfährst?
+125;Nicht speichern
+126;Server
+127;Benutzer
+128;Delete Proposal
+129;Rank the candidates from best to worst.
+130;Update Vote
+131;Round
+132;Total
+133;Candidates Ranked
+134;All Votes
+135;Voters
+136;Current Events
+137;Government Activity
+138;User Activity
+139;Citizen Activity
+140;No Previous Elections
+141;Server version
+142;Clauses
+143;hr
+144;min
+145;sec
+146;Posted on
+147;Projected result
+148;Vote
+149;Stimmen
+150;Vote ends in
+151;Titel
+152;Winner
+153;Ended
+154;ago
+155;Tage
+156;hrs
+157;mins
+158;in the last hour
+159;The winner was
+160;Law
+161;Compare Maps

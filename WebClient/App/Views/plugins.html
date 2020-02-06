@@ -1,0 +1,36 @@
+
+
+<h1>Plugins</h1>
+
+<uib-tabset>
+    <uib-tab heading="{{plugin.name}}" ng-repeat="plugin in vm.plugins" select="vm.PluginSelect(plugin)">
+    </uib-tab>
+</uib-tabset>
+
+<b>Status:</b>{{vm.selectedPlugin.status}}<br />
+<!--<b>CustomUIName:</b>{{vm.selectedPlugin.customUIName}}<br />
+<b>UseDays:</b>{{vm.selectedPlugin.useDays}}<br />
+<b>UseRealTime:</b>{{vm.selectedPlugin.useRealTime}}<br />-->
+<br />
+<uib-tabset ng-show="vm.selectedPlugin.editableObject || vm.selectedPlugin.displayText || vm.selectedPlugin.graphs">
+    <uib-tab heading="Config" disable="!vm.tabs.config.enable" active="vm.tabs.config.active">
+        <b>EditableObject:</b>
+        <pre>{{vm.selectedPlugin.editableObject | json}}</pre><br />
+        <b>EditableObjectSchema:</b>
+        <pre>{{vm.selectedPlugin.editableObjectSchema | json}}</pre><br />
+        <div ng-if="vm.selectedPlugin.editableObjectSchema">
+            <json-editor schema="vm.selectedPlugin.editableObjectSchema" startval="vm.selectedPlugin.editableObject" buttons-controller="SyncButtonsController" on-change="onChange($editorValue)">
+        </div>
+    </uib-tab>
+    <uib-tab heading="Display" disable="!vm.tabs.display.enable" active="vm.tabs.display.active">
+        <pre>{{vm.selectedPlugin.displayText}}</pre>
+    </uib-tab>
+    <uib-tab heading="Graphs" disable="!vm.tabs.graphs.enable" active="vm.tabs.graphs.active">
+        <span>Graphs:</span>{{vm.selectedPlugin.graphs}}<br />
+
+        <canvas ng-repeat="graph in vm.graphs" class="chart chart-line"
+                 chart-data="graph.data" chart-labels="graph.labels" chart-series="graph.name" chart-legend="true" chart-options="graph.options">
+        </canvas> 
+    </uib-tab>
+</uib-tabset>
+

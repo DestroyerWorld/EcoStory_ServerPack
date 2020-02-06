@@ -1,0 +1,125 @@
+1;404 page not found
+2;Allow Debug Calls
+3;Private Server
+4;White list
+5;Black list
+6;Admin
+7;Max Slots
+8;Spawn location
+9;Reputations
+10;Use Waste
+11;Network Config
+12;Public server
+13;IP address
+14;Game server port
+15;Web server port
+16;Rate
+17;Server browser service
+18;SAVE
+19;Cause & Effect Explorer
+20;Select Category
+21;Select Layer
+22;Maps showing 400 square meters centered at 50,50
+23;Eco Elections
+24;Select an election from the menu or you can run for office
+25;Candidates
+26;Elected officials receive 15 property claims
+27;When a Treasury is built, they can set taxes (feature in progress)
+28;This election uses
+29;Instant Runoff Voting
+30;Submit Vote
+31;Run For Office
+32;Remove Self
+33;Current Results
+34;No one has voted yet
+35;Votes per round
+36;View All Votes
+37;Discussion
+38;Day
+39;Enter your response
+40;Remove Graph
+41;Remove Map
+42;Submit
+43;Cancel
+44;To start a new election, you must add yourself as a candidate
+45;Please explain why you should be elected
+46;Enter Your Speech
+47;Elections
+48;World Status
+49;Scientific Data
+50;Cause & Effect
+51;Run For Office
+52;Current Election
+53;Previous Elections
+54;Laws
+55;Propose a New Law
+56;Active Laws
+57;Proposed Laws
+58;View Districts
+59;Select Map Layer
+60;Data
+61;Graph
+62;Lines
+63;Bars
+64;Day
+65;View the global effects that shape this world and how they influence each other
+66;Select a category above and use the time bar at the bottom to scroll through history
+67;Cause & Effect Exploration
+68;Users Config
+69;Require Authentication
+70;days/sec
+71;In-Game Actions
+72;Eco Laws
+73;Select a law from the menu or you can add a new one
+74;Law Info
+75;Reasoning
+76;Current Results
+77;This law was passed
+78;Yes
+79;No
+80;Add Graph
+81;Add Map
+82;Cancel
+83;Name of Law
+84;Add Districts
+85;Remove Districts
+86;Add New District
+87;Hold right click to draw district
+88;Reasoning
+89;Propose Law
+90;Layer Select Dropdown
+91;Terrain
+92;Temperature
+93;Height
+94;unity could send a full list of options to the dropdown later
+95;Layer Select by Name or Number
+96;Argument over laws goes here, maps can be resized to fit with text better later
+97;Student Progress
+98;There are no districts set yet
+99;Active Districts
+100;Candidate Ranks For Each Year
+101;No Active Laws
+102;No Proposed Laws
+103;Online Players
+104;Time
+105;Meteor Impact
+106;Plants
+107;World Size
+108;Pre-Made Graphs
+109;My Saved Graphs
+110;OK
+111;Doing Something...
+112;Some information for you to read!
+113;Datasets
+114;Clear Categories
+115;Curves
+116;Pie
+117;Loading
+118;Populations
+119;Player Skill Progress
+120;Polution Progress
+121;A graph with that title already exists! Choose a unique title for your graph.
+122;Please add a dataset to your graph before saving.
+123;Graph copied. Type a unique name and save it.
+124;Do you want to save your changes before proceeding?
+125;Don't Save

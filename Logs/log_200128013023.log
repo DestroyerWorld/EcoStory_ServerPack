@@ -1,0 +1,312 @@
+[13:30:23.388] [1] [ Info] [Eco] >>> START EcoServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[13:30:23.418] [1] [ Info] [Eco] Eco Server 0.8.3.2 beta
+ 
+[13:30:23.491] [1] [ Info] [Eco] Server Initialization...  
+[13:30:23.491] [1] [ Info] [Eco] Starting LocalizationPlugin...  
+[13:30:23.853] [1] [ Info] [Eco] Запуск ПлагинНабораМодификаций...  
+[13:30:23.853] [1] [ Info] [Eco] Загрузка модификаций...  
+[13:30:23.962] [1] [ Info] [Eco] Компилирование модификаций...  
+[13:30:25.479] [1] [ Info] [Eco] Загружаем 0Harmony...
+ 
+[13:30:25.479] [1] [ Info] [Eco] Загружаем Asphalt-ModKit...
+ 
+[13:30:25.608] [1] [ Info] [Eco] Загружаем Eco.IntegrationTests...
+ 
+[13:30:25.608] [1] [ Info] [Eco] Загружаем DiscordLinkUnified...
+ 
+[13:30:25.662] [1] [ Info] [Eco] Загрузка модификаций завершена за 1 806,2мс
+ 
+[13:30:25.662] [1] [ Info] [Eco] Запуск МенеджерСети...  
+[13:30:25.669] [7] [ Info] [Eco] Инициализация типов симуляции...  
+[13:30:25.732] [8] [ Info] [Eco] Запуск ПлагинГенератораМира...  
+[13:30:25.732] [13] [ Info] [Eco] Запуск ПлагинРезервногоКопирования...  
+[13:30:25.732] [16] [ Info] [Eco] Запуск ПлагинИгровойСтатистики...  
+[13:30:25.732] [13] [ Info] [Eco] Запуск МенеджерХранилища...  
+[13:30:27.156] [7] [ Info] [Eco] Инициализация предметов...  
+[13:30:28.070] [13] [ Info] [Eco] Запуск Плагин паузы...  
+[13:30:29.979] [7] [ Info] [Eco] Инициализация навыков...  
+[13:30:30.079] [9] [ Info] [Eco] Запуск БДСтатистики...  
+[13:30:30.079] [5] [ Info] [Eco] Запуск ПлагинМира...  
+[13:30:30.122] [5] [ Info] [Eco] Загружаем World...  
+[13:30:34.071] [5] [ Info] [Eco] Инициализация мира...  
+[13:30:35.370] [5] [ Info] [Eco] Запуск ПлагинВремени...  
+[13:30:35.370] [5] [ Info] [Eco] Загружаем Time...  
+[13:30:35.370] [5] [ Info] [Eco] Запуск ПлагинРепутации...  
+[13:30:35.370] [5] [ Info] [Eco] Загружаем Reputation...  
+[13:30:35.391] [5] [ Info] [Eco] Запуск МенеджерЖильяИгроков...  
+[13:30:35.391] [5] [ Info] [Eco] Запуск МенеджерПользователей...  
+[13:30:35.431] [5] [ Info] [Eco] Загружаем Users...  
+[13:30:35.778] [5] [ Info] [Eco] Инициализация инвентарей...  
+[13:30:35.822] [5] [ Info] [Eco] Запуск МенеджерОбъектовЭко...  
+[13:30:35.822] [5] [ Info] [Eco] Загружаем Objects...  
+[13:30:36.018] [11] [ Info] [Eco] Запуск ПлагинМусора...  
+[13:30:36.018] [17] [ Info] [Eco] Запуск VoiceManager...  
+[13:30:36.018] [5] [ Info] [Eco] Запуск ПлагинЭкономики...  
+[13:30:36.018] [34] [ Info] [Eco] Запуск СерверЧата...  
+[13:30:36.018] [13] [ Info] [Eco] Запуск МенеджерКонтроллера...  
+[13:30:36.018] [31] [ Info] [Eco] Запуск ПлагинУгроз...  
+[13:30:36.018] [19] [ Info] [Eco] Запуск НастройкиСложности...  
+[13:30:36.018] [11] [ Info] [Eco] Загружаем Garbage...  
+[13:30:36.035] [5] [ Info] [Eco] Загружаем Economy...  
+[13:30:36.373] [5] [ Info] [Eco] Запуск Законодательство...  
+[13:30:36.373] [31] [ Info] [Eco] Загружаем Disasters...  
+[13:30:36.373] [34] [ Info] [Eco] Загружаем Chat...  
+[13:30:38.714] [5] [ Info] [Eco] Загружаем Laws...  
+[13:30:38.813] [5] [ Info] [Eco] Запуск МенеджерСобственности...  
+[13:30:38.813] [5] [ Info] [Eco] Загружаем Property...  
+[13:30:38.926] [5] [ Info] [Eco] Запуск МенеджерМиникарты...  
+[13:30:38.931] [5] [ Info] [Eco] Запуск СимуляцияЭко...  
+[13:30:38.994] [5] [ Info] [Eco] Загружаем Plants...  
+[13:30:40.407] [5] [ Info] [Eco] Инициализация растений...  
+[13:30:46.118] [5] [ Info] [Eco] Запуск RouteProbingPlugin...  
+[13:30:46.118] [5] [ Info] [Eco] Загружаем RouteProbing...  
+[13:30:48.576] [5] [ Info] [Eco] Запуск МенеджерСлоёвМира...  
+[13:30:48.576] [5] [ Info] [Eco] Загружаем Layers...  
+[13:30:49.225] [5] [ Info] [Eco] Инициализация слоёв мира...  
+[13:30:49.231] [5] [ Info] [Eco] Загружаем ClimateSim...  
+[13:30:51.938] [5] [ Info] [Eco] Запуск ТрекерЭкономики...  
+[13:30:51.938] [5] [ Info] [Eco] Запуск UserTracker...  
+[13:30:51.946] [5] [ Info] [Eco] Запуск МенеджерМировыхОбъектов...  
+[13:30:52.027] [5] [ Info] [Eco] Загружаем WorldObjects...  
+[13:30:52.734] [5] [ Info] [Eco] Запуск ПлагинКомнат...  
+[13:30:52.734] [5] [ Info] [Eco] Загружаем Rooms...  
+[13:30:52.748] [5] [ Info] [Eco] Запуск ПлагинЦелей...  
+[13:30:52.748] [5] [ Info] [Eco] Загружаем Objectives...  
+[13:30:52.765] [5] [ Info] [Eco] Запуск ПлагинСна...  
+[13:30:52.765] [1] [ Info] [Eco] Запуск ПлагинВебСервера...  
+[13:30:52.776] [1] [ Info] [Eco] Запуск OtherAliasCategory...  
+[13:30:52.776] [29] [ Info] [Eco] Запуск ПлагинТестовИнтеграции...  
+[13:30:52.776] [25] [ Info] [Eco] Запуск Asphalt...  
+[13:30:52.776] [16] [ Info] [Eco] Запуск DiscordLink...  
+[13:30:52.893] [1] [ Info] [Eco] Инициализируем ПлагинПеревода...  
+[13:30:52.893] [1] [ Info] [Eco] Инициализируем ПлагинНабораМодификаций...  
+[13:30:53.106] [1] [ Info] [Eco] Инициализируем ПлагинГенератораМира...  
+[13:30:53.106] [1] [ Info] [Eco] Инициализируем МенеджерПользователей...  
+[13:30:53.200] [1] [ Info] [Eco] Инициализируем ПлагинМусора...  
+[13:30:53.231] [1] [ Info] [Eco] Инициализируем ПлагинЭкономики...  
+[13:30:53.338] [1] [ Info] [Eco] Инициализируем Законодательство...  
+[13:30:57.973] [1] [ Info] [Eco] Инициализируем МенеджерСобственности...  
+[13:30:58.048] [1] [ Info] [Eco] Инициализируем МенеджерМиникарты...  
+[13:30:59.055] [1] [ Info] [Eco] Инициализируем UserTracker...  
+[13:30:59.069] [1] [ Info] [Eco] Инициализируем МенеджерМировыхОбъектов...  
+[13:31:03.140] [1] [ Info] [Eco] Инициализируем ПлагинКомнат...  
+[13:31:04.598] [1] [ Info] [Eco] Инициализируем ПлагинСна...  
+[13:31:04.598] [1] [ Info] [Eco] Инициализируем DiscordLink...  
+[13:31:04.630] [1] [ Info] [Eco] Инициализируем ПлагинМира...  
+[13:31:04.634] [1] [ Info] [Eco] Обработка...  
+[13:31:10.209] [140] [ Info] [Eco] DISCORDLINK: Connected to Discord.
+
+ 
+[13:31:10.834] [1] [ Info] [Eco] Сжатие...  
+[13:31:11.163] [140] [ Info] [Eco] DISCORDLINK: Connected and Ready
+ 
+[13:31:14.701] [1] [ Info] [Eco] Инициализируем МенеджерСети...  
+[13:31:14.943] [1] [ Info] [Eco] Инициализируем МенеджерСлоёвМира...  
+[13:31:14.949] [1] [ Info] [Eco] Инициализируем ПлагинВебСервера...  
+[13:31:15.697] [1] [ Info] [Eco] Инициализируем ПлагинТестовИнтеграции...  
+[13:31:15.697] [23] [ Info] [Eco] DISCORDLINK DEBUG:Message received from Discord on channel: сервер-в-работе
+ 
+[13:31:15.741] [1] [ Info] [Eco] Server Initialization завершена за 52 248,6мс
+ 
+[13:31:19.213] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:19.213] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:d9d22244-fd5c-4d0e-9a90-ad04537d1b51:491de59c-1cb9-4834-851b-b281b8f41f99"><nobr><ecoicon item='Glass'>Glass проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 20 656 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:31:19.213] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:31:19.213] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:19.213] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:19.213] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:31:22.522] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:22.522] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight">закончено изготовление <b><link="WorkOrder:bfca6bdf-82c9-415a-b6bd-90e395bb3f9f:74366eba-f12d-41e7-80d6-968b663db5f6"><nobr><ecoicon item='Stone'>Stone проект</ecoicon></nobr></link></b> в <b><link="WorldObject:bfca6bdf-82c9-415a-b6bd-90e395bb3f9f"><nobr><ecoicon item='Workbench'>cretinius Верстак</ecoicon></nobr></link></b>.</style>
+ 
+[13:31:22.522] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:31:22.525] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:22.525] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:22.525] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:31:22.525] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:22.525] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:eda6ee7c-8314-45a4-9b83-24e9216f7b5c:805578f6-2b65-4488-907d-4a6e2b2349f5"><nobr><ecoicon item='Mortar'>Mortar проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 6 633 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:31:22.525] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:31:22.525] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:22.525] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:22.525] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:31:23.623] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:23.623] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:eda6ee7c-8314-45a4-9b83-24e9216f7b5c:805578f6-2b65-4488-907d-4a6e2b2349f5"><nobr><ecoicon item='Mortar'>Mortar проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 6 633 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:31:23.623] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:31:23.623] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:23.623] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:23.623] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:31:28.012] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:28.012] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="User::76561198159962981"><ecobadgeicon tier='4'><color=#2581FE>Dark Avenger</color></ecobadgeicon></link></b> вернулся в игру (Последний раз в сети 21s назад).</style>
+ 
+[13:31:28.012] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Logins
+ 
+[13:31:28.012] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:28.012] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:28.012] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:31:39.060] [31] [ Info] [Eco] DISCORDLINK DEBUG:Message received from Discord on channel: сервер-в-работе
+ 
+[13:31:43.801] [31] [ Info] [Eco] DISCORDLINK DEBUG:Message received from Discord on channel: сервер-в-работе
+ 
+[13:31:45.263] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:45.263] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:d9d22244-fd5c-4d0e-9a90-ad04537d1b51:491de59c-1cb9-4834-851b-b281b8f41f99"><nobr><ecoicon item='Glass'>Glass проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 20 655 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:31:45.263] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:31:45.263] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:45.263] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:45.263] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:31:46.413] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:46.420] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:d9d22244-fd5c-4d0e-9a90-ad04537d1b51:491de59c-1cb9-4834-851b-b281b8f41f99"><nobr><ecoicon item='Glass'>Glass проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 20 655 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:31:46.420] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:31:46.420] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:46.420] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:46.420] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:31:47.132] [13] [ Info] [Eco] DISCORDLINK DEBUG:Message received from Discord on channel: сервер-в-работе
+ 
+[13:31:51.465] [16] [ Info] [Eco] DISCORDLINK DEBUG:Message received from Discord on channel: сервер-в-работе
+ 
+[13:31:53.195] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:53.196] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="User::76561198022588665"><ecobadgeicon tier='4'><color=#2581FE>s281182</color></ecobadgeicon></link></b> вернулся в игру (Последний раз в сети 9h 10m назад).</style>
+ 
+[13:31:53.196] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Logins
+ 
+[13:31:53.196] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:53.196] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:53.196] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:31:53.751] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:53.751] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:eda6ee7c-8314-45a4-9b83-24e9216f7b5c:805578f6-2b65-4488-907d-4a6e2b2349f5"><nobr><ecoicon item='Mortar'>Mortar проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 6 632 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:31:53.751] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:31:53.751] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:53.751] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:53.751] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:31:54.860] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:31:54.860] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:eda6ee7c-8314-45a4-9b83-24e9216f7b5c:805578f6-2b65-4488-907d-4a6e2b2349f5"><nobr><ecoicon item='Mortar'>Mortar проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 6 632 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:31:54.860] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:31:54.860] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:31:54.860] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:31:54.860] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:32:02.502] [31] [ Info] [Eco] DISCORDLINK DEBUG:Message received from Discord on channel: сервер-в-работе
+ 
+[13:32:15.342] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:32:15.342] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:d9d22244-fd5c-4d0e-9a90-ad04537d1b51:491de59c-1cb9-4834-851b-b281b8f41f99"><nobr><ecoicon item='Glass'>Glass проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 20 654 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:32:15.342] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:32:15.342] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:32:15.342] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:32:15.342] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:32:16.457] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:32:16.457] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:d9d22244-fd5c-4d0e-9a90-ad04537d1b51:491de59c-1cb9-4834-851b-b281b8f41f99"><nobr><ecoicon item='Glass'>Glass проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 20 654 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:32:16.457] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:32:16.457] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:32:16.457] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:32:16.457] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:32:17.024] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:32:17.025] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="User::76561198025755741"><ecobadgeicon tier='4'><color=#51FFB7>letmeplay</color></ecobadgeicon></link></b> вернулся в игру (Последний раз в сети 1m 10s назад).</style>
+ 
+[13:32:17.025] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Logins
+ 
+[13:32:17.045] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:32:17.045] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:32:17.045] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:32:25.384] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:32:25.384] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:eda6ee7c-8314-45a4-9b83-24e9216f7b5c:805578f6-2b65-4488-907d-4a6e2b2349f5"><nobr><ecoicon item='Mortar'>Mortar проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 6 631 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:32:25.384] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:32:25.384] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:32:25.384] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:32:25.384] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight">закончено изготовление <b><link="WorkOrder:029db6d8-9c29-4ee9-8a82-a32c08c454f5:0abf59b0-5f44-495e-a299-eac55e5587c6"><nobr><ecoicon item='Hewn Log'>Hewn Log проект</ecoicon></nobr></link></b> в <b><link="WorldObject:029db6d8-9c29-4ee9-8a82-a32c08c454f5"><nobr><ecoicon item='Carpentry Table'>Aatko Плотницкий верстак</ecoicon></nobr></link></b>.</style>
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Eco Message Processed:
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Message: <style="InfoLight"><b><link="WorkOrder:eda6ee7c-8314-45a4-9b83-24e9216f7b5c:805578f6-2b65-4488-907d-4a6e2b2349f5"><nobr><ecoicon item='Mortar'>Mortar проект</ecoicon></nobr></link></b> приостановлено. <style="Error">Заблокировано!</style> Всё ещё недостаёт 6 631 <b><link="Item:SandItem"><style="Item"><nobr><ecoicon item='Sand'>Песок</ecoicon></nobr></style></link></b>.</style>
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Tag: _Crafting
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Category: Info
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Temporary: False
+ 
+[13:32:26.499] [137] [ Info] [Eco] DISCORDLINK DEBUG:Sender: 
+ 

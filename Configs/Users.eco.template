@@ -1,0 +1,137 @@
+{
+  "UseWaste": false,
+  "MaxRepFromOnPerson": 30.0,
+  "MinRepFromOnePerson": -10.0,  
+  "AllowDebugCalls": false,
+  "AdminCommandsLoggingLevel": "LogFileAndNotifyEveryone",
+  "WhiteList": {
+    "System.String": {
+      "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+      "$values": []
+    }
+  },
+  "BlackList": {
+    "System.String": {
+      "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+      "$values": []
+    }
+  },
+  "Admins": {
+    "System.String": {
+      "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+      "$values": []
+    }
+  },
+  "Reputations": {
+    "Eco.Gameplay.Economy.ReputationTitle": {
+      "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Economy.ReputationTitle, Eco.Gameplay]], mscorlib",
+      "$values": [
+        {
+          "MaxReputation": -500.0,
+          "Title": "Reprehensible",
+          "Color": "FF4623"
+        },
+        {
+          "MaxReputation": -200.0,
+          "Title": "Abhorred",
+          "Color": "FF5A24"
+        },
+        {
+          "MaxReputation": -100.0,
+          "Title": "Nefarious",
+          "Color": "FF7025"
+        },
+        {
+          "MaxReputation": -50.0,
+          "Title": "Shunned",
+          "Color": "FFA028"
+        },
+        {
+          "MaxReputation": -20.0,
+          "Title": "Ill-Regarded",
+          "Color": "FFC32A"
+        },
+        {
+          "MaxReputation": -10.0,
+          "Title": "Unfavorable",
+          "Color": "FFF62D"
+        },
+        {
+          "MaxReputation": -5.0,
+          "Title": "Questionable",
+          "Color": "E8EB43"
+        },
+        {
+          "MaxReputation": -2.0,
+          "Title": "Uncertain",
+          "Color": "B2CE76"
+        },
+        {
+          "MaxReputation": -1.0,
+          "Title": "Unknown",
+          "Color": "2581FE"
+        },
+        {
+          "MaxReputation": 1.0,
+          "Title": "Unknown",
+          "Color": "2581FE"
+        },
+        {
+          "MaxReputation": 2.0,
+          "Title": "Helpful",
+          "Color": "2899FE"
+        },
+        {
+          "MaxReputation": 5.0,
+          "Title": "Respected",
+          "Color": "2EB6FC"
+        },
+        {
+          "MaxReputation": 10.0,
+          "Title": "Friendly",
+          "Color": "34D4FA"
+        },
+        {
+          "MaxReputation": 20.0,
+          "Title": "Well-Regarded",
+          "Color": "3DFFF8"
+        },
+        {
+          "MaxReputation": 50.0,
+          "Title": "Esteemed",
+          "Color": "51FFB7"
+        },
+        {
+          "MaxReputation": 100.0,
+          "Title": "Celebrated",
+          "Color": "61FF82"
+        },
+        {
+          "MaxReputation": 200.0,
+          "Title": "Honored",
+          "Color": "70FF4F"
+        },
+        {
+          "MaxReputation": 500.0,
+          "Title": "Revered",
+          "Color": "77FF37"
+        },
+        {
+          "MaxReputation": 1000.0,
+          "Title": "Exalted",
+          "Color": "7BFF29"
+        }
+      ]
+    }
+  },
+  "UnStuckDisableTime": 60.0,
+  "DelayNearbyFoodCheckMinutes": 4.0,
+  "NearbyFoodSpawnLocationRadius": 20.0,
+  "NearbyFoodSpawnCount": 5,
+  "UseExactSpawnLocation": false,
+  "SpawnNearbyFoodLocation": {
+    "x": 609,
+    "y": 63,
+    "z": 698
+  }
+}

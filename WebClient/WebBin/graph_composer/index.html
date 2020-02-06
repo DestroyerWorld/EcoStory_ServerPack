@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eco Graph Composer</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="../inc/js/jquery/jquery.mobile.structure-1.4.3.min.css" />
+	<link rel="stylesheet" href="css/default.css" />
+    <link rel="stylesheet" href="css/themes/eco-mobile.css" />
+	<script src="../inc/js/jquery/jquery-1.11.1.min.js"></script>
+	<script src="../inc/js/jquery/jquery.mobile-1.4.3.min.js"></script>
+	<script src="../inc/js/highcharts/highcharts.js"></script>
+	<script src="script/popups.js"></script>
+	<script src="script/graph-iframe.js"></script>
+	<script>
+		// Get URL Parameters - Relative protocol, domain, port
+		var url = window.location.href
+		var arr = url.split("/");
+		var result = arr[0] + "//" + arr[2];
+		var APPIQUERYURL = result;
+	</script>
+	<script src="../inc/js/localize.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="../inc/css/pax_demo.css">
+
+	<style type="text/css">
+
+	.unselect-categories{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	#saved-graphs{
+    	width: 100%;
+	}
+#load-saved-graphs > a {
+    font-size: 18px;
+	line-height: 28px;
+    border: 2px solid rgba(0,0,0,0.18);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #5a9146;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    text-shadow: 0 1px 0 #000;
+    -webkit-transition: background .2s;
+    -moz-transition: background .2s;
+    -o-transition: background .2s;
+    transition: background .2s;
+    width: 137px;
+    padding: 0 !important;
+    margin: 0 auto 7px;
+
+}
+		#load-saved-graphs > a:after {
+			display:none !important;
+		}
+	#saved-graphs > li{
+	    display: block;
+	    margin-right: -49px;
+	    margin-bottom: 0;
+	    background: #5BA041;
+	    width: 110%;
+	}
+	#saved-graphs li a:hover{
+		background: #5D864E;
+	}
+	#graph-categories > li > a{
+		border: none;
+		color: white;
+		font-family: "Dosis", Geneva, Arial;
+		background: none;
+		font-size: 18px;
+		padding-left: 30px !important;
+		text-align: left;
+		width: 226px;
+		line-height: 34px !important;
+		padding: 0 20px;
+	}
+	#graph-categories li > a:hover{
+		background: #64a94a;
+	}
+
+	#graph-categories a{
+		border: none;
+		color: white;
+		font-family: "Dosis", Geneva, Arial;
+		background: none;
+		font-size: 18px;
+		padding-left: 45px !important;
+		text-align: left;
+		width: 226px;
+		line-height: 34px !important;
+		padding: 0 20px;
+	}
+	#graph-categories a:hover{
+		background: #64a94a;
+	}
+	#graph-categories .subcategories-item a {
+		padding-left: 55px !important;
+	}
+
+	#graph-categories > li > ul > li > a:after{
+		padding-left: 30px;
+	}
+
+	#graph-categories{
+		float: right;
+	    width: 100%;
+	    padding: 0;
+	    margin-top: 0;
+    	margin-bottom: -1px;
+		border-bottom: 4px solid #5a9146;
+		background: #5a9146;
+	}
+	.subcategories , .subcategories-item{
+		padding: 0;
+		list-style-type: none;
+	}
+	.graph-list{
+		margin-top: 10px;
+    	margin-left: -20px;
+	}
+	.graph-list li{
+		margin-bottom: 16px!important;
+	}
+
+	#load-saved-graphs > h3{
+		background: #5ba041;
+		padding: 15px;
+    	margin: 0;
+	}
+	#load-saved-graphs > h3 > a{
+		color: white;
+	}
+	#load-saved-graphs:hover > h3{
+	    background: #5BA041!important;
+	}
+	.subcategories > li , .subcategories-item > li{
+		text-align: left;
+	}
+	.subcategories > li > a , .subcategories-item > li > a{
+    border: none;
+    display: block;
+    font-family: "Dosis", Geneva, Arial;
+    background: none;
+    font-size: 18px;
+    text-align: left;
+    width: 226px;
+    line-height: 34px !important;
+    padding: 0 20px 0 25px;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    background: none;
+    color: white !important;
+    background: #4d763e;
+	}
+	.subcategories:hover > li > a , .subcategories-item:hover > li > a{
+	}
+
+	.subcategories > li:first-child , .subcategories-item > li:first-child{
+		margin-top: 0px;
+	}
+	.ui-btn.unselect-categories {
+	    font-weight: 400;
+	    vertical-align: middle;
+	    text-decoration: none;
+	    cursor: pointer;
+	    white-space: nowrap;
+	    padding: 1px 10px;
+	    font-size: 18px;
+	    line-height: 28px;
+	    margin: 9px 10px 0 0;
+	    border: 2px solid rgba(0,0,0,0.18);
+	    -webkit-border-radius: 4px;
+	    -moz-border-radius: 4px;
+	    border-radius: 4px;
+	    background: #5a9146;
+	    color: white;
+	    font-family: 'Dosis', sans-serif;
+	    text-align: center;
+	    text-shadow: 0 1px 0 #000;
+	    -webkit-transition: background .2s;
+	    -moz-transition: background .2s;
+	    -o-transition: background .2s;
+	    transition: background .2s;
+	}
+	.ui-btn.unselect-categories:hover {
+	    background: #649b50;
+		}
+	#loader2{position: absolute;z-index:999999999;background:url(../inc/images/pattern-4.png) #55973c;width:100%;height:100%;text-align:center;padding-top:17%;line-height:3.5;left:0;top:0;text-transform:uppercase;color:#6cac54;font-weight:700;letter-spacing:7px;font-family:'Pathway Gothic One',sans-serif;font-size:54px;text-shadow:none}
+	#graph-scroll {
+		overflow: auto;
+    	white-space: nowrap;
+	}
+	#graph-scroll::-webkit-scrollbar {
+		width: 10px;
+		height: 10px;
+	}
+	#graph-scroll::-webkit-scrollbar-track {
+		background: #54973c;
+	}
+	#graph-scroll::-webkit-scrollbar-thumb {
+		background: #38562d;
+    	border-radius: 10px;
+	}
+	#graph-scroll::-webkit-scrollbar-thumb:hover {
+		background: #40542d;
+	}
+
+</style>
+
+</head>
+
+<body style="overflow: hidden;">
+	<!-- Dataset Panel -->
+	<div data-role="page" id="graph_composer" class="ui-corner-all">
+
+		<!-- Graph Header -->
+		<div data-role="header">
+			<a href="#panel-datasets" class="ui-btn ui-corner-all ui-shadow ui-icon-bars ui-btn-icon-left ui-btn-icon-notext" style="display: none"><span class="localize" translate-key="113">Datasets</span></a>
+
+			<div id="subheader" class="ui-grid-a">
+				<span class="localize" translate-key="61">Graph</span>
+				<div class="ui-field-contain" style="display:none">
+					<input type="text" name="name" id="graph-name" value="" placeholder="Enter graph title" data-clear-btn="true">
+				</div>
+			</div>
+			 <div class="ui-btn unselect-categories">
+				 <span class="localize" translate-key="114">Clear Categories</span>
+			 </div>
+			<div data-role="navbar" id="graph-type">
+				<ul>
+					<li><a id="line" href="#" class="ui-btn-active localize" translate-key="62">Lines</a></li>
+					<li><a id="spline" href="#"><span class="localize" translate-key="115">Curves</span></a></li>
+					<li><a id="column" href="#"><span class="localize" translate-key="63">Bars</span></a></li>
+					<li><a id="pie"href="#"><span class="localize" translate-key="116">Pie</span></a></li>
+				</ul>
+			</div>
+		</div><!-- /header -->
+		<div id="loader2"><span class="localize" translate-key="117">Loading</span></div>
+		<div id="graph" data-role="content">
+		</div>
+
+		<div id="panel-datasets" data-role="content">
+
+			<ul data-role="listview">
+				<li><span class='localize' translate-key='60'>Data</span></li>
+				<!-- <li data-icon="carat-l"><a href="#" data-rel="close">My Datasets</a></li -->
+				</ul>
+				<div id="graph-scroll" style="height: 481px;">
+					<section>
+						<div class="" id="load-saved-graphs">
+							<a class="ui-collapsible-heading-toggle ui-btn ui-icon-carat-r ui-btn-icon-left ui-btn-inherit ui-nodisc-icon ui-alt-icon"><span class='localize' translate-key='108'>Pre-Made Graphs</span></a>
+							<div style="display: none;" id="saved-graphs"></div>
+						</div>
+					</section>
+					<div id="data-list" class="" data-role="collapsible-set" data-inset="false" data-mini='true'>
+				</div>
+			</div>
+		</div>
+
+		<!-- Graph Footer -->
+		<div id="footer" data-role="footer" data-position="fixed">
+			<form>
+				<div id="graph-time" data-role="rangeslider">
+					<div class="graph-range-day-left"><span class="localize graph-range-day" translate-key="64">Day</span></div><input type="range" name="start" id="start" min="0" max="10000" value="0">
+					<div class="graph-range-day-right"><span class="localize graph-range-day" translate-key="64">Day</span></div><input type="range" name="end"  id="end"   min="0" max="10000" value="10000">
+				</div>
+			</form>
+		</div><!-- /footer -->
+
+		<!-- Graphs Panel -->
+		<div data-role="panel" id="panel-graphs" data-position="right" data-display="overlay">
+			<ul data-role="listview" style="margin-bottom: 0.5em">
+				<li data-icon="carat-r" class="iconLeft"><a href="#" data-rel="close"><span class='localize' translate-key='109'>My Saved Graphs</span></a></li>
+			</ul>
+			<ul id="list" data-role="listview" data-filter="true">
+			</ul>
+			<div class='ui-loader ui-corner-all ui-body-a ui-loader-default'>
+				<span class='ui-icon-loading'></span>
+			</div>
+		</div>
+
+		<!-- Popup dialog prompt -->
+		<div data-role="popup" id="popupPrompt" data-overlay-theme="b" data-theme="b" data-dismissible="false" data-history="false">
+			<div data-role="header" data-theme="a">
+			<h1 id="header"></h1>
+			</div>
+			<div role="main" class="ui-content">
+				<h3 id="body" class="ui-title"></h3>
+				<p id="subtext"></p>
+				<a id="btn0" href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back"><span class='localize' translate-key='43'>Cancel</span></a>
+				<a id="btn1" href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow"><span class='localize' translate-key='110'>OK</span></a>
+			</div>
+		</div>
+
+		<!-- Popup modal server sync -->
+		<div data-role="popup" class="ui-loading" id="popupSync" data-overlay-theme="b" data-theme="b" data-dismissible="false" data-history="false">
+			<div class='ui-loader ui-corner-all ui-body-a ui-loader-default' style='opacity: 1.0'>
+				<div id='label' class="ui-corner-all"><span class='localize' translate-key='111'>Doing Something...</span></div>
+				<span class='ui-icon-loading' style="opacity: 0.4"></span>
+			</div>
+		</div>
+
+		<!-- Popup information -->
+		<div data-role="popup" id="popupInfo" data-transition="pop" data-dismissible="false" data-history="false" data-position-to="[data-role=header]">
+			<span><span class="localize" translate-key="112">Some information for you to read!</span></span>
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+<!-- scripts for loading graphs in frontpage -->
+
+<script>
+
+function getURLParameter(name) {
+  	return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+}
+
+var id = getURLParameter('id');
+$('body').append('<input class="iframe-id" type="hidden" value="'+id+'">');
+
+//Pass type of page to graph for css
+$('#graph_composer').addClass( getURLParameter('page') );
+var settings = JSON.parse(getURLParameter('settings'));
+
+// Wait for window load
+$(window).load(function(){$("#loader2").fadeOut()})
+</script>
+<script src="script/init.js"></script>
+<script src="../inc/js/localize.js"></script>

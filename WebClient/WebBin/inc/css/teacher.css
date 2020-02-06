@@ -1,0 +1,162 @@
+/* teacher style */
+.teacher-tool-wrapper {
+    margin: 0px auto 40px;
+    border: 2px solid rgb(65, 116, 45);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.3);
+    background: #52853f;
+    display: inline-block;
+    vertical-align: top;
+}
+.teacher-tool-wrapper-side {
+    float: right;
+    max-width: 1250px;
+    width: 47%;
+}
+.teacher-row {
+	color:rgb(35, 59, 26);
+	text-shadow: none;
+	vertical-align: top;
+}
+.teacher-content p {
+    margin: 0 0 5px 0;
+}
+/*.teacher-row a, .teacher-row a:visited, .teacher-row a:active, .teacher-row a:focus {
+	color:rgb(35, 59, 26);
+}
+.teacher-row a:hover {
+	color:rgb(35, 59, 26);
+}*/
+.teacher .teacher-content p{
+	margin: 0 !important;
+}
+.summary{
+	font-size: 16px;
+    line-height: 21px;
+}
+#teacher-slider-range, #players-slider-range, #events-slider-range{
+	margin: 20px 20px 0 10px;
+	border: transparent;
+    background: transparent;
+}
+.teacher-content .resut-col{
+    font-size: 18px;
+    margin-top: -5px;
+}
+.teacher-row .data-row{
+    padding: 3px 10px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.teacher-row .data-row:nth-child(2n){
+	background-color: rgb(210, 230, 202);
+}
+.teacher-row .data-row:nth-child(2n - 1){
+	background-color: #e8ffdf;
+}
+.teacher-tool-wrapper .range-controls-wrapper {
+    display: block;
+    padding: 5px 10px;
+    background: #5BA041;
+    border: 2px solid rgba(0,0,0,0.18);
+    border-left: none;
+    border-right: none;
+}
+.ui-slider-handle:first-of-type {
+	margin-left: -6px;
+}
+.ui-slider-handle:last-of-type {
+	margin-left: -17px;
+}
+/*.teacher-low .data-row:nth-child(2n){
+	background-color: #6cb351;
+}
+.teacher-low .data-row:nth-child(2n - 1){
+	background-color: #548043;
+}*/
+
+/* players style */
+.players-table {
+    color: rgb(35, 59, 26);
+    text-shadow: none;
+}
+div[class^='chat-snippets'] p{
+    margin: 0;
+}
+.players-content{
+    background-color: #e8ffdf;
+    padding: 5px 10px;
+	font-size: 17px;
+}
+.players-content p {
+    margin: 0;
+    line-height: 23px;
+    padding-bottom: 10px;
+}
+.players-content p:last-of-type {
+    padding-bottom: 30px;
+}
+.activity-noactivity {
+	padding-bottom: 0px !important;
+    color: #797f76;
+    text-shadow: none;
+    text-align: center;
+}
+.players-group {
+    background: rgb(210, 230, 202);
+    line-height: 40px;
+    padding: 0 10px;
+}
+#events-range-controls-time-1, #events-range-controls-time-2 {
+    vertical-align: middle;
+    box-sizing: border-box;
+    outline: 0;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #365929;
+    font-family: 'Pathway Gothic One', sans-serif;
+    background-color: #e8ffdf;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    text-shadow: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 4px;
+    width: 50px;
+    height: 53px;
+    line-height: 20px;
+    display: block;
+    white-space: nowrap;
+}
+progress#events-map-progress-bar {
+    width: 100%;
+    margin: 0;
+}
+
+.collapsible-heading{
+    background-color: #548043 !important;
+    border-color: #365929 !important;
+}
+.teacher-dashboard-table button{
+    font-size: 14px;
+}
+.collapse-container>:nth-child(even) {
+    display : none;
+}
+.ui-accordion-header-icon.ui-icon{
+    display: none !important;
+}
+.collapse-container-header{
+    padding: 0 !important;
+}
+.collapsible-body{
+    background-color: #5ba041 !important;
+    border-color: #365929 !important;
+}
+.modal-content{
+    background-color: #5ba041 !important;
+}

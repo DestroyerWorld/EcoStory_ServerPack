@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Eco</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- Header js-->
+	<script src="inc/js/header.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js"></script>
+
+	<!-- Jquery -->
+	<script src="inc/js/jquery/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="inc/js/jquery/jquery-ui.js"></script>
+
+	<link rel="stylesheet" href="inc/css/jquery/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="inc/css/range.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+
+<body>
+
+	<script src="inc/js/convertSeconds.js"></script>
+	<script src="inc/js/three.min.js"></script>
+	<script src="inc/js/OrbitControls.js"></script>
+	<script src="inc/js/postprocessing/EffectComposer.js"></script>
+	<script src="inc/js/postprocessing/RenderPass.js"></script>
+	<script src="inc/js/postprocessing/ShaderPass.js"></script>
+	<script src="inc/js/shaders/CopyShader.js"></script>
+	<script src="inc/js/Detector.js"></script>
+	<script src="inc/js/dat.gui.min.js"></script>
+	<script src="inc/js/ecomap.js"></script>
+	<script src="inc/js/Map.js"></script>
+	<script src="inc/js/mapcontrols.js"></script>
+  <script src="inc/js/localize.js"></script>
+
+	<!-- LOADING -->
+	<div id="loader"><span id="loader-text">Loading</span></div>
+	<style>#loader{position:fixed;z-index:999999999;background:url(inc/images/pattern-4.png) #55973c;width:100%;height:100%;text-align:center;padding-top:17%;line-height:3.5;left:0;top:0;text-transform:uppercase;color:#6cac54;font-weight:700;letter-spacing:7px;font-family:'Pathway Gothic One',sans-serif;font-size:54px;text-shadow:none}#loader-text{display:none;}</style>
+	<script>
+		// Wait for window load
+		$("#loader-text").fadeIn();
+		$(window).load(function() {
+			var isIE = /*@cc_on!@*/false || !!document.documentMode;
+			if (isIE) {
+				$("#wrapper").remove();
+				$("#loader-text").html("Internet Explorer is not supported, please try another browser.");
+			} else {
+				$("#loader").fadeOut();
+			}
+		});
+	</script>
+
+	<div id="wrapper">
+
+		<!-- HEADER -->
+		<div id="header-scripts"></div>
+		<script>
+			var currentPage = 'laws';
+
+			// Global Header
+			$.get("header.html", function(data) {
+				$(data).prependTo("#header-scripts");
+			});
+		</script>
+
+		<!-- Local Header -->
+		<script src="inc/js/highcharts/highcharts.js"></script>
+		<script type="text/javascript" src="inc/js/Law.js"></script>
+		<script type="text/javascript" src="inc/js/graph-voting.js"></script>
+		<script src="graph_composer/script/graph.js"></script>
+		<script type="text/javascript" src="inc/js/graph-discussion.js"></script>
+		<script type = "text/javascript" src = "inc/js/lawspage.js"></script>
+		<!-- <script>bindEvents(); /*binding all events*/</script> -->
+
+		<!-- Law type -->
+		<input type="hidden" id="law-type">
+
+		<!-- CONTENT -->
+		<div id="page-wrapper">
+			<canvas id="c"></canvas>
+			<h4 id="status" class="error"></h4>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="laws-wrapper col-lg-12">
+
+						<!-- No Laws -->
+						<div id="laws-landing-page" class="section-wrapper">
+							<div id="section-title"><p class="localize" translate-key="72">Eco Laws</p></div>
+							<p><span class="localize" translate-key="73">Select a law from the menu or you can add a new one</span>.</p>
+							<a id="laws-propose-button" class="eco-button" href="javascript:;"> <span class="localize" translate-key="55">PROPOSE A NEW LAW</span> </a>
+						</div>
+
+						<!-- Law Info  -->
+						<div class="law-wrapper"  style="display:none;">
+							<div class="section-wrapper law-info-wrapper">
+								<div id="section-title"><p> <span class="localize" translate-key="74">Law Info</span> </p></div>
+								<div class="section-wrapper-2 section-law-info" style="margin-top: -20px;">
+
+									<input type='hidden' id='page-data'>
+										<div class="law-label-wrapper">
+											<span class="law-labels localize" translate-key="151">Title:</span>
+											<span id="law-title" class="global-title-small law-titles"></span>
+											<span id="law-author-label" class="law-labels localize" translate-key="127">Author:</span>
+											<span id="law-author" class="global-title-small law-titles"></span>
+										</div>
+										<div class="law-label-wrapper">
+											<span class="law-labels localize" translate-key="160">Law:</span>
+											<span id="law-text" class="law-titles"></span>
+										</div>
+
+									<div id="law-reasoning-description-graph">
+										<span class="law-labels" style="line-height: 30px;"><span class="localize" translate-key="75">Reasoning:</span></span>
+										<p></p>
+									</div>
+									<div id="law-reasoning-description-graph-viewer">
+										<iframe src="graph_composer/viewer.html" id="iframe" style="display: none;" frameborder="0" scrolling="no"></iframe>
+									</div>
+								</div>
+							</div>
+
+							<!-- Results -->
+							<div class="section-wrapper vote-subwrapper-2" style="padding-bottom: 0;">
+								<div class="section-wrapper-2">
+									<div id="section-title" class="current-results"><p> <span class="localize" translate-key="33">Current Results</span> </p></div>
+
+									<ul class="section-info law-passed-wrapper">
+										<li class="law-vote-passed"><span class="localize" translate-key="77">This law was passed</span> <span id='timeOfVote'> </span></li>
+										<li class="counter">
+											<span class="localize" translate-key="150">Vote ends in </span><span class="hours"></span><span class="localize" translate-key="143">hr</span><span class="minutes"></span><span class="localize" translate-key="144">min</span><span class="seconds"></span><span class="localize" translate-key="145">sec</span>
+										</li>
+										<li class="law-conflict"></li>
+									</ul>
+
+									<div id="container-graph"></div>
+									<!-- <div id="vote-list">
+										<div id="voted-no">
+											<h3>Voted No</h3>
+										</div>
+										<div id="voted-yes">
+											<h3>Voted Yes </h3>
+										</div>
+									</div> -->
+
+									<div id="poll">
+										<form>
+											<button class="button-vote" id="vote-yes" type=button name="vote" onclick=""><span class="localize" translate-key="78">Yes</span></button>
+											<button class="button-vote" id="vote-no" type=button style="margin-right:0;" name="vote" onclick=""><span class="localize" translate-key="79">No</span></button>
+										</form>
+									</div>
+									<!--<div class="law-yourvote law-yourvote-yes"><span class="law-yourvote-arrow">&uarr;</span>Your vote</div>
+									<div class="law-yourvote law-yourvote-no"><span class="law-yourvote-arrow">&uarr;</span>Your vote</div>-->
+								</div>
+							</div>
+
+							<!-- Discussion -->
+							<div id="law-discussion-wrapper" class="section-wrapper">
+								<div class="section-wrapper-2">
+									<div id="section-title"><p> <span class="localize" translate-key="37">Discussion</span> </p></div>
+
+									<div id="law-discussion-wrapper-2"></div>
+									<div class="map-wrapper-1" id="map-control-wrapper" style="display:none">
+
+										<!-- Start map control panel -->
+										<div class="map-control-panel">
+
+											<!-- Map Layer -->
+											<div class="map-layer-select-wrapper">
+												<i class="fa fa-fw fa-caret-down"></i>
+												<select class="map-layer-select" style="width: 100%">
+													<option value="" class="localize" translate-key="59">Select Map Layer</option>
+												</select>
+											</div>
+
+											<!-- Map & Info -->
+											<div id="main-map" class="view-map">
+												<p id="map-position-text"></p>
+												<p id="map-info-text">.</p>
+												<div type="text" class="progress-day" name="progress-day"><span class="localize" translate-key="64">Day</span> 0, 00:00</div>
+												<input type="button" data-type="2" value="2D" id="map-toggle-2d">
+											</div>
+
+											<div class="map-controls-wrapper">
+
+												<!-- Play Button -->
+												<div class="play-button-wrapper">
+													<div id="map-toggle-play"><i class="fa fa-play" aria-hidden="true"></i></div>
+												</div>
+
+												<!-- Range Controls -->
+												<div class="range-controls-wrapper">
+													<div class="map-progress-bar-wrapper">
+														<progress id="map-progress-bar" value="0.75" max="1.0" ></progress>
+													</div>
+
+													<div class="range-controls-wrapper-2">
+														<div id="range-controls-time-wrapper">
+															<div id="range-controls-time-1">
+																<!-- <span class="localize" translate-key="64">Day</span> 0<br>00:00 -->
+																<span class="localize range-control-time-span-day" translate-key="64">Day</span>
+																<span class="range-controls-time-span-1"> 0<br>00:00 </span>
+															</div>
+														</div>
+														<div class="multi-range-content">
+															<div id="slider-range"></div>
+														</div>
+														<div id="range-controls-time-wrapper">
+															<div id="range-controls-time-2">
+																<!-- <span class="localize" translate-key="64">Day</span> 0<br>00:00 -->
+																<span class="localize range-control-time-span-day" translate-key="64">Day</span>
+																<span class="range-controls-time-span-2"> 0<br>00:00 </span>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<!-- Speed Controls -->
+												<div class="speed-controls-wrapper">
+													<div id="speed-button"><span class="speed-button">0.5</span><br><span class="localize" translate-key="70">days/sec</span></div>
+													<input type="range" name="speed" id="map-play-speed" class="renge" min="-10" max="10" value="5" step="0.01">
+												</div>
+												<!-- <div class="speed-controls-wrapper">
+													<div id="speed-button">0.5<br><span class="localize" translate-key="70">days/sec</span></div>
+													<input type="range" name="speed" id="map-play-speed" class="renge" min="-10" max="10" value="5" step="0.01">
+												</div> -->
+											</div>
+											<input id="map-data" type="hidden">
+										</div><!-- End map control panel -->
+									</div>
+
+									<textarea class="law-discussion-textarea localize" type="text" id="comment" placeholder="Enter your response" translate-key="39"></textarea>
+									<div class="disc-btns">
+										<button class="eco-button fancy-add-graph" > <span class="localize" translate-key="80">ADD GRAPH</span> </button>
+										<div id="law-add-graph" style="display:inline-block;">
+											<input type="hidden" id="graph-data" value="">
+										</div>
+										<button class="remove-graph eco-button" style="display:none;">  <span class="localize" translate-key="40">Remove Graph</span> </button>
+										<button class="eco-button fancy-add-map" >  <span class="localize" translate-key="81">ADD MAP</span> </button>
+										<button class="remove-map eco-button" style="display:none;">  <span class="localize" translate-key="41">Remove Map</span> </button>
+
+										<button id="pushComment" class="eco-button"><span class="localize" translate-key="42">Submit</span></button>
+									</div>
+								</div>
+							</div>
+
+							<div id="law-currentid"></div>
+							<!-- Stores current law id -->
+							<div class="edit-comment-buttons" style="display: none; overflow:hidden; margin-top: -30px; padding-left:10px;">
+								<button id="cancel-edit" class="eco-button">  <span class="localize" translate-key="43">Cancel</span> </button>
+								<button id="removeGraph" class="remove-graph eco-button" style="margin-left: 0px; display: none;" ><span class="localize" translate-key="40">Remove Graph</span></button>
+								<button id="submit" class="eco-button" style="display: block;"> <span class="localize" translate-key="42">Submit</span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<div id="footer-scripts"></div>
+	<script>
+		$(window).load(function() {
+
+			// Global Footer
+			$.get("footer.html", function(data) {
+				$(data).prependTo("#footer-scripts");
+			});
+
+			//Footer - Local
+			//Highcharts global vars
+			var chart2options;
+			var chart2
+			var options;
+			var law;
+
+		});
+	</script>
+
+</body>
+</html>

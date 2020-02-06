@@ -1,0 +1,23 @@
+﻿<script>
+//Alternating colors on sections
+$('.section-wrapper:odd').addClass( "section-alternating-color-1" );
+$('.section-wrapper:even').addClass( "section-alternating-color-2" );
+
+$('.map-layer-select').change(function(){
+    $(this).prev().hide();
+});
+</script>
+
+<!--Run For Office Popup  -->
+<div id="addSpeach" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+	<div class="fancy-add-speech">
+		<center>
+			<p class="compress"><span class="localize" translate-key="44">To start a new election, you must add yourself as a candidate</span>.</p>
+			<p class="compress"><span class="localize" translate-key="45">Please explain why you should be elected</span>.</p>
+		</center>
+		<textarea id='speech' class="localize" translate-key="46" placeholder='Enter Your Speech' style="height: 120px" > </textarea>
+		<center><button class='eco-button' id='fancy-speech-save' type='button'> <span class="localize" translate-key="51">Run For Office</span> </button></center>
+	</div>
+  </div>
+</div>

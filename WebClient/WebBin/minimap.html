@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Unity WebGL Player | ECO</title>
+	<style>/* a style sheet needs to be present for cursor hiding and custom cursors to work. */</style>
+</head>
+<body>
+	<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="480px" width="640px"></canvas>
+	<script type='text/javascript'>
+		var Module = {
+				TOTAL_MEMORY: 805306368,
+				errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+				compatibilitycheck: null,
+				dataUrl: "minimap/Release/minimap.data",
+				codeUrl: "minimap/Release/minimap.js",
+				memUrl: "minimap/Release/minimap.mem",
+			};
+	</script>
+	<script src="minimap/Release/UnityLoader.js"></script>
+  <script src="inc/js/localize.js"></script>
+
+
+	<div>
+		<span class="localize" translate-key="Layer Select Dropdown">Layer Select Dropdown</span>
+		<select name="LayerSelect" onChange="SendMessage('WebGLManager','ShowLayer', this.value)">
+			<option value="Name" class="localize" translate-key="91">Terrain</option>
+			<option value="Temperature" class="localize" translate-key="92">Temperature</option>
+			<option value="Height" class="localize" translate-key="93">Height</option>
+		</select>
+		(<span class="localize" translate-key="94">unity could send a full list of options to the dropdown later</span>)
+	</div>
+	<span class="localize" translate-key="95">Layer Select by Name or Number</span>
+	<input id="btn" type="button" value="LoadLayer" onClick="SendMessage('WebGLManager','ShowLayer', document.getElementById('layerNameOrNumber').value)">
+	<input id="layerNameOrNumber" type=text>
+
+</body>
+</html>

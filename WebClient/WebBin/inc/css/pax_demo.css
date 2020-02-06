@@ -1,0 +1,777 @@
+/* setting up fonts */
+
+@font-face {
+ font-family: 'Dosis';
+ src: url('../fonts/Dosis-Regular.ttf') format('ttf'),  url('../fonts/Dosis-Regular.woff') format('woff'),  url('../fonts/Dosis-Regular.woff2') format('woff2');
+}
+@font-face {
+ font-family: 'dosis-semiBold';
+ src: url('../fonts/Dosis-SemiBold.ttf') format('ttf'),  url('../fonts/Dosis-SemiBold.woff') format('woff'),  url('../fonts/Dosis-SemiBold.woff2') format('woff2');
+}
+@font-face {
+ font-family: 'Pathway Gothic One';
+ src: url('../fonts/PathwayGothicOne-Regular.ttf') format('ttf'),  url('../fonts/PathwayGothicOne-Regular.woff') format('woff'),  url('../fonts/PathwayGothicOne-Regular.woff2') format('woff2');
+}
+.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+}
+.super-wrapper {
+	display: block;
+	width: 1310px;
+	margin: 40px auto 0;
+	overflow: hidden;
+	min-height: 980px;
+}
+#menu-wrapper {
+	display: block;
+}
+#menu-wrapper-2 {
+	width: 80%;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+.left-sidebar {
+	display: none;
+}
+.law-widget-wrapper {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	margin-bottom: 40px;
+}
+#laws-wrapper, #elections-wrapper {
+	overflow: hidden;
+	color: white;
+	text-shadow: 1px 1px black;
+	background: rgba(95, 170, 66, 0.43);
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+}
+#laws-wrapper, #laws-info, .jspContainer, .jspPane {
+	width: 268px !important;
+}
+.unity-wrapper {
+	float: right;
+	margin: 35px auto;
+	width: 920px;
+	height: 518px;
+	padding: 20px;
+	color: white;
+	overflow: hidden;
+	text-shadow: 1px 1px black;
+	background: rgba(95, 170, 66, 0.43);
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+}
+#unityPlayer {
+	-webkit-box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 1);
+	box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 1);
+	border: 1px soild rgba(95, 170, 66, 0.43);
+	padding-right: 10px;
+}
+#page {
+	padding: 0;
+}
+div.dokuwiki p, div.dokuwiki blockquote, div.dokuwiki table, div.dokuwiki pre {
+	margin: 0;
+}
+.super-message-wrapper {
+	display: block;
+	width: 1020px;
+	margin: 35px auto 0;
+	color: white;
+	text-shadow: 1px 1px black;
+	background: rgba(95, 170, 66, 0.43);
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+}
+.super-message {
+	margin: 0 20px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+	display: block;
+	line-height: 29px;
+	padding: 6px 0px;
+}
+.super-message a {
+	color: #EDE15F;
+	text-decoration: none;
+}
+.super-message a:hover {
+	color: #F4E119;
+}
+.super-message-close {
+	display: inline-block;
+	cursor: pointer;
+	font-size: 17px;
+	font-weight: 600;
+	position: relative;
+	top: -6px;
+	right: 200px;
+	float: right;
+}
+.login-backdrop {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: url(../images/pattern-9.png);
+	z-index: 99;
+	opacity: 0.9;
+	top: 0;
+}
+.login {
+	overflow: visible;
+	color: white;
+	overflow: auto;
+	text-shadow: 1px 1px black;
+	background: rgba(31, 109, 96, 0.86);
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+	position: absolute;
+	z-index: 999;
+	top: 50%;
+	left: 50%;
+	width: 610px;
+	padding: 0;
+	height: 270px;
+	margin-top: -250px;
+	margin-left: -250px;
+	text-align: center;
+	overflow: hidden;
+}
+.login .legend {
+	color: white;
+	font-size: 2em;
+	line-height: 1.5em;
+	margin: 10px auto 30px;
+	text-align: center;
+}
+input#useremail {
+	width: 50%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	vertical-align: top;
+	color: black;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 30px;
+	width: 370px;
+	height: 43px;
+	line-height: 43px;
+	padding: 0 5px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+	background: none;
+	background-color: #e8ffdf;
+	border: 2px solid rgba(0, 0, 0, 0.18);
+	resize: none;
+}
+.global-button, input[type="submit"], #law-add-submit-button {
+	display: block;
+	margin-bottom: 0;
+	font-weight: 400;
+	vertical-align: middle;
+	cursor: pointer;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-size: 40px;
+	width: 290px;
+	height: 60px;
+	line-height: 43px;
+	margin: 30px auto 0;
+	border: 2px solid rgba(0, 0, 0, 0.18);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	outline: none;
+	background: #5BA041;
+	background-position: -6px -6px;
+	color: white;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: center;
+	text-shadow: 0 1px 0 #000;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+ -webkit-transition: all .2s;
+ -moz-transition: all .2s;
+ -o-transition: all .2s;
+ transition: all .2s;
+	text-transform: uppercase;
+}
+.global-button:hover, input[type="submit"]:hover {
+	background: #64a94a;
+}
+.global-button-small {
+	font-size: 28px;
+	padding: 0 10px;
+	width: auto;
+	height: auto;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+.instructions-wrapper {
+	font-size: 23px;
+	letter-spacing: 1px;
+	text-align: left;
+	color: white;
+	line-height: 35px;
+	position: relative;
+	height: 220px;
+	margin-top: -10px;
+}
+.instruction-main-title {
+	display: block;
+	font-size: 40px;
+	line-height: 50px;
+	color: #FFFE79;
+}
+.instruction-title {
+	display: block;
+	font-size: 25px;
+	line-height: 40px;
+}
+.instructions-wrapper .law-yourvote-arrow {
+	position: relative;
+	top: 70px;
+	left: -9px;
+}
+.instructions-1 {
+	position: absolute;
+	left: 10px;
+}
+.instructions-2 {
+	position: absolute;
+	left: 400px;
+}
+.instructions-3 {
+	position: absolute;
+	left: 1240px;
+	margin-top: 35px;
+}
+.instructions-number {
+	font-size: 30px;
+	font-weight: 600;
+	color: #FFFE79;
+}
+/*Law Page Styles*/
+.opt-name {
+	display: none;
+}
+.cmtnumber {
+	display: none !important;
+}
+#hashover form div.cmtbox, #hashover .cmtdiv .cmtbubble {
+	margin-left: 0 !important;
+}
+legend {
+	display: none !important;
+}
+fieldset label {
+	overflow: visible !important;
+	margin-bottom: -10px !important;
+}
+fieldset span {
+	display: none !important;
+}
+fieldset textarea {
+	width: 622px !important;
+	margin-top: -40px !important;
+	-webkit-transition: height 0.2s;
+	-moz-transition: height 0.2s;
+	transition: height 0.2s;
+}
+fieldset input {
+	position: relative;
+	top: -225px;
+	text-align: center;
+	width: 360px !important;
+}
+fieldset select {
+	margin-top: 20px;
+	width: 638px !important;
+}
+#bureaucracy__plugin1 {
+	display: none;
+}
+#bureaucracy__plugin1 submit {
+	display: none;
+}
+#law-type {
+	display: none !important;
+}
+#container-1 {
+	margin: 20px auto;
+}
+.container-1-passed {
+	float: none;
+}
+.highcharts-tooltip {
+	position: relative;
+	z-index: 9999 !important;
+}
+.title {
+	display: block;
+	font-size: 73px;
+	line-height: 50px;
+	text-align: center;
+	color: #8FE270;
+	text-shadow: 2px 2px 3px black;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	color: #FFFE79;
+	letter-spacing: 5px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	margin: 40px auto 50px;
+}
+.law-add-wrapper {
+	margin: 0 auto;
+	clear: both;
+}
+#law-add-action, #law-add-value, #law-add-target {
+	display: inline-block;
+}
+input[type=text], select, textarea {
+	vertical-align: middle;
+	font-size: 29px;
+	line-height: 38px;
+	height: 52px;
+	box-sizing: border-box;
+	outline: 0;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	display: block;
+	margin: 0;
+	margin-top: 20px;
+	padding: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #4A8235;
+	font-family: 'Pathway Gothic One', sans-serif;
+	-webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+	background-color: #e8ffdf;
+	border: 1px solid rgba(0, 0, 0, 0.18);
+}
+.login-input {
+	vertical-align: middle;
+	font-size: 29px;
+	line-height: 38px;
+	height: 52px;
+	width: 80%;
+	box-sizing: border-box;
+	outline: 0;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	display: block;
+	margin: 20px auto 0 !important;
+	padding: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #4A8235;
+	font-family: 'Pathway Gothic One', sans-serif;
+	-webkit-box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+	background-color: #e8ffdf;
+	border: 1px solid rgba(0, 0, 0, 0.18);
+}
+/*.discussion-content input[type=text], .discussion-content select {
+	color: #fff !important;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3) !important;
+	background: none !important;
+	border: 0px solid rgba(0, 0, 0, 0.18) !important;
+	font-size: 36px;
+	font: "Dosis", Geneva, Arial, Verdana, sans-serif !important;
+	width: 100% !important;
+	font: 20px/3.5 "Dosis", Geneva, Arial, Verdana, sans-serif !important;
+	margin-top: 0;
+	text-shadow: 1px 1px black;
+}*/
+.discussion-content p textarea, .discussion-content .editable-input input {
+	color: #fff !important;
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.3) !important;
+	background: none !important;
+	border: 0px solid rgba(0, 0, 0, 0.18) !important;
+	width: 100% !important;
+	font: 20px/3.5 "Dosis", Geneva, Arial, Verdana, sans-serif !important;
+	margin-top: 0;
+	text-shadow: 1px 1px black;
+    background: rgba(154, 204, 136, 0.24) !important;
+    padding-left: 5px !important;
+    margin-left: -5px;
+}
+.discussion-content h3 .editable-container.editable-inline {
+	width: 94% !important;
+}
+.discussion-content h3 .editable-input {
+	width: 85%;
+}
+.discussion-content h3 input[type=text] {
+	font: 24px/3.5 "Dosis", Geneva, Arial, Verdana, sans-serif !important;
+	height: 28px !important;
+	padding-top: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+}
+.discussion-content h3 .editable-buttons button {
+	margin: 0px 10px 0px 5px;
+}
+.discussion-content p textarea {
+    /*height: 77px !important;*/
+    padding-left: 0;
+    font-size: 1em !important;
+    line-height: 1.5em !important;
+	padding-top:0;
+}
+.discussion-content h1 input[type=text] {
+	padding: 0 !important;
+	text-shadow: 1px 1px black;
+	font: 36px/3.5 "Dosis", Geneva, Arial, Verdana, sans-serif !important;
+	    height: 45px;
+    padding-bottom: 7px !important;
+}
+.discussion-content h1 .fa-pencil, .discussion-content .fa-pencil {
+	font-size: 13px !important;
+	position: relative;
+	bottom: 5px;
+    color: #fff6b4;
+}
+.discussion-content .editable-container.editable-inline {
+	width: 100% !important;
+    position: relative;
+}
+.discussion-content .editable-clear-x {
+	display:none !important;
+}
+.discussion-content .comment-graph {
+	width: 100%;
+}
+.discussion-content .editable-click, .discussion-content a.editable-click, .discussion-content a.editable-click:hover, .discussion-content a.editable-click:focus {
+    border: none;
+    cursor: pointer;
+	text-decoration: none;
+}
+.discussion-content .editable-buttons button {
+    box-shadow: none;
+    font-size: 16px;
+    padding: 0px;
+    line-height: 21px;
+    margin: 0 0px 5px 0;
+    display: block;
+    width: 28px;
+    letter-spacing: 1px;
+}
+.discussion-content .editable-buttons {
+    left: -44px;
+    position: absolute;
+    top: 0;
+}
+.discussion-content .editable-input {
+	width: 100%;
+}
+.discussion-content .editable-container textarea {
+	width: 868px;
+}
+.discussion-content .editable-container input {
+    display: block;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+    font-size: 27px !important;
+    padding: 0;
+    line-height: 30px !important;
+    height: 35px;
+    margin-top: -3px;
+    margin-bottom: -2px;
+}
+
+
+.discussion-content h2 .editable-container textarea {
+    height: 66px !important;
+    line-height: 32px !important;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.discussion-content h1 .editable-input {
+    width: 85%;
+}
+
+::-webkit-input-placeholder {
+ color: #4A8235;
+}
+
+:-moz-placeholder {
+ color: #4A8235;
+}
+
+::-moz-placeholder {
+ color: #4A8235;
+}
+
+:-ms-input-placeholder {
+ color: #4A8235;
+}
+.laws-newlaw-button-tablet {
+	display:none;
+}
+#law-discussion-wrapper {
+	position: relative;
+	padding: 10px 42px 40px;
+	margin: 0px;
+	overflow: hidden;
+	border-top: solid 3px rgba(42, 64, 34, 0.2);
+}
+.law-discussion-wrapper {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-bottom: solid 3px rgba(42, 64, 34, 0.2);
+}
+.law-discussion-user {
+	border: none;
+	margin: 0;
+	color: white;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-shadow: 0 1px 0 #000;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 20px;
+}
+.law-discussion-comment {
+	line-height: 28px;
+	margin: 20px 0;
+	white-space: pre-line;
+}
+#law-add-title {
+	width: 470px;
+}
+.law-add-wrapper-2 input, .law-add-wrapper-2 select, .law-add-wrapper-2 textarea {
+	margin-top:0;
+}
+#law-add-value {
+	width: 70px;
+}
+#law-add-action {
+	width: 226px;
+}
+#law-add-target {
+	width: 158px;
+	margin: 0 7px 0 11px;
+}
+#law-add-reasoning {
+	width: 470px;
+	height: 210px;
+	margin-top: 0;
+}
+#law-add-submit-button {
+	width: 470px;
+	margin: 0;
+}
+.law-add-wrapper #wrapper {
+	width: 1260px;
+	margin: 40px auto;
+	display: block;
+	float: none;
+}
+#status {
+	display: block;
+	display:none;
+	background-color: #D4784B;
+	font-size: 20px;
+	text-shadow: 1px 1px 3px black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	line-height: 30px;
+	margin: 0;
+	position: relative;
+	border-bottom: 5px solid rgba(0, 0, 0, 0.18);
+}
+.law-discussion-time {
+	font-size: 15px;
+	margin-left: 10px;
+	text-shadow: none;
+	font-family: 'Dosis';
+	vertical-align: middle;
+}
+div.dokuwiki #page h2.counter {
+	font-size: 24px;
+	text-align: center;
+}
+div.dokuwiki #page h2.law-conflict {
+	display:none;
+	font-size: 24px;
+	text-align: center;
+	margin:-5px auto -20px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+div.dokuwiki #page h2.law-conflict a {
+	text-transform: capitalize;
+	color: white;
+	text-decoration: none;
+}
+.countdown-time {
+	display:inline-block;
+	width:22px;
+	text-align:left;
+}
+.fancybox-opened .fancybox-skin {
+	width: 1260px;
+	margin: 0 0 0 40px;
+	padding: 0px !important;
+	color: white;
+	text-shadow: 1px 1px black;
+	background: #55973B;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+	vertical-align: top;
+	overflow: visible;
+}
+ul.ui-grid-c {
+/*display: none;*/
+}
+.fancybox-iframe {
+	border-radius: 10px;
+}
+.discussion-graph {
+	overflow: hidden;
+	background: white;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+	margin: 30px auto 0;
+	text-shadow: none;
+	margin-left: -5px!important;
+	height: 290px;
+	width: 550px;
+}
+#graph {
+	height: 388px !important;
+}
+#laws-page-instructions-wrapper {
+	display:none;
+	position: absolute;
+}
+#laws-page-instructions-title {
+	font-size: 40px;
+	text-shadow: 1px 1px black;
+	color: white;
+	line-height: 50px;
+}
+#laws-page-instructions-description {
+	font-size:30px;
+	text-shadow: 1px 1px black;
+	color:white;
+	line-height: 46px;
+	margin-top: 30px;
+}
+.global-display-block {
+	display:block !important;
+}
+.vote-wrapper .vote-list-item {
+	display: inline-block;
+	margin-left: 10px;
+}
+.propose-graph-button-add {
+	height: 43px;
+	width: 190px;
+	margin: 0 auto;
+	display: inline-block;
+}
+.propose-graph-button-remove {
+	height: 43px;
+	width: 190px;
+	margin: 0 auto;
+	display: inline-block;
+	float: right;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1343px) {
+.super-wrapper {
+ width: 100%;
+}
+#laws-page-wrapper {
+ float: none;
+ margin: 0 auto;
+ min-height:0;
+}
+.law-widget-wrapper {
+ display: block;
+ position: static !important;
+ float: none;
+ margin: 0 auto 80px;
+}
+#laws-wrapper {
+ width: 1000px !important;
+ margin:0 auto;
+}
+#laws-info, .jspContainer, .jspPane {
+ width: 100% !important;
+ margin:0 auto;
+}
+/*.eco-button.laws-newlaw-button {
+    margin: 30px auto 0;
+    width: 100px;
+}
+*/.laws-ineffect-wrapper, .laws-proposed-wrapper {
+ width: 470px;
+ display: inline-block;
+ vertical-align: top;
+ float: left;
+ background: rgba(95, 170, 66, 0.43);
+ border-radius: 10px;
+ -webkit-box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+ box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.3);
+}
+.laws-ineffect-wrapper {
+ float: left;
+}
+.laws-proposed-wrapper {
+ float: right;
+}
+#laws-wrapper {
+ background:none;
+ -webkit-box-shadow: none;
+ box-shadow: none;
+}
+.laws-newlaw-button {
+ display:none;
+}
+#laws-info .laws-newlaw-button-tablet {
+ display: block;
+ margin: 20px 0 !important;
+ width: 460px;
+ float: left;
+ clear: both;
+}
+#laws-page-instructions-wrapper {
+ display:none;
+}
+#menu-wrapper-2 {
+ width:auto;
+ padding-left: 20px;
+}
+}
+#menu-laws, #menu-elections, #world, #menu-activity {
+	display: none;
+}

@@ -1,0 +1,42 @@
+body { 
+	font: 18px/3.5 "Dosis", Geneva, Arial, Verdana, sans-serif !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-size: 20px !important;
+	line-height: 44px !important;
+}
+
+.frontpage-info li {
+	min-width: 200px !important;
+}
+
+#law-reasoning-title p, #law-reasoning-title-graph p, #law-vote-title-1, 
+#law-vote-title-2, #law-discussion-title p, #section-title p {
+	font-size: 18px !important;
+	line-height: 34px !important;
+}
+
+.add-self-wrapper .eco-button {
+	margin: 15px 0 10px 0 !important;
+}
+
+.eco-button {
+	font-size: 18px !important;
+	line-height: 28px !important;
+}
+
+#causeeffectcontainer h2 {
+	font-size:25px !important;
+}
+
+#range-controls-time-1, #range-controls-time-2, .range-controls-time-1, .range-controls-time-2, #range-controls-time-user-activ-1,
+#range-controls-time-user-activ-2, #range-controls-time-government-activity-1, #range-controls-time-government-activity-2 {
+	font-size: 15px !important;
+}
+
+.button-vote {
+	font-size:24px !important;
+}
+
+

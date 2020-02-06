@@ -1,0 +1,23 @@
+{
+  "name": "webbin",
+  "version": "1.0.0",
+  "description": "eco game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-schema-form": "^0.8.13"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StrangeLoopGames/Eco.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StrangeLoopGames/Eco/issues"
+  },
+  "homepage": "https://github.com/StrangeLoopGames/Eco#readme"
+}

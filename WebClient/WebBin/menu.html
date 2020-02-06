@@ -1,0 +1,402 @@
+<!-- Navigation -->
+<div class="navbar-fixed-top">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="https://strangeloopgames.com/eco"></a>
+	</div>
+  	<div id="header-info">
+		<span id="server-title"></span>
+		<div id="username">User: <span style="color:#fff6b4"></span></div>
+		<!--<div id="login"><button class="eco-button">Login</button></div>-->
+	</div>
+</div>
+
+
+
+<div id="loginModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="fancy-add-speech">
+			<div id="loader" class="loader" style="display: none;border-radius: 10px;"><span id="loader-text" style="display: inline;">Loading</span></div>
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h2 class="title">ECO Login</h2>
+			<div class="alert alert-danger" id="login-error">Error: login not found</div>
+			<input class="login-input" id="login-email" type="text" placeholder="Username or Email" value="">
+			<input class="login-input" id="login-password" type="password" placeholder="Password">
+			<input class="login-button" type="submit" value="Enter" id="login-button">
+		</div>
+
+	</div>
+</div>
+
+<nav class="navbar navbar-inverse" role="navigation">
+
+	<!-- Top Menu Items -->
+	<ul class="nav navbar-right top-nav" style="width: 10px;">
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav side-nav">
+
+			<!-- Activity -->
+			<li>
+				<a  class="menu-activity" href="javascript:;" data-target="#menu-activity" ><i class="fa fa-fw fa-globe"></i><span class='localize' translate-key='48'>World Status</span><i class="fa fa-fw fa-caret-down"></i></a>
+				<ul id="menu-activity" class="" aria-expanded="true">
+
+					<!-- Dashboard -->
+					<li class="menu-server page-link"  data-page="dashboard" >
+						<a href="index.html"><span class='localize' translate-key='49'>Scientific Data</span></a>
+					</li>
+				</ul>
+			</li>
+
+			<!-- Elections -->
+			<li>
+				<a  class="menu-elections" href="javascript:;" data-target="#menu-elections" ><i class="fa fa-fw fa-university"></i><span class='localize' translate-key='47'>Elections</span><i class="fa fa-fw fa-caret-down"></i></a>
+				<ul id="menu-elections" class="" aria-expanded="true">
+
+					<li data-page="elections"> <a id="election-propose-button" href="javascript:void(0)"><span class='localize' translate-key='51'>Run For Office</span></a> <div id="add-self" style="display:none"></div></li>
+					<li id="current-election" data-page="elections"> <a class="menu-current-elections" data-page="elections" href='/elections.html?election=current'><span class='localize' translate-key='52'>Current Election</span></a> </li>
+					<li id="previous-elections">
+						<a class="menu-previous-elections" href="javascript:;" data-toggle="collapse" data-target="#menu-previous-elections"><span class='localize' translate-key='53'>Previous Elections</span><i class="fa fa-fw fa-caret-down"></i></a>
+						<ul id="menu-previous-elections" class="previous-elections-wrapper collapse out" aria-expanded="false"></ul>
+					</li>
+				</ul>
+			</li>
+
+			<!-- Laws -->
+			<li>
+				<a class="menu-laws"  href="javascript:;" data-target="#menu-laws"><i class="fa fa-fw fa-balance-scale"></i><span class='localize' translate-key='54'>Laws</span><i class="fa fa-fw fa-caret-down"></i></a>
+				<ul id="menu-laws" class="" aria-expanded="true">
+
+					<li class="propose-law"> <a id="laws-propose-button" href="javascript:;" class="laws-newlaw-button"><span class='localize' translate-key='55'>Propose a New Law</span></a> </li>
+
+					<li id="active-laws">
+						<a  href="javascript:;" class="menu-active-laws" data-toggle="collapse" data-target="#menu-active-laws" > Active Laws <i class="fa fa-fw fa-caret-down"></i></a>
+						<ul id="menu-active-laws" class="collapse out" aria-expanded="true"></ul>
+					</li>
+
+					<li id="proposed-laws">
+						<a class="menu-proposed-laws" href="javascript:;" data-toggle="collapse"  aria-expanded="false" data-target="#menu-proposed-laws">Proposed Laws<i class="fa fa-fw fa-caret-down"></i></a>
+						<ul id="menu-proposed-laws" class="collapse out" aria-expanded="false"></ul>
+					</li>					
+					
+					<li class="view-districts"> <a id="view-districts-button" href="/viewDistricts.html" class="view-districts-button"><span class='localize' translate-key='58'>View Districts</span></a> </li>
+					
+				</ul>
+			</li>
+
+			<!-- Admin -->
+			<li id="menu-admin">
+				<a class="menu-admin"  href="admin.html"><i class="fa fa-cog" aria-hidden="true"></i> Admin</a>
+			</li>
+		</ul>
+	</div>
+	<!-- /.navbar-collapse -->
+</nav>
+
+<script type="text/javascript" src="inc/bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+
+if(localStorage.getItem("username")){
+	$('#username span').html(localStorage.getItem("username")).show();
+	$('#login').hide();
+}else{
+	$('#login').show();
+	$('#username').hide();
+	$("#students").addClass('menu-no-link');
+	$("#worlds").addClass('menu-no-link');
+}
+
+//menu highlight
+if(currentPage == "dashboard"){
+	$(".page-link[data-page=dashboard]").addClass("menu-highlight");
+}else if(currentPage == "elections"){
+	var page = getURLParameter("election");
+
+	if(page == null){
+		$(".menu-elections").addClass("menu-highlight");
+	}else if(page == "current"){
+		$("a.current-election").addClass("menu-highlight");
+	}
+}else if(currentPage == "laws"){
+	var page = getURLParameter("lawid")
+	if(page == null){
+		$(".menu-laws").addClass("menu-highlight");
+	}
+}else if(currentPage == 'addlaw'){
+	$('.propose-law').addClass('menu-highlight');
+}else if(currentPage == 'viewDistricts'){
+	$('.view-districts').addClass('menu-highlight');
+}else if(currentPage == 'teacher'){
+	$('.menu-citizen-activity').addClass('menu-highlight');
+}else if(currentPage == "districts"){
+	var page = getURLParameter("lawid")
+	if(page == null){
+		$(".menu-districts").addClass("menu-highlight");
+	}
+}else if(currentPage == 'adddistricts'){
+	$('.propose-districts').addClass('menu-highlight');
+}else if(currentPage == 'admin'){
+	$('#menu-admin').addClass('menu-highlight');
+}else if(currentPage == 'student_view'){
+	$('#students').addClass('menu-highlight');
+}else if(currentPage == 'discussions' || currentPage == 'discussion'){
+	$('#discussions').addClass('menu-highlight');
+}else if(currentPage == 'causeandeffect'){
+	$('#causeeffect').addClass('menu-highlight');
+}
+
+$('#menu-admin').hide();
+
+$(document).ready(function(){
+	// election.getInfo(function(data){
+	// 	$('#server-title').html("Server: <span style='color:#fff6b4'>" + data.Description) + "</span>"
+	// })
+	$(document).on("click", "a.menu-activity", function(){
+		$('#menu-activity').toggleClass("opened-menu");
+
+		$('#menu-activity').slideToggle()
+
+	})
+
+	//force to close menus before another menu is open
+	$(document).on("click", "a.menu-elections", function(){
+		$('#menu-elections').toggleClass("opened-menu");
+		$('#menu-previous-elections').toggleClass("opened-menu");
+
+
+		$('#menu-elections').slideToggle()
+	})
+
+	$(document).on("click", "a.menu-districts", function(){
+
+		$('#menu-districts').toggleClass("opened-menu");
+
+		//closing the Proposed districts  if it's opened
+		var lawopen = $('#menu-proposed-districts').hasClass("opened-menu");
+		if(lawopen){
+			$('#menu-proposed-districts').slideUp(function(){
+			})
+		}
+
+		$('#menu-districts').slideToggle(function(){
+			var open = $('#menu-districts').hasClass("opened-menu");
+		
+		});
+
+	})
+
+	$(document).on("click", "a.menu-laws", function(){
+
+		$('#menu-laws').toggleClass("opened-menu");
+		$('#menu-proposed-districts').toggleClass("opened-menu");
+		$('#menu-active-laws').toggleClass("opened-menu");
+		$('#menu-laws').slideToggle()
+
+	})
+
+	// event for Previous Elections opening
+	$(document).on("click","a.menu-previous-elections",function(){
+		$('#menu-previous-elections').toggleClass("opened-menu");
+
+		var open = $('#menu-previous-elections').hasClass("opened-menu");
+
+	
+	})
+
+	// event for Proposed Laws opening
+	$(document).on("click","a.menu-proposed-districts",function(){
+		$('#menu-proposed-districts').toggleClass("opened-menu");
+
+		var open = $('#menu-proposed-districts').hasClass("opened-menu");
+
+	})
+
+	// event for Active districts opening
+	$(document).on("click","a.menu-active-districts",function(){
+		$('#menu-active-districts').toggleClass("opened-menu");
+
+
+	})
+
+	// event for Proposed Laws opening
+	$(document).on("click","a.menu-proposed-laws",function(){
+		$('#menu-proposed-laws').toggleClass("opened-menu");
+
+
+
+	})
+
+	// event for Active Laws opening
+	$(document).on("click","a.menu-active-laws",function(){
+		//$('#menu-proposed-laws').toggleClass("opened-menu");
+		$('#menu-active-laws').toggleClass("opened-menu");
+		var open = $('#menu-active-laws').hasClass("opened-menu");
+
+	})
+
+
+	// event for Saved Discussion opening
+	$(document).on("click","a.menu-save-discussion",function(){
+		$('#menu-save-discussion').toggleClass("opened-menu");
+
+	 })
+
+	// events for login
+	$(document).on("keypress","#login-email,#login-password",function(e){if(e.keyCode==13)login()})
+	$(document).on("click","#login-button",login)
+	function login(){
+		var username = $("#login-email").val();
+		var password = $("#login-password").val();
+
+		$("#login-error").html("").fadeOut();
+		$(".loader").show();
+		if( username != "" && password != "" ) {
+			$.ajax({
+				type: "GET",
+				url: ACCOUNTAPPIQUERYURL + "game/responsev4",
+				data: {
+					user: username,
+					pass: password
+				},
+				success: function(response){
+					if( response.error ){
+						$("#login-error").html(response.error).fadeIn();
+					} else if(response.auth_token) {
+						var originalURL  = window.location.href;
+						var originalURL2 = originalURL + (originalURL.indexOf("?")==-1?"?":(originalURL.indexOf("?")==originalURL.length||originalURL.indexOf("&")==originalURL.length)?"":"&") + "username="+username+"&authtoken="+password
+						location.href = originalURL2;
+					}
+					$(".loader").hide();
+				},
+				error: function(e){
+					console.log("Error: ", e);
+				}
+			});
+		} else {
+			$("#login-error").html("Username and password required").fadeIn();
+			$(".loader").hide();
+		}
+	}
+
+	$(document).on("click","#worlds",function(){
+		var username = localStorage.username;
+		var authtoken = localStorage.authtoken;
+		var page = $(this).attr("data-page");
+		var token = $(this).hasClass("menu-no-link");
+		if( !token && username != "" && authtoken!= "" && page != "" ) {
+			$("#loader").show();
+			var url = ACCOUNTAPPIQUERYURL + "login-in-page"
+						+ "?username=" + username
+						+ "&authtoken=" + authtoken
+						+ "&page=" + page
+						+ "&return=" + location.href;
+
+			location.href = url;
+		}
+	})
+
+	/* menu position for brand new user */
+
+	var error = getURLParameter('error');
+	if( error != null ) {
+		$("#status").html(error).fadeIn();
+	}
+	var username = localStorage.username;
+	var authtoken = localStorage.authtoken;
+
+	if(!username && !authtoken){
+		$("a.menu-activity,a.menu-elections, a.menu-laws, a.menu-proposed-laws, a.world, a.menu-previous-elections, a.menu-active-laws, a.menu-districts, a.menu-proposed-districts, a.menu-active-districts").trigger("click")
+	}
+	
+
+else{
+		var laws = '{"open":true}';
+		var elections = '{"open":true}';
+		var activity = '{"open":true}';
+		var electionsSub = '{"open":true}';
+		var lawsub =  '{"open":true}';
+		var lawActiveSub = '{"open":true}';
+		var saveDiscussion = '{"open":true}';
+		var districts = '{"open":true}'		;
+		var districtsub = '{"open":true}';
+        var districtActiveSub =  '{"open":true}';
+
+		if(activity){
+			activity = JSON.parse(activity);
+			if(activity.open){
+				$("a.menu-activity").trigger("click");
+
+				if(saveDiscussion){
+					saveDiscussion = JSON.parse(saveDiscussion);
+					if(saveDiscussion.open){
+						$("a.menu-save-discussion").trigger("click")
+					}
+				}
+			}
+		}
+		if(elections){
+			elections = JSON.parse(elections);
+
+			if(elections.open){
+				$("a.menu-elections").trigger("click");
+				if(electionsSub){
+					electionsSub = JSON.parse(electionsSub);
+					if(electionsSub.open){
+						$("a.menu-previous-elections").trigger("click")
+					}
+				}
+			}
+		}
+		if(laws){
+			laws = JSON.parse(laws);
+
+			if(laws.open){
+				$("a.menu-laws").trigger("click");
+
+				if(lawsub){
+					lawsub = JSON.parse(lawsub);
+					if(lawsub.open){
+						$("a.menu-proposed-laws").trigger("click")
+					}
+				}
+
+				if(lawActiveSub){
+					lawActiveSub = JSON.parse(lawActiveSub);
+					if(lawActiveSub.open){
+						$("a.menu-active-laws").trigger("click")
+					}
+				}
+			}
+		}
+
+		if(districts){
+			districts = JSON.parse(districts);
+
+			if(districts.open){
+				$("a.menu-districts").trigger("click");
+
+				if(districtsub){
+					districtsub = JSON.parse(districtsub);
+					if(districtsub.open){
+						$("a.menu-proposed-districts").trigger("click")
+					}
+				}
+
+				if(districtActiveSub){
+					districtActiveSub = JSON.parse(districtActiveSub);
+					if(districtActiveSub.open){
+						$("a.menu-active-districts").trigger("click")
+					}
+				}
+			}
+		}
+	}
+})
+
+</script>

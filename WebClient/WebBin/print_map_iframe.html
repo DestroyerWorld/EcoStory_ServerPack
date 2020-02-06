@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eco Graph Composer</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" /> -->
+	<!-- <link rel="stylesheet" href="css/default.css" /> -->
+	<!-- Bootstrap -->
+	<link href="inc/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="inc/bootstrap/css/sb-admin.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="inc/css/pax_demo.css">
+	<link class="lang" rel="stylesheet" type="text/css" href="inc/css/this_design_en.css">
+	<link rel="stylesheet" href="inc/fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="inc/fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="inc/css/jquery/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="inc/css/range.css">
+    <!-- <link rel="stylesheet" href="../inc/themes/eco-mobile.css" /> -->
+	<script src="inc/js/jquery/jquery-1.11.1.min.js"></script>
+	<script src="inc/js/jquery/jquery-ui.js"></script>
+	<!-- <script src="inc/js/jquery/jquery.mobile-1.4.3.min.js"></script> -->
+	<script src="inc/js/highcharts/highcharts.js"></script>
+	<script src="inc/bootstrap/js/bootstrap.min.js"> </script>
+	<!-- <script src="script/popups.js"></script> -->
+	<script src="inc/js/three.min.js"></script>
+	<script src="inc/js/shaders/CopyShader.js"></script>
+	<script src="inc/js/postprocessing/EffectComposer.js"></script>
+	<script src="inc/js/postprocessing/RenderPass.js"></script>
+	<script src="inc/js/postprocessing/ShaderPass.js"></script>
+	<script src="inc/js/OrbitControls.js"></script>
+	<script src="inc/js/Detector.js"></script>
+	<script src="inc/js/dat.gui.min.js"></script>
+	<script src="inc/js/ecomap.js"></script>
+	<script src="inc/js/Map.js"></script>
+  <script src="inc/js/localize.js"></script>
+	<!-- <script src="inc/js/mapcontrols.js"></script> -->
+
+	<link rel="stylesheet" type="text/css" href="../inc/css/pax_demo.css">
+
+	<style type="text/css">
+		html{
+			overflow: hidden;
+		}
+
+	</style>
+</head>
+
+<body style="overflow: hidden;">
+	<!-- Start map control panel -->
+	<div style="width:400px; height:300px; margin: 0 auto;" class="view-map" id="map"></div>
+	<canvas id="c" style="margin:0;z-index: 1;"></canvas>
+</body>
+</html>
+<script type="text/javascript">
+	function getURLParameter(name) {
+		return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+	}
+	var settings = getURLParameter('settings');
+	settings = JSON.parse(settings);
+	var viewer = $('#map');
+	var views = viewer[0];
+	views.settings = settings;
+	var setInterval = setInterval(function(){
+		if(ECO.MINIMAP.initialized){
+			localStorage.map_initialized = Number(localStorage.map_initialized) + 1;
+			clearInterval(setInterval);
+		}
+	}, 500);
+</script>

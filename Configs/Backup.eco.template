@@ -1,0 +1,9 @@
+{
+  "Enabled": true,
+  "MaxBackupsInLastHour": 2,
+  "MaxHourlyBackups": 24,
+  "MaxDailyBackups": 3,
+  "MaxWeeklyBackups": 10,
+  "BackupFrequencyInHours": 0.5,
+  "HeadBackupEnabled": true
+}

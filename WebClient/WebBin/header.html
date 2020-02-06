@@ -1,0 +1,74 @@
+﻿<style>
+/* setting up fonts */
+@font-face {
+ font-family: 'Pathway Gothic One';
+ src: url('inc/fonts/PathwayGothicOne-Regular.ttf') format('ttf'),  url('inc/fonts/PathwayGothicOne-Regular.woff') format('woff'),  url('inc/fonts/PathwayGothicOne-Regular.woff2') format('woff2');
+}
+
+</style>
+
+<script>
+    function removeParam(key, sourceURL) {
+        var rtn = sourceURL.split("?")[0],
+            param,
+            params_arr = [],
+            queryString = (sourceURL.indexOf("?") !== -1) ? sourceURL.split("?")[1] : "";
+        if (queryString !== "") {
+            params_arr = queryString.split("&");
+            for (var i = params_arr.length - 1; i >= 0; i -= 1) {
+                param = params_arr[i].split("=")[0];
+                if (param === key) {
+                    params_arr.splice(i, 1);
+                }
+            }
+            rtn = rtn + "?" + params_arr.join("&");
+        }
+        return rtn;
+    }
+
+    //update username & authtoken
+    if(getURLParameter("username") != null && getURLParameter("authtoken") != null) {
+
+    	localStorage.setItem("username", getURLParameter("username"));
+    	localStorage.setItem("authtoken", getURLParameter("authtoken"));
+
+    	var originalURL  = window.location.href;     // Returns full URL
+    	var alteredURL = removeParam("username", originalURL);
+    	var originalURL2 = removeParam("authtoken", alteredURL);
+
+    	location.href = originalURL2;
+    }
+
+    if( (getURLParameter('lawid') != null) && (currentPage != 'laws') ) {
+    	//if url contains lawid then open laws page
+    	// location.href = "laws.html?lawid=" + getURLParameter('lawid');
+    }
+
+    //Set page css class
+    $('body').addClass('page-'+currentPage);
+</script>
+
+
+<!-- Bootstrap -->
+<script src="inc/bootstrap/js/bootstrap.min.js"> </script>
+<link href="inc/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="inc/bootstrap/css/sb-admin.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" type="text/css" href="inc/css/pax_demo.css">
+<link rel="stylesheet" type="text/css" href="inc/css/this_design.css">
+<link class="setlang" rel="stylesheet" type="text/css">
+
+<!-- Custom Fonts -->
+<link rel="stylesheet" href="inc/fonts/font-awesome-4.2.0/css/font-awesome.min.css">
+
+
+<!-- Menu -->
+<div id="navigation"></div>
+<input type="hidden" id="game-url" value="">
+<script>$('#navigation').load("menu.html");</script>
+<script src="inc/js/menu.js"> </script>
+<script src="inc/js/globalVariables.js"> </script>
+
+
+<script src="inc/js/convertSeconds.js"></script>

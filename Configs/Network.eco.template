@@ -1,0 +1,16 @@
+{
+  "PublicServer": true,  
+  "Playtime": "",
+  "DiscordAddress": "https://discord.gg/s7HZrqQ",
+  "Password": "",
+  "Description": "[RUS] Eco Story — HARD RP SERVER",
+  "DetailedDescription": "Добро пожаловать! Это RP сервер высокой сложностью игры. На сервере действует реальная экономическая система. Пожалуйста, ознакомьтесь со всеми правилами в официальном Discord сервере.",
+  "ServerCategory": "BeginnerHard",
+  "IPAddress": "Any",
+  "RemoteAddress": "",
+  "GameServerPort": 3000,
+  "WebServerPort": 3001,
+  "Rate": 20,
+  "MaxConnections": -1,  
+  "UPnPEnabled": true
+}

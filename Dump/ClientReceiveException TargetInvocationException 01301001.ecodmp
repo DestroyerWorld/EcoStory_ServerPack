@@ -1,0 +1,13 @@
+--BEGIN DUMP--
+Dump Time
+01/30/2020 02:10:01
+
+Exception
+Exception: NullReferenceException
+Message:Ссылка на объект не указывает на экземпляр объекта.
+Source:Eco.Gameplay
+
+System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   at Eco.Gameplay.Minimap.MinimapManager.GetTooltip(Int32 id, Player player)
+
+--END DUMP--

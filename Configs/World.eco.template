@@ -1,0 +1,7 @@
+{
+  "AtmosphereType": {
+    "Type": "Eco.World.DefaultAtmosphere, Eco.World"
+  },
+  "WorldTickCPUMax": 0.25
+  
+}

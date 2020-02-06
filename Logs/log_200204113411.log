@@ -1,0 +1,392 @@
+[23:34:11.907] [1] [ Info] [Eco] >>> START EcoServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[23:34:11.941] [1] [ Info] [Eco] Eco Server 0.8.3.2 beta
+ 
+[23:34:12.073] [1] [ Info] [Eco] Server Initialization...  
+[23:34:12.073] [1] [ Info] [Eco] Starting LocalizationPlugin...  
+[23:34:12.570] [1] [ Info] [Eco] Запуск ПлагинНабораМодификаций...  
+[23:34:12.570] [1] [ Info] [Eco] Загрузка модификаций...  
+[23:34:12.685] [1] [ Info] [Eco] Компилирование модификаций...  
+[23:34:14.629] [1] [ Info] [Eco] Загружаем 0Harmony...
+ 
+[23:34:14.629] [1] [ Info] [Eco] Загружаем Asphalt-ModKit...
+ 
+[23:34:14.774] [1] [ Info] [Eco] Загружаем Eco.IntegrationTests...
+ 
+[23:34:14.774] [1] [ Info] [Eco] Загружаем DiscordLinkUnified...
+ 
+[23:34:14.852] [1] [ Info] [Eco] Загружаем EcoStory...
+ 
+[23:34:14.862] [1] [ Info] [Eco] Загрузка модификаций завершена за 2 289,0мс
+ 
+[23:34:14.862] [1] [ Info] [Eco] Запуск МенеджерСети...  
+[23:34:14.862] [6] [ Info] [Eco] Инициализация типов симуляции...  
+[23:34:14.938] [11] [ Info] [Eco] Запуск ПлагинГенератораМира...  
+[23:34:14.938] [17] [ Info] [Eco] Запуск ПлагинРезервногоКопирования...  
+[23:34:14.938] [8] [ Info] [Eco] Запуск ПлагинИгровойСтатистики...  
+[23:34:14.951] [17] [ Info] [Eco] Запуск МенеджерХранилища...  
+[23:34:15.852] [6] [ Info] [Eco] Инициализация предметов...  
+[23:34:15.911] [6] [ Info] [NidToolbox] Checking Settings.json 
+[23:34:15.911] [6] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\Settings.json exists. 
+[23:34:15.911] [6] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\Settings.json readable and correct. 
+[23:34:15.911] [6] [ Info] [NidToolbox] Checking CommandPermissions.json 
+[23:34:15.911] [6] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\CommandPermissions.json exists. 
+[23:34:15.920] [6] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\CommandPermissions.json readable and correct. 
+[23:34:15.920] [6] [ Info] [NidToolbox] Checking TimerMessages.json 
+[23:34:15.920] [6] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\TimerMessages.json exists. 
+[23:34:15.920] [6] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\TimerMessages.json readable and correct. 
+[23:34:15.920] [6] [ Info] [NidToolbox] Checking ScheduledMessages.json 
+[23:34:15.920] [6] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\ScheduledMessages.json exists. 
+[23:34:15.920] [6] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\ScheduledMessages.json readable and correct. 
+[23:34:15.920] [6] [ Info] [NidToolbox] No UserHomes directory, skipping user homes config checks. 
+[23:34:17.610] [17] [ Info] [Eco] Запуск Плагин паузы...  
+[23:34:17.623] [17] [ Info] [Eco] Загружаем Pause...  
+[23:34:19.129] [6] [ Info] [Eco] Инициализация навыков...  
+[23:34:19.218] [12] [ Info] [Eco] Запуск БДСтатистики...  
+[23:34:19.218] [16] [ Info] [Eco] Запуск ПлагинМира...  
+[23:34:19.286] [16] [ Info] [Eco] Загружаем World...  
+[23:34:22.875] [16] [ Info] [Eco] Инициализация мира...  
+[23:34:24.529] [16] [ Info] [Eco] Запуск ПлагинВремени...  
+[23:34:24.529] [16] [ Info] [Eco] Загружаем Time...  
+[23:34:24.529] [16] [ Info] [Eco] Запуск ПлагинРепутации...  
+[23:34:24.529] [16] [ Info] [Eco] Загружаем Reputation...  
+[23:34:24.552] [16] [ Info] [Eco] Запуск МенеджерЖильяИгроков...  
+[23:34:24.552] [16] [ Info] [Eco] Запуск МенеджерПользователей...  
+[23:34:24.640] [16] [ Info] [Eco] Загружаем Users...  
+[23:34:24.951] [16] [ Info] [Eco] Инициализация инвентарей...  
+[23:34:24.996] [16] [ Info] [Eco] Запуск МенеджерОбъектовЭко...  
+[23:34:25.002] [16] [ Info] [Eco] Загружаем Objects...  
+[23:34:25.222] [17] [ Info] [Eco] Запуск ПлагинМусора...  
+[23:34:25.222] [34] [ Info] [Eco] Запуск МенеджерКонтроллера...  
+[23:34:25.222] [25] [ Info] [Eco] Запуск ПлагинЭкономики...  
+[23:34:25.222] [6] [ Info] [Eco] Запуск НастройкиСложности...  
+[23:34:25.222] [21] [ Info] [Eco] Запуск VoiceManager...  
+[23:34:25.222] [17] [ Info] [Eco] Загружаем Garbage...  
+[23:34:25.222] [28] [ Info] [Eco] Запуск СерверЧата...  
+[23:34:25.222] [18] [ Info] [Eco] Запуск ПлагинУгроз...  
+[23:34:25.234] [25] [ Info] [Eco] Загружаем Economy...  
+[23:34:25.718] [25] [ Info] [Eco] Запуск Законодательство...  
+[23:34:25.718] [18] [ Info] [Eco] Загружаем Disasters...  
+[23:34:25.718] [28] [ Info] [Eco] Загружаем Chat...  
+[23:34:30.321] [25] [ Info] [Eco] Загружаем Laws...  
+[23:34:30.445] [25] [ Info] [Eco] Запуск МенеджерСобственности...  
+[23:34:30.445] [25] [ Info] [Eco] Загружаем Property...  
+[23:34:30.592] [25] [ Info] [Eco] Запуск МенеджерМиникарты...  
+[23:34:30.592] [25] [ Info] [Eco] Запуск СимуляцияЭко...  
+[23:34:30.662] [25] [ Info] [Eco] Загружаем Plants...  
+[23:34:31.972] [25] [ Info] [Eco] Инициализация растений...  
+[23:34:38.651] [25] [ Info] [Eco] Запуск RouteProbingPlugin...  
+[23:34:38.651] [25] [ Info] [Eco] Загружаем RouteProbing...  
+[23:34:41.193] [25] [ Info] [Eco] Запуск МенеджерСлоёвМира...  
+[23:34:41.193] [25] [ Info] [Eco] Загружаем Layers...  
+[23:34:41.894] [25] [ Info] [Eco] Инициализация слоёв мира...  
+[23:34:41.894] [25] [ Info] [Eco] Загружаем ClimateSim...  
+[23:34:44.741] [25] [ Info] [Eco] Запуск ТрекерЭкономики...  
+[23:34:44.750] [25] [ Info] [Eco] Запуск UserTracker...  
+[23:34:44.750] [25] [ Info] [Eco] Запуск МенеджерМировыхОбъектов...  
+[23:34:44.837] [25] [ Info] [Eco] Загружаем WorldObjects...  
+[23:34:45.798] [25] [ Info] [Eco] Запуск ПлагинКомнат...  
+[23:34:45.798] [25] [ Info] [Eco] Загружаем Rooms...  
+[23:34:45.815] [25] [ Info] [Eco] Запуск ПлагинЦелей...  
+[23:34:45.815] [25] [ Info] [Eco] Загружаем Objectives...  
+[23:34:45.835] [25] [ Info] [Eco] Запуск ПлагинСна...  
+[23:34:45.835] [25] [ Info] [Eco] Загружаем Sleep...  
+[23:34:45.846] [1] [ Info] [Eco] Запуск ПлагинВебСервера...  
+[23:34:45.846] [1] [ Info] [Eco] Запуск OtherAliasCategory...  
+[23:34:45.846] [24] [ Info] [Eco] Запуск Asphalt...  
+[23:34:45.846] [21] [ Info] [Eco] Запуск DiscordLink...  
+[23:34:45.846] [6] [ Info] [Eco] Запуск NidToolboxPlugin...  
+[23:34:45.846] [12] [ Info] [Eco] Запуск ПлагинТестовИнтеграции...  
+[23:34:45.956] [1] [ Info] [Eco] Инициализируем ПлагинПеревода...  
+[23:34:45.956] [1] [ Info] [Eco] Инициализируем ПлагинНабораМодификаций...  
+[23:34:46.174] [1] [ Info] [Eco] Инициализируем ПлагинГенератораМира...  
+[23:34:46.174] [1] [ Info] [Eco] Инициализируем МенеджерПользователей...  
+[23:34:46.274] [1] [ Info] [Eco] Инициализируем ПлагинМусора...  
+[23:34:46.284] [1] [ Info] [Eco] Инициализируем ПлагинЭкономики...  
+[23:34:46.392] [1] [ Info] [Eco] Инициализируем Законодательство...  
+[23:35:02.152] [1] [ Info] [Eco] Инициализируем МенеджерСобственности...  
+[23:35:02.201] [1] [ Info] [Eco] Инициализируем МенеджерМиникарты...  
+[23:35:03.021] [1] [ Info] [Eco] Инициализируем UserTracker...  
+[23:35:03.032] [1] [ Info] [Eco] Инициализируем МенеджерМировыхОбъектов...  
+[23:35:09.732] [1] [ Info] [Eco] Инициализируем ПлагинКомнат...  
+[23:35:12.985] [1] [ Info] [Eco] Инициализируем ПлагинСна...  
+[23:35:12.985] [1] [ Info] [Eco] Инициализируем NidToolboxPlugin...  
+[23:35:13.002] [1] [ Info] [NidToolbox] Checking declared file: Mods\NidToolbox\Texts\Motd.txt 
+[23:35:13.002] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Motd.txt exists. 
+[23:35:13.002] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Motd.txt readable. 
+[23:35:13.002] [1] [ Info] [NidToolbox] Checking declared file: Mods\NidToolbox\Texts\Rules.txt 
+[23:35:13.002] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Rules.txt exists. 
+[23:35:13.002] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Rules.txt readable. 
+[23:35:13.002] [1] [ Info] [NidToolbox] Checking declared file: Mods\NidToolbox\Texts\ServerChangelog.txt 
+[23:35:13.002] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\ServerChangelog.txt exists. 
+[23:35:13.002] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\ServerChangelog.txt readable. 
+[23:35:13.114] [1] [ Info] [Eco] Инициализируем DiscordLink...  
+[23:35:13.147] [1] [ Info] [Eco] Инициализируем ПлагинМира...  
+[23:35:13.147] [1] [ Info] [Eco] Обработка...  
+[23:35:17.651] [138] [ Info] [Eco] DISCORDLINK: Connected to Discord.
+
+ 
+[23:35:18.347] [1] [ Info] [Eco] Сжатие...  
+[23:35:18.778] [138] [ Info] [Eco] DISCORDLINK: Connected and Ready
+ 
+[23:35:22.745] [1] [ Info] [Eco] Инициализируем МенеджерСети...  
+[23:35:23.022] [1] [ Info] [Eco] Инициализируем МенеджерСлоёвМира...  
+[23:35:23.022] [1] [ Info] [Eco] Инициализируем ПлагинВебСервера...  
+[23:35:23.853] [1] [ Info] [Eco] Инициализируем ПлагинТестовИнтеграции...  
+[23:35:23.859] [1] [ Info] [NidToolbox] OK - Mono not detected, not a Linux environment 
+[23:35:23.859] [1] [ Info] [NidToolbox] All commands in config up to date. 
+[23:35:23.925] [1] [ Info] [NidToolbox] Running NidToolbox version 1.8.7 
+[23:35:23.980] [1] [ Info] [Eco] Server Initialization завершена за 71 906,1мс
+ 
+[00:00:38.872] [173] [ Info] [log] letmeplay invoked admin command '/fly' 
+[00:00:53.672] [173] [ Info] [log] letmeplay invoked admin command '/fly' 
+[00:05:32.610] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-22.45.48
+ 
+[00:12:12.390] [173] [ Info] [log] letmeplay invoked admin command '/fly' 
+[00:12:31.926] [173] [ Info] [log] letmeplay invoked admin command '/fly' 
+[00:36:00.219] [146] [ Info] [Eco] Failed to send packet: System.Net.Sockets.SocketException (0x80004005): Невозможно выполнить операцию на сокете, т.к. буфер слишком мал или очередь переполнена
+   в System.Net.Sockets.Socket.SendTo(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags, EndPoint remoteEP)
+   в Lidgren.Network.NetPeer.SendPacket(Int32 numBytes, IPEndPoint target, Int32 numMessages, Boolean& connectionReset) 
+[01:05:26.565] [17] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-01.05.37
+ 
+[01:35:26.427] [33] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-00.35.23
+ 
+[02:05:29.497] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-02.05.37
+ 
+[02:06:03.892] [35] [ Info] [Eco] Токен входа пользователя Vladislav изменён.  Возможно вошёл где то ещё?  Отключение...
+ 
+[02:07:01.069] [32] [ Info] [Eco] Ошибка при проверке токена входа: Время ожидания операции истекло
+ 
+[02:07:01.084] [32] [ Info] [Eco] Токен входа пользователя Immortall изменён.  Возможно вошёл где то ещё?  Отключение...
+ 
+[02:08:06.517] [30] [ Info] [Eco] Ошибка при проверке токена входа: Время ожидания операции истекло
+ 
+[02:08:06.517] [30] [ Info] [Eco] Токен входа пользователя Bayan изменён.  Возможно вошёл где то ещё?  Отключение...
+ 
+[02:08:06.626] [20] [ Info] [Eco] Ошибка при проверке токена входа: Время ожидания операции истекло
+ 
+[02:08:06.626] [20] [ Info] [Eco] Пользователь с неверными данными пытался соединится: Immortall
+ 
+[02:08:23.396] [33] [ Info] [Eco] Ошибка при проверке токена входа: Время ожидания операции истекло
+ 
+[02:08:23.396] [33] [ Info] [Eco] Пользователь с неверными данными пытался соединится: Bayan
+ 
+[02:08:41.203] [10] [ Info] [Eco] Ошибка при проверке токена входа: Время ожидания операции истекло
+ 
+[02:08:41.203] [10] [ Info] [Eco] Пользователь с неверными данными пытался соединится: Bayan
+ 
+[02:11:28.494] [32] [ Info] [Eco] Ошибка при проверке токена входа: Время ожидания операции истекло
+ 
+[02:11:28.494] [32] [ Info] [Eco] Токен входа пользователя dr_kadaff изменён.  Возможно вошёл где то ещё?  Отключение...
+ 
+[02:35:26.203] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-01.35.23
+ 
+[02:57:13.892] [19] [ Info] [Eco] Токен входа пользователя Bayan изменён.  Возможно вошёл где то ещё?  Отключение...
+ 
+[02:57:26.080] [30] [ Info] [Eco] Пользователь с неверными данными пытался соединится: Bayan
+ 
+[03:04:17.864] [12] [ Info] [Eco] Токен входа пользователя Immortall изменён.  Возможно вошёл где то ещё?  Отключение...
+ 
+[03:05:30.415] [22] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-03.05.37
+ 
+[03:05:32.759] [19] [ Info] [Eco] Токен входа пользователя Титаникус изменён.  Возможно вошёл где то ещё?  Отключение...
+ 
+[03:35:26.665] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-02.35.23
+ 
+[04:05:28.620] [190] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-04.05.37
+ 
+[04:35:26.591] [20] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-03.35.23
+ 
+[05:05:26.048] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-05.05.37
+ 
+[05:25:19.055] [197] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[05:35:27.980] [17] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-04.35.23
+ 
+[06:05:31.631] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-06.05.37
+ 
+[06:12:56.301] [31] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[06:35:28.154] [22] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-05.35.25
+ 
+[06:44:39.091] [22] [ Info] [Eco] Пользователь с неверными данными пытался соединится: Goldberg
+ 
+[07:05:28.544] [33] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-07.05.37
+ 
+[07:35:32.219] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-06.35.25
+ 
+[08:05:28.379] [33] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-08.05.37
+ 
+[08:10:07.925] [180] [ Info] [Eco] Исключение при обновлении объекта HandPloughObject: Ссылка на объект не указывает на экземпляр объекта.
+   в Eco.Gameplay.Components.VehicleModules.VehicleHoeComponent.OnMoved()
+   в Eco.Gameplay.Components.VehicleComponent.ReceiveUpdate(BSONObject bsonObj)
+   в Eco.Shared.Utils.EnumerableExtensions.ForEach[T](IEnumerable`1 enumeration, Action`1 action)
+   в Eco.Gameplay.Objects.WorldObject.ReceiveUpdate(BSONObject bsonObj)
+   в Eco.Shared.Networking.NetObjectManager.UpdateObjects(BSONObject bsonRoot)
+ 
+[08:35:30.730] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-07.35.25
+ 
+[08:52:28.413] [173] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[09:05:28.074] [17] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-09.05.37
+ 
+[09:35:31.230] [22] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-08.35.25
+ 
+[10:05:28.307] [33] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-10.05.37
+ 
+[10:24:31.951] [33] [ Info] [Eco] Пользователь с неверными данными пытался соединится: Dark Avenger
+ 
+[10:35:30.128] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-09.35.25
+ 
+[11:05:31.019] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-04-11.05.37
+ 
+[11:35:32.468] [190] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-10.35.25
+ 
+[11:47:18.352] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:37.054] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:40.045] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:42.562] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:44.725] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:47.091] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:49.476] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:52.058] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:54.436] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:57.001] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:47:59.392] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:01.818] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:04.215] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:06.516] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:09.932] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:11.977] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:16.404] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:18.684] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:21.024] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:23.359] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:25.585] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:27.712] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:29.912] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:32.474] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:34.784] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:37.121] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:39.607] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:41.981] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:44.332] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:46.721] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:49.376] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:53.767] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:55.990] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:48:58.622] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:00.915] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:03.176] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:05.366] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:07.576] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:09.752] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:11.842] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:14.025] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:16.929] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:19.234] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:21.355] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:23.576] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:25.616] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:27.860] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:30.137] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:33.631] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:35.828] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:37.895] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:40.195] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:45.376] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:49.289] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:51.363] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:53.690] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:55.785] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:49:57.951] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:00.046] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:02.560] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:04.690] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:08.636] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:10.936] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:13.099] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:15.174] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:17.333] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:19.793] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:21.958] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:24.020] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:26.070] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:28.001] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:30.586] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:32.712] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:34.724] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:43.181] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:46.995] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:53.048] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:56.721] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:50:59.078] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:01.538] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:04.007] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:07.457] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:09.940] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:14.149] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:16.376] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:18.542] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:20.519] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:22.589] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:26.664] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:30.236] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:32.662] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:35.197] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:37.969] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:40.483] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:43.338] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:45.728] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:48.110] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:50.401] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:53.149] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:55.918] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:51:58.244] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:52:00.560] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:52:03.134] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:52:05.677] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:52:08.163] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:52:10.664] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:52:15.355] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:53:04.351] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:53:16.902] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:25.842] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:28.128] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:30.550] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:32.826] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:35.150] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:37.311] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:40.597] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:43.881] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:46.188] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:48.438] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:50.663] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:52.980] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:55.427] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:56:58.651] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:00.830] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:03.043] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:05.171] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:07.441] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:09.763] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:12.271] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:14.676] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:16.921] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:18.941] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:20.991] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:23.061] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:25.110] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:27.923] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:30.009] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:32.174] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:34.310] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:36.750] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:38.860] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:41.028] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:44.932] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[11:57:50.724] [140] [ Info] [log] letmeplay invoked admin command '/dump' 
+[12:00:00.925] [140] [ Info] [log] letmeplay invoked admin command '/save' 
+[12:00:00.925] [190] [ Info] [Eco] Сохранение мира...  
+[12:00:55.785] [1] [ Info] [Eco] Сохранение...
+ 
+[12:00:55.785] [1] [ Info] [Eco] Сохранение мира...  

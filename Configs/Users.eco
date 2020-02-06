@@ -1,0 +1,154 @@
+{
+  "UseWaste": false,
+  "MaxRepFromOnePerson": 30.0,
+  "MinRepFromOnePerson": -10.0,
+  "AllowDebugCalls": false,
+  "WhiteList": {
+    "System.String": {
+      "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+      "$values": [
+        "AmeriQ",
+        "xotab"
+      ]
+    }
+  },
+  "BlackList": {
+    "System.String": {
+      "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+      "$values": [
+        "4dtmtwo",
+        "76561198350457605",
+        "frosstor",
+        "Frosstor",
+        "76561198033891558",
+        "76561198087374667"
+      ]
+    }
+  },
+  "Admins": {
+    "System.String": {
+      "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+      "$values": [
+        "76561198025755741",
+        "76561198109699498",
+        "slg167689",
+        "Dark Avanger",
+        "76561198159962981",
+        "76561198117468162"
+      ]
+    }
+  },
+  "Reputations": {
+    "Eco.Gameplay.Economy.ReputationTitle": {
+      "$type": "System.Collections.Generic.List`1[[Eco.Gameplay.Economy.ReputationTitle, Eco.Gameplay]], mscorlib",
+      "$values": [
+        {
+          "MaxReputation": -500.0,
+          "Title": "Отвратительный",
+          "Color": "FF4623"
+        },
+        {
+          "MaxReputation": -200.0,
+          "Title": "Порицаемый обществом",
+          "Color": "FF5A24"
+        },
+        {
+          "MaxReputation": -100.0,
+          "Title": "Гнусный",
+          "Color": "FF7025"
+        },
+        {
+          "MaxReputation": -50.0,
+          "Title": "Обманщик",
+          "Color": "FFA028"
+        },
+        {
+          "MaxReputation": -20.0,
+          "Title": "Скверный",
+          "Color": "FFC32A"
+        },
+        {
+          "MaxReputation": -10.0,
+          "Title": "Постыдный",
+          "Color": "FFF62D"
+        },
+        {
+          "MaxReputation": -5.0,
+          "Title": "Подозрительный",
+          "Color": "E8EB43"
+        },
+        {
+          "MaxReputation": -2.0,
+          "Title": "Сомнительный",
+          "Color": "B2CE76"
+        },
+        {
+          "MaxReputation": -1.0,
+          "Title": "Нет репутации",
+          "Color": "2581FE"
+        },
+        {
+          "MaxReputation": 1.0,
+          "Title": "Нет репутации",
+          "Color": "2581FE"
+        },
+        {
+          "MaxReputation": 2.0,
+          "Title": "Полезный",
+          "Color": "2899FE"
+        },
+        {
+          "MaxReputation": 5.0,
+          "Title": "Уважаемый",
+          "Color": "2EB6FC"
+        },
+        {
+          "MaxReputation": 10.0,
+          "Title": "Дружелюбный",
+          "Color": "34D4FA"
+        },
+        {
+          "MaxReputation": 20.0,
+          "Title": "Добропорядочный",
+          "Color": "3DFFF8"
+        },
+        {
+          "MaxReputation": 50.0,
+          "Title": "Почитаемый",
+          "Color": "51FFB7"
+        },
+        {
+          "MaxReputation": 100.0,
+          "Title": "Прославленный",
+          "Color": "61FF82"
+        },
+        {
+          "MaxReputation": 200.0,
+          "Title": "Заслуженный",
+          "Color": "70FF4F"
+        },
+        {
+          "MaxReputation": 500.0,
+          "Title": "Уважаемый",
+          "Color": "77FF37"
+        },
+        {
+          "MaxReputation": 1000.0,
+          "Title": "Богоподобный",
+          "Color": "7BFF29"
+        }
+      ]
+    }
+  },
+  "UnStuckDisableTime": 60.0,
+  "AdminCommandsLoggingLevel": "LogFileAndNotifyEveryone",
+  "DelayNearbyFoodCheckMinutes": 4.0,
+  "NearbyFoodSpawnLocationRadius": 20.0,
+  "NearbyFoodSpawnCount": 5,
+  "UseExactSpawnLocation": true,
+  "SpawnNearbyFoodLocation": {
+    "x": 1387,
+    "y": 61,
+    "z": 1584
+  }
+}

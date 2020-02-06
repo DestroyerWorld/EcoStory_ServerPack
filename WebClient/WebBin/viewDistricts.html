@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Eco</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- Header js-->
+	<script src="inc/js/header.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js"></script>
+
+	<!-- Jquery -->
+	<script src="inc/js/jquery/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="inc/js/jquery/jquery-ui.js"></script>
+
+	<link rel="stylesheet" href="inc/css/jquery/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="inc/css/range.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+
+<body>
+
+	<script src="inc/js/three.min.js"></script>
+	<script src="inc/js/postprocessing/EffectComposer.js"></script>
+	<script src="inc/js/postprocessing/RenderPass.js"></script>
+	<script src="inc/js/postprocessing/ShaderPass.js"></script>
+	<script src="inc/js/shaders/CopyShader.js"></script>
+	<script src="inc/js/OrbitControls.js"></script>
+	<script src="inc/js/Detector.js"></script>
+	<script src="inc/js/dat.gui.min.js"></script>
+	<script src="inc/js/ecomap.js"></script>
+  <script src="inc/js/localize.js"></script>
+
+	<!-- LOADING -->
+	<div id="loader"><span id="loader-text">Loading</span></div>
+	<style>#loader{position:fixed;z-index:999999999;background:url(inc/images/pattern-4.png) #55973c;width:100%;height:100%;text-align:center;padding-top:17%;line-height:3.5;left:0;top:0;text-transform:uppercase;color:#6cac54;font-weight:700;letter-spacing:7px;font-family:'Pathway Gothic One',sans-serif;font-size:54px;text-shadow:none}#loader-text{display:none;}</style>
+	<script>
+		// Wait for window load
+		$("#loader-text").fadeIn();
+		$(window).load(function() {
+			var isIE = /*@cc_on!@*/false || !!document.documentMode;
+			if (isIE) {
+				$("#wrapper").remove();
+				$("#loader-text").html("Internet Explorer is not supported, please try another browser.");
+			} else {
+				$("#loader").fadeOut();
+			}
+		});
+	</script>
+
+	<div id="wrapper">
+
+		<!-- HEADER -->
+		<div id="header-scripts"></div>
+		<script>
+			var currentPage = 'viewDistricts';
+
+			// Global Header
+			$.get("header.html", function(data) {
+				$(data).prependTo("#header-scripts");
+			});
+		</script>
+
+		<!-- Local Header -->
+		<script type="text/javascript" src="inc/js/viewDistricts.js"></script>
+
+		<!-- CONTENT -->
+		<div id="page-wrapper">
+			<canvas id="c"></canvas>
+			<h4 id="status" class="error"></h4>
+			<div class="districts-wrapper districts-page">
+				<span class="there-no-districts localize" translate-key="98">There are no districts set yet</span>
+				<div class="map-part">
+					<div id="dstricts-map"></div>
+					<div class="district-controls-wrapper">
+						<div class="district-title localize" translate-key="99">Active Districts</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<div id="footer-scripts"></div>
+	<script>
+		$.get("footer.html", function(data) {
+			$(data).prependTo("#footer-scripts");
+		});
+	</script>
+</body>
+</html>

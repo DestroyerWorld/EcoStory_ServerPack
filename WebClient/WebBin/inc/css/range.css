@@ -1,0 +1,387 @@
+/*start Thumb css*/
+input[type=range].renge {
+	-webkit-appearance: none;
+	width: 100%;
+	margin: 9.5px 0;
+}
+input[type=range].renge:focus {
+	outline: none;
+}
+input[type=range].renge::-webkit-slider-runnable-track {
+ width: 100%;
+ height: 15px;
+ cursor: pointer;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+ background: #64a94a;
+ border-radius: 3px;
+ border: 0px solid rgba(0, 0, 0, 0);
+}
+input[type=range].renge::-webkit-slider-thumb {
+ box-shadow: 0 1px 3px rgba(0,0,0,.2);
+ border: 2px solid rgba(0, 0, 0, 0.47);
+ height: 34px;
+ width: 34px;
+ border-radius: 3px;
+ background: #64a94a;
+ cursor: pointer;
+ -webkit-appearance: none;
+ margin-top: -9.5px;
+}
+input[type=range].renge:focus::-webkit-slider-runnable-track {
+ background: #64a94a;
+}
+input[type=range].renge::-moz-range-track {
+ width: 100%;
+ height: 15px;
+ cursor: pointer;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+ background: #64a94a;
+ border-radius: 3px;
+ border: 0px solid rgba(0, 0, 0, 0);
+}
+input[type=range].renge::-moz-range-thumb {
+ box-shadow: 0 1px 3px rgba(0,0,0,.2);
+ border: 2px solid rgba(0, 0, 0, 0.47);
+ height: 34px;
+ width: 34px;
+ border-radius: 3px;
+ background: #64a94a;
+ cursor: pointer;
+}
+input[type=range].renge::-ms-track {
+ width: 100%;
+ height: 15px;
+ cursor: pointer;
+ background: transparent;
+ border-color: transparent;
+ color: transparent;
+}
+input[type=range].renge::-ms-fill-lower {
+ background: #64a94a;
+ border: 0px solid rgba(0, 0, 0, 0);
+ border-radius: 6px;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range].renge::-ms-fill-upper {
+ background: #64a94a;
+ border: 0px solid rgba(0, 0, 0, 0);
+ border-radius: 6px;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range].renge::-ms-thumb {
+ border: 2px solid rgba(0, 0, 0, 0.47);
+ height: 34px;
+ width: 34px;
+ border-radius: 3px;
+ background: #64a94a;
+ cursor: pointer;
+ height: 15px;
+	
+	
+display: none;
+    width: 277px;
+    position: absolute;
+    left: -98px;
+    top: -293px;
+    box-shadow: none;
+    z-index: 3;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+input[type=range].renge:focus::-ms-fill-lower {
+ background: #64a94a;
+}
+input[type=range].renge:focus::-ms-fill-upper {
+ background: #64a94a;
+}
+/*end Thumb css*/
+
+/*start Track css*/
+input[type=range].renge {
+	-webkit-appearance: none;
+	width: 100%;
+	margin: 9.5px 0;
+}
+input[type=range].renge:focus {
+	outline: none;
+}
+input[type=range].renge::-webkit-slider-runnable-track {
+ width: 100%;
+ height: 15px;
+ cursor: pointer;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+ background: #64a94a;
+ border-radius: 3px;
+ border: 0px solid rgba(0, 0, 0, 0);
+}
+input[type=range].renge::-webkit-slider-thumb {
+ box-shadow: 0 1px 3px rgba(0,0,0,.2);
+ border: 2px solid rgba(0, 0, 0, 0.47);
+ height: 34px;
+ width: 34px;
+ border-radius: 3px;
+ background: #64a94a;
+ cursor: pointer;
+ -webkit-appearance: none;
+ margin-top: -9.5px;
+}
+input[type=range].renge:focus::-webkit-slider-runnable-track {
+ background: #64a94a;
+}
+input[type=range].renge::-moz-range-track {
+ width: 100%;
+ height: 15px;
+ cursor: pointer;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+ background: #64a94a;
+ border-radius: 3px;
+ border: 0px solid rgba(0, 0, 0, 0);
+}
+input[type=range].renge::-moz-range-thumb {
+ box-shadow: 0 1px 3px rgba(0,0,0,.2);
+ border: 2px solid rgba(0, 0, 0, 0.47);
+ height: 34px;
+ width: 34px;
+ border-radius: 3px;
+ background: #64a94a;
+ cursor: pointer;
+}
+input[type=range].renge::-ms-track {
+ width: 100%;
+ height: 15px;
+ cursor: pointer;
+ background: transparent;
+ border-color: transparent;
+ color: transparent;
+}
+input[type=range].renge::-ms-fill-lower {
+ background: #64a94a;
+ border: 0px solid rgba(0, 0, 0, 0);
+ border-radius: 6px;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range].renge::-ms-fill-upper {
+ background: #64a94a;
+ border: 0px solid rgba(0, 0, 0, 0);
+ border-radius: 6px;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range].renge::-ms-thumb {
+ box-shadow: 2px 2px 5px #000000, 0px 0px 2px #0d0d0d;
+ border: 2px solid rgba(0, 0, 0, 0.47);
+ height: 34px;
+ width: 34px;
+ border-radius: 3px;
+ background: #64a94a;
+ cursor: pointer;
+ height: 15px;
+}
+input[type=range].renge:focus::-ms-fill-lower {
+ background: #64a94a;
+}
+input[type=range].renge:focus::-ms-fill-upper {
+ background: #64a94a;
+}
+/*end Track css*/
+
+/*start General css*/
+input[type=range].renge {
+	-webkit-appearance: none;
+	width: 100%;
+	margin: 9.5px 0;
+}
+input[type=range].renge:focus {
+	outline: none;
+}
+input[type=range].renge::-webkit-slider-runnable-track {
+ width: 100%;
+ height: 15px;
+ cursor: pointer;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+ background: #64a94a;
+ border-radius: 3px;
+ border: 0px solid rgba(0, 0, 0, 0);
+}
+input[type=range].renge::-webkit-slider-thumb {
+ box-shadow: 0 1px 3px rgba(0,0,0,.2);
+ border: 2px solid rgba(0, 0, 0, 0.47);
+ height: 34px;
+ width: 34px;
+ border-radius: 3px;
+ background: #64a94a;
+ cursor: pointer;
+ -webkit-appearance: none;
+ margin-top: -9.5px;
+}
+input[type=range].renge:focus::-webkit-slider-runnable-track {
+ background: #64a94a;
+}
+input[type=range].renge::-moz-range-track {
+ width: 100%;
+ height: 15px;
+ cursor: pointer;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+ background: #64a94a;
+ border-radius: 3px;
+ border: 0px solid rgba(0, 0, 0, 0);
+}
+input[type=range].renge::-moz-range-thumb {
+ box-shadow: 0 1px 3px rgba(0,0,0,.2);
+ border: 2px solid rgba(0, 0, 0, 0.47);
+ height: 34px;
+ width: 34px;
+ border-radius: 3px;
+ background: #64a94a;
+ cursor: pointer;
+}
+input[type=range].renge::-ms-track {
+ width: 100%;
+ height: 15px;
+ cursor: pointer;
+ background: transparent;
+ border-color: transparent;
+ color: transparent;
+}
+input[type=range].renge::-ms-fill-lower {
+ background: #64a94a;
+ border: 0px solid rgba(0, 0, 0, 0);
+ border-radius: 6px;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range].renge::-ms-fill-upper {
+ background: #64a94a;
+ border: 0px solid rgba(0, 0, 0, 0);
+ border-radius: 6px;
+ box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range].renge::-ms-thumb {
+ box-shadow: 2px 2px 5px #000000, 0px 0px 2px #0d0d0d;
+ border: 2px solid rgba(0, 0, 0, 0.47);
+ height: 34px;
+ width: 34px;
+ border-radius: 3px;
+ background: #64a94a;
+ cursor: pointer;
+ height: 15px;
+}
+input[type=range].renge:focus::-ms-fill-lower {
+ background: #64a94a;
+}
+input[type=range].renge:focus::-ms-fill-upper {
+ background: #64a94a;
+}
+/*end General css*/
+
+/* start progres css*/
+/* All HTML5 progress enabled browsers */
+progress {
+	/* Turns off styling - not usually needed, but good to know. */
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	/* gets rid of default border in Firefox and Opera. */
+	border: 1px solid rgba(0, 0, 0, 0.18);
+	border-radius: 10px;
+	/* Dimensions */
+	width: 100%;
+	height: 20px;
+    overflow: hidden;
+}
+/* Polyfill */
+progress[role]:after {
+	background-image: none; /* removes default background from polyfill */
+}
+/*
+ * Background of the progress bar background
+ */
+
+/* Firefox and Polyfill */
+progress {
+	background: #538540 !important; /* !important only needed in polyfill */
+}
+
+/* Chrome */
+progress::-webkit-progress-bar {
+ border-radius: 10px;
+ background: #538540;
+}
+
+/*
+ * Background of the progress bar value
+ */
+
+/* Firefox */
+progress::-moz-progress-bar {
+ border-radius: 5px;
+ background-image: -moz-linear-gradient(  center bottom,  rgb(108, 179, 81) 37%,  rgb(108, 179, 81) 69%  );
+}
+
+/* Chrome */
+progress::-webkit-progress-value {
+ border-radius: 5px;
+ background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0, rgb(108, 179, 81)),  color-stop(1, rgb(108, 179, 81))  );
+ background-image: -webkit-linear-gradient(  center bottom,  rgb(108, 179, 81) 37%,  rgb(108, 179, 81) 69%  );
+}
+/* Polyfill */
+progress[aria-valuenow]:before {
+	border-radius: 5px;
+	background-image: -moz-linear-gradient(  center bottom,  rgb(108, 179, 81) 37%,  rgb(108, 179, 81) 69%  );
+	background-image: -ms-linear-gradient(  center bottom,  rgb(108, 179, 81) 37%,  rgb(108, 179, 81) 69%  );
+	background-image: -o-linear-gradient(  center bottom,  rgb(108, 179, 81) 37%,  rgb(108, 179, 81) 69%  );
+}
+/* end progres css*/
+
+.renge {
+	margin: 30px 0 !important;
+	height: 50px;
+	padding: 5px;
+	border-radius: 4px;
+	background-color: #538540;
+	border: 1px solid rgba(0, 0, 0, 0.18);
+}
+#slider-range , .slider-range {
+	background: #5ba041;
+    border: 0 !important;
+	height: 15px;
+}
+.ui-slider-range.ui-corner-all.ui-widget-header {
+	height: 15px;
+	background: rgb(108, 179, 81);
+}
+/*.ui-slider-handle.ui-corner-all.ui-state-default :first{
+  margin-left: 0 !important;
+}
+.ui-slider-handle.ui-corner-all.ui-state-default :last{
+  margin-left: -34px !important;
+}*/
+.ui-slider-horizontal .ui-slider-handle.ui-corner-all.ui-state-default {
+	top: -0.5em !important;
+}
+.ui-slider-handle.ui-corner-all.ui-state-default {
+	width: 34px;
+	height: 34px;
+	background: rgb(108, 179, 81);
+	border: 2px solid #395f2b;
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    cursor: pointer;
+    cursor: -webkit-grab;
+}
+.ui-slider  > .ui-slider-handle:nth-of-type(1) {
+	margin-left:-34px;
+}
+.ui-slider  > .ui-slider-handle:nth-of-type(2) {
+	margin-left:0px;
+}
+.multi-range-content {
+	height: 3px;
+	text-align: center;
+	width: 100%;
+	display: table-cell;
+	padding: 0 34px;
+}
+#slider-range , .slider-range{
+	margin: 20px 5px 0;
+}

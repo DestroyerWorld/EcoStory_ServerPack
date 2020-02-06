@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Eco</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+	<!-- Header js-->
+	<script src="inc/js/header.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js"></script>
+
+	<!-- Jquery -->
+	<script src="inc/js/jquery/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="inc/js/jquery/jquery-ui.js"></script>
+
+	<link rel="stylesheet" href="inc/css/jquery/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="inc/css/range.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+
+<body>
+
+	<!-- LOADING -->
+	<div id="loader"><span id="loader-text">Loading</span></div>
+	<style>#loader{position:fixed;z-index:999999999;background:url(inc/images/pattern-4.png) #55973c;width:100%;height:100%;text-align:center;padding-top:17%;line-height:3.5;left:0;top:0;text-transform:uppercase;color:#6cac54;font-weight:700;letter-spacing:7px;font-family:'Pathway Gothic One',sans-serif;font-size:54px;text-shadow:none}#loader-text{display:none;}</style>
+	<script>
+		// Wait for window load
+		$("#loader-text").fadeIn();
+		$(window).load(function() {
+			var isIE = /*@cc_on!@*/false || !!document.documentMode;
+			if (isIE) {
+				$("#wrapper").remove();
+				$("#loader-text").html("Internet Explorer is not supported, please try another browser.");
+			} else {
+				$("#loader").fadeOut();
+			}
+
+		});
+	</script>
+
+	<div id="wrapper">
+
+		<!-- HEADER -->
+		<div id="header-scripts"></div>
+		<script>
+			var currentPage = 'dashboard';
+
+			// Global Header
+			$.get("header.html", function(data) {
+				$(data).prependTo("#header-scripts");
+			});
+		</script>
+
+		<!-- Map js -->
+		<script src="inc/js/Map.js"></script>
+		<script src="inc/js/three.min.js"></script>
+		<script src="inc/js/postprocessing/EffectComposer.js"></script>
+		<script src="inc/js/postprocessing/RenderPass.js"></script>
+		<script src="inc/js/postprocessing/ShaderPass.js"></script>
+		<script src="inc/js/shaders/CopyShader.js"></script>
+		<script src="inc/js/OrbitControls.js"></script>
+		<script src="inc/js/Detector.js"></script>
+		<script src="inc/js/dat.gui.min.js"></script>
+		<script src="inc/js/ecomap.js"></script>
+		<script src="inc/js/mapcontrols.js"></script>
+    <script src="inc/js/localize.js"></script>
+
+		<!-- end Map js -->
+
+		<!-- CONTENT -->
+		<div id="page-wrapper">
+			<canvas id="c"></canvas>
+			<h4 id="status" class="error"></h4>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="dashboard-wrapper col-lg-12">
+
+						<!-- Server Info -->
+						<div id="frontPage-container" class="section-wrapper">
+							<div class="section-wrapper-2">
+								<!--<div id="section-title"><p> Server Stats </p></div>-->
+
+								<div class="row1">
+
+									<div class="map-wrapper-1">
+
+										<!-- Start map control panel -->
+										<div class="map-control-panel">
+
+											<!-- Map Layer -->
+											<div class="map-layer-select-wrapper">
+												<i class="fa fa-fw fa-caret-down"></i>
+												<select class="map-layer-select" style="width: 100%">
+													<option value="" class="localize" translate-key="59">Select Map Layer</option>
+												</select>
+												<a href="comparison.html" class="compare-maps-button">
+													 <span class="localize" translate-key="161">Compare Maps</span>
+												</a>
+											</div>
+
+											<!-- Map & Info -->
+											<div id="main-map" class="view-map">
+												<p id="map-position-text"></p>
+												<p id="map-info-text">.</p>
+												<div type="text" class="progress-day" name="progress-day"><span class="localize" translate-key="64">Day</span> 0, 00:00</div>
+												<input type="button" data-type="2" value="2D" id="map-toggle-2d">
+											</div>
+
+											<div class="map-controls-wrapper">
+
+												<!-- Play Button -->
+												<div class="play-button-wrapper">
+													<div id="map-toggle-play"><i class="fa fa-play" aria-hidden="true"></i></div>
+												</div>
+
+												<!-- Range Controls -->
+												<div class="range-controls-wrapper">
+													<div class="map-progress-bar-wrapper">
+														<progress id="map-progress-bar" value="0.75" max="1.0" ></progress>
+													</div>
+
+													<div class="range-controls-wrapper-2">
+														<div id="range-controls-time-wrapper">
+															<div id="range-controls-time-1">
+																<!-- <span class="localize" translate-key="64">Day</span> 0<br>00:00 -->
+																<span class="localize range-control-time-span-day" translate-key="64">Day</span>
+																<span class="range-controls-time-span-1"> 0<br>00:00 </span>
+															</div>
+														</div>
+														<div class="multi-range-content">
+															<div id="slider-range"></div>
+														</div>
+														<div id="range-controls-time-wrapper">
+															<div id="range-controls-time-2">
+																<!-- <span class="localize" translate-key="64">Day</span> 0<br>00:00 -->
+																<span class="localize range-control-time-span-day" translate-key="64">Day</span>
+																<span class="range-controls-time-span-2"> 0<br>00:00 </span>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<!-- Speed Controls -->
+												<div class="speed-controls-wrapper">
+													<div id="speed-button"><span class="speed-button">0.5</span><br><span class="localize" translate-key="70">days/sec</span></div>
+													<input type="range" name="speed" id="map-play-speed" class="renge" min="-10" max="10" value="5" step="0.01">
+												</div>
+											</div>
+										</div><!-- End map control panel -->
+									</div>
+
+									<div class="frontpage-info-wrapper">
+										<ul class="frontpage-info "></ul>
+									</div>
+
+
+									<iframe id="graph_composer" src="graph_composer/index.html"></iframe>
+								</div>
+
+								<div class="row1">
+
+									<!--<iframe id="graph-pollution" style="float:none;margin-right: 40px;" class="iframe" src="graph_composer/index.html?page=dashboard&graph=pollution&graphcomposer=false"></iframe>
+									<iframe id="graph-populations" style="float:none;margin-right: 40px;" class="iframe" src="graph_composer/index.html?page=dashboard&graph=populations&graphcomposer=false"></iframe>
+									<iframe id="graph-playerskill" style="float:none;" class="iframe" src="graph_composer/index.html?page=dashboard&graph=skills&graphcomposer=false"></iframe>-->
+								</div>
+
+								<div class="frontpage-info-footer "></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<div id="footer-scripts"></div>
+	<script>
+		var height = $( window ).height(),
+			map_height = (height*0.75)-90;
+
+		$('#main-map').css('height',map_height+'px');
+		// Global Footer
+		$.get("footer.html", function(data) {
+			$(data).prependTo("#footer-scripts");
+		});
+
+		var ConvertSecondsComments = ConvertSecondsComments || false;
+
+		stop_undtil_load();
+		function stop_undtil_load() {
+			if( ConvertSecondsComments === false ) setTimeout(stop_undtil_load, 100);
+			else loadFrontPage();
+		}
+
+		function loadFrontPage(){
+			//Footer - Local
+
+			// Appending server info
+			var url = APPIQUERYURL + "/info";
+
+
+			$.get(url, function(data,status){
+
+				var row = "<li><span class='localize' translate-key='103'><b>  Online Players   </b></span><span class='text-highlight'>"+data.OnlinePlayers+" / " + data.TotalPlayers + " </span></li> ";
+                row +=  " <li><span  class='localize' translate-key='104'><b>  Time </b></span><span class='text-highlight'>" + ConvertSecondsComments(data.TimeSinceStart) + " </span></li> ";
+                row += " <li><span  class='localize' translate-key='105'><b>  Meteor Impact </b></span><span class='text-highlight'>" + ConvertSeconds(data.TimeLeft) + " </span></li> ";
+                row += " <li><span  class='localize' translate-key='106'><b>  Plants  </b></span><span class='text-highlight'>" + data.Plants + "  </span></li> ";
+                row += " <li><span  class='localize' translate-key='57'><b>  Laws  </b></span><span class='text-highlight'>" + data.Laws + " </span></li> ";
+                row += " <li><span  class='localize' translate-key='107'><b>  World Size  </b></span><span class='text-highlight'>" + data.WorldSize + " </span></li>  ";
+
+
+				$('.frontpage-info').append(row).fadeIn();
+
+				/* Disable frontpage graphs until API is updated
+				var categories = [];
+				data = data.Graphs;
+
+				for(var i = 0; i < data.length; i++) {
+					var obj = {
+							name: data[i].Name,
+							keys: data[i].Graph.Keys,
+							category: data[i].Category,
+							time_start: data[i].Graph.TimeMin,
+							time_end: data[i].Graph.TimeMax
+						};
+					categories.push(obj);
+				}
+
+				if(!categories[0].category || !categories[0].keys.length) {
+					$('#graph-playerskill').remove();
+					$('#graph-populations').addClass('frontpage-full-graph');
+				}
+
+				if(!categories[1].category || !categories[1].keys.length) {
+					$('#graph-populations').remove();
+				}
+				*/
+			})
+		}
+	</script>
+</body>
+</html>

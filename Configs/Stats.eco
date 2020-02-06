@@ -1,0 +1,7 @@
+{
+  "EnableStatWrites": true,
+  "EnableStatReads": true,
+  "EnablePendingWritesOnBackup": true,
+  "WriteTimeoutMS": 1000,
+  "ReadTimeoutMS": 1000
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Eco</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!-- Header js-->
+	<script src="inc/js/header.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js"></script>
+
+	<!-- Jquery -->
+	<script src="inc/js/jquery/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="inc/js/jquery/jquery-ui.js"></script>
+
+
+	<link rel="stylesheet" href="inc/css/jquery/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="inc/css/range.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+
+	<!-- LOADING -->
+	<div id="loader"><span id="loader-text">Loading</span></div>
+	<style>#loader{position:fixed;z-index:999999999;background:url(inc/images/pattern-4.png) #55973c;width:100%;height:100%;text-align:center;padding-top:17%;line-height:3.5;left:0;top:0;text-transform:uppercase;color:#6cac54;font-weight:700;letter-spacing:7px;font-family:'Pathway Gothic One',sans-serif;font-size:54px;text-shadow:none}#loader-text{display:none;}</style>
+	<script>
+		// Wait for window load
+		$("#loader-text").fadeIn();
+		$(window).load(function() {
+			var isIE = /*@cc_on!@*/false || !!document.documentMode;
+			if (isIE) {
+				$("#wrapper").remove();
+				$("#loader-text").html("Internet Explorer is not supported, please try another browser.");
+			} else {
+				$("#loader").fadeOut();
+			}
+		});
+	</script>
+
+	<div id="wrapper">
+
+		<!-- HEADER -->
+		<div id="header-scripts"></div>
+		<script>
+			var currentPage = 'addlaw';
+
+			// Global Header
+			$.get("header.html", function(data) {
+				$(data).prependTo("#header-scripts");
+			});
+		</script>
+
+		<!-- Local Header -->
+		<script type="text/javascript" src="inc/js/lawAdd.js"></script>
+		<script type="text/javascript" src="inc/js/flexicolorpicker/colorpicker.js"></script>
+
+		<!-- Map js -->
+		<script src="inc/js/three.min.js"></script>
+		<script src="inc/js/postprocessing/EffectComposer.js"></script>
+		<script src="inc/js/postprocessing/RenderPass.js"></script>
+		<script src="inc/js/postprocessing/ShaderPass.js"></script>
+		<script src="inc/js/shaders/CopyShader.js"></script>
+		<script src="inc/js/OrbitControls.js"></script>
+		<script src="inc/js/Detector.js"></script>
+		<script src="inc/js/dat.gui.min.js"></script>
+		<script src="inc/js/ecomap.js"></script>
+		<script src="inc/js/Map.js"></script>
+		<script src="inc/js/mapcontrols.js"></script>
+    	<script src="inc/js/localize.js"></script>
+		<!-- end Map js -->
+
+		<!-- CONTENT -->
+		<div id="page-wrapper">
+			<canvas id="c"></canvas>
+			<h4 id="status" class="error"></h4>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="addlaws-wrapper col-lg-12">
+						<!-- No Current Election -->
+						<div class="section-wrapper law-add-wrapper">
+							<div class="section-wrapper-2">
+
+								<form id="law-addlaw-form"  method="POST">
+
+									<input id="law-add-title" class="localize" style="margin-top: 0;" type="text" name="name" placeholder="Name of Law" translate-key="83" />
+									<div class="law-add-wrapper-2" style="width: 100%;">
+										<div class="low-boxs"></div>
+									</div>
+
+									<div class="map-wrapper-1" id="map-control-wrapper" style="display:none">
+
+										<!-- Start map control panel -->
+										<div class="map-control-panel">
+
+											<!-- Map Layer -->
+											<div class="map-layer-main">
+												<div class="map-layer-select-wrapper-district">
+													<i class="fa fa-fw fa-caret-down"></i>
+													<select class="map-layer-select" style="width: 100%">
+														<option value="" class="localize" translate-key="59">Select Map Layer</option>
+													</select>
+												</div>
+												<input type="button" id="button1" onclick="SwitchButtons('button1');" class="sideviewtoggle myButton eco-button1 localize" translate-key="Add Districts" value="Add Districts">
+												<input type="button" id="button2" onclick="SwitchButtons('button2');" class="sideviewtoggle myButton eco-button1 localize" translate-key="Remove Districts" style='display:none;' value="Remove Districts">
+											</div>
+
+											<!-- Map & Info -->
+											<div id="main-map" class="view-map">
+												<p id="map-position-text"></p>
+												<p id="map-info-text">.</p>
+												<div type="text" class="progress-day" name="progress-day">
+												</div>
+													<span id="district-control-erase" class="era"><i class="fa fa-eraser" aria-hidden="true"></i></span>
+													<span id="district-control-draw" class="pen"><i class="fa fa-pencil" aria-hidden="true"></i></span>
+													<input type="button" data-type="2" value="2D" id="map-toggle-2d">
+											</div>
+
+											<div class="map-controls-wrapper">
+
+												<!-- Play Button -->
+												<div class="play-button-wrapper">
+													<div id="map-toggle-play"><i class="fa fa-play" aria-hidden="true"></i></div>
+												</div>
+
+												<!-- Range Controls -->
+												<div class="range-controls-wrapper">
+													<div class="map-progress-bar-wrapper">
+														<progress id="map-progress-bar" value="0.75" max="1.0" ></progress>
+													</div>
+
+													<div class="range-controls-wrapper-2">
+														<div id="range-controls-time-wrapper">
+															<div id="range-controls-time-1"><span class="localize range-control-time-span-day" translate-key="64">Day</span> 0<br>00:00</div>
+														</div>
+														<div class="multi-range-content">
+															<div id="slider-range"></div>
+														</div>
+														<div id="range-controls-time-wrapper">
+															<div id="range-controls-time-2"><span class="localize range-control-time-span-day" translate-key="64">Day</span> 0<br>00:00</div>
+														</div>
+													</div>
+												</div>
+
+												<!-- Speed Controls -->
+												<div class="speed-controls-wrapper">
+													<div id="speed-button">0.5<br>days/sec</div>
+													<input type="range" name="speed" id="map-play-speed" class="renge" min="-10" max="10" value="5" step="0.01">
+													<input type="range" name="speed" id="map-draw-size" class="renge" min="0" max="10" value="1" step="1">
+												</div>
+
+											</div>
+											<input id="map-data" type="hidden">
+
+											<!-- district Controls -->
+											<div class="district-controls-wrapper">
+												<div class="district-controls-wrapper-2">
+													<!-- <input type="button" class="add-new-district-button localize" translate-key="86" value="Add New District"> -->
+													<button class="add-new-district-button"><span class="localize" translate-key="86">Add New District</span></button>
+												</div>
+											</div>
+											<div class="flexi-color-picker-wrapper">
+												<div class="flexi-color-picker">
+													<div id="flexi-color-picker"></div>
+													<!-- <div id="flexi-picker-indicator"></div> -->
+												</div>
+
+												<div class="flexi-color-slide">
+													<div id="flexi-color-slide"></div>
+													<!-- <div id="flexi-slide-indicator"></div> -->
+												</div>
+
+											</div>
+										</div>
+										<!-- End map control panel -->
+
+										<div class="map-tooltip" style="display: none;"><span class="localize" translate-key="87">Hold right click to draw district</span>.</div>
+									</div>
+
+									<div class="propose-graph-button-wrapper">
+
+										<input type="button" class="eco-button fancy-add-graph localize" style="display:none;" value="Add Graph" translate-key="80">
+										<button class="eco-button add-graph-button"><span class="localize" translate-key="80">Add Graph</span></button>
+										<input type="button" class="remove-graph eco-button localize" style="display:none;" value="Remove Graph" translate-key="40">
+										<button class="eco-button remove-graph-button" style="display:none;"><span class="localize" translate-key="40">Remove Graph</span></button>
+
+										<input type="button" class="eco-button fancy-add-map localize" style="display:none;" value="Add Map" translate-key="81">
+										<button class="eco-button add-map-button"><span class="localize" translate-key="81">Add Map</span></button>
+										<input type="button" class="remove-map eco-button localize" style="display:none;" value="Remove Map" translate-key="41">
+										<button class="eco-button remove-map-button" style="display:none;"><span class="localize" translate-key="41">Remove Map</span></button>
+
+										<input type="button" class="eco-button fancy-add-district localize" style="display:none;" value="Add District" translate-key="Add District">
+									</div>
+
+									<textarea id="law-add-reasoning" class="localize" translate-key="75" placeholder="Reasoning" name="reasoning"></textarea>
+
+									<div id="law-add-graph"></div> <!---Law data will be appened here, after user adds data to graph-->
+
+									<!-- <input id="law-add-submit-button localize" type="submit" value="Propose Law" translate-key="89" style="margin-top:20px;"> -->
+									<button id="law-add-submit-button" style="margin-top:20px;font-size:28px;"><span class="localize" translate-key="89">Propose Law</span></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<div id="footer-scripts"></div>
+
+	<script type="text/javascript" src="graph_composer/script/init.js"></script>
+	<script>
+		$(window).load(function() {
+
+			// Global Footer
+			$.get("footer.html", function(data) {
+				$(data).prependTo("#footer-scripts");
+			});
+		});
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+1;404 page non trouvée
+2;Autoriser le débogage
+3;Serveur privé
+4;Whitelist
+5;Blacklist
+6;Admin
+7;Emplacements maximum
+8;Point d'apparition
+9;Réputations
+10;Utiliser les déchets
+11;Configuration réseau
+12;Serveur public
+13;Adresse IP
+14;Port du serveur
+15;Port du serveur Web
+16;Taux
+17;Navigateur de serveur
+18;SAUVEGARDER
+19;Explorateur de causes et d'effets
+20;Sélectionnez une catégorie
+21;Sélectionnez la couche
+22;Cartes de 400 mètres carrés, centrées à 50,50
+23;Élections de Eco
+24;Sélectionnez une élection dans le menu ou présentez vous
+25;Candidats
+26;Les élus reçoivent 15 piquets de propriété
+27;Quand une trésorerie est construite, ils peuvent définir des taxes (fonctionnalité en cours)
+28;Cette élection utilise
+29;Vote alternatif
+30;Soumettre le vote
+31;Se présenter aux élections
+32;Se désister
+33;Résultats actuels
+34;Personne n'a encore voté
+35;Votes par tour
+36;Afficher tous les votes
+37;Discussion
+38;Jour
+39;Entrez votre réponse
+40;Supprimer le graphique
+41;Supprimer la carte
+42;Soumettre
+43;Annuler
+44;Pour démarrer une nouvelle élection, vous devez vous ajouter comme candidat
+45;Veuillez expliquer pourquoi vous devriez être élu
+46;Entrez votre discours
+47;Élections
+48;Statut mondial
+49;Données scientifiques
+50;Causes et effets
+51;Se présenter aux élections
+52;Élection en cours
+53;Élections précédentes
+54;Lois
+55;Proposer une nouvelle loi
+56;Lois actives
+57;Lois proposées
+58;Voir les quartiers
+59;Sélectionner le calque de la carte
+60;Données
+61;Graphiques
+62;Lignes
+63;Bar
+64;Jour
+65;Afficher les effets globaux qui façonnent ce monde et comment ils s’influencent mutuellement
+66;Sélectionnez une catégorie ci-dessus et utilisez la barre de défilement pour défiler à travers l’histoire
+67;Exploration des causes et des effets
+68;Config utilisateurs
+69;Authentification requise
+70;jours/sec
+71;Actions en jeu
+72;Lois d'Eco
+73;Sélectionnez une loi dans le menu ou ajoutez en une nouvelle
+74;Informations sur la loi
+75;Raisonnement
+76;Résultats actuels
+77;Cette loi a été adoptée
+78;Oui
+79;Non
+80;Ajouter un graphique
+81;Ajouter une carte
+82;Annuler
+83;Nom de la loi
+84;Ajouter des quartiers
+85;Supprimer le quartier
+86;Ajouter un nouveau quartier
+87;Maintenez le bouton droit de la souris enfoncé pour dessiner le quartier
+88;Raisonnement
+89;Proposer une loi
+90;Liste des couches
+91;Terrain
+92;Température
+93;Hauteur
+94;unity pourrait envoyer une liste complète d’options du menu déroulant plus tard
+95;Sélectionnez calque par nom ou par numéro
+96;Les arguments sur les lois vont ici, la taille de la carte peut être modifiée pour mieux s'adapter au texte
+97;Progrès de l’étudiant
+98;Il n'y a pas encore de quartiers établis
+99;Quartiers actifs
+100;Classement des candidats pour chaque année
+101;Aucune loi active
+102;Aucune loi proposée
+103;Joueurs connectés
+104;Temps
+105;Impact du météore
+106;Plantes
+107;Taille du monde
+108;Graphiques pré-faits
+109;Mes graphiques sauvegardés
+110;OK
+111;Faire quelque chose...
+112;Quelques informations à lire !
+113;Données
+114;Effacer les catégories
+115;Courbes
+116;Tarte
+117;Chargement
+118;Populations
+119;Progression du joueur
+120;Progression de la pollution
+121;Un graphique avec ce titre existe déjà ! Choisissez un titre unique pour votre graphique.
+122;Merci d'ajouter une donnée à votre graphique avant de sauvegarder.
+123;Graphique copié. Tapez un nom unique, puis enregistrez-le.
+124;Voulez-vous sauvegarder vos modifications avant de continuer ?
+125;Ne pas sauvegarder
+126;Serveur
+127;Utilisateur
+128;Effacer la proposition
+129;Classe les candidats du meilleur au moins bon.
+130;Mettre à jour le vote
+131;Tour
+132;Total
+133;Classement des candidats
+134;Tous les votes
+135;Votants
+136;Événements en cours
+137;Activité du gouvernement
+138;Activité des joueurs
+139;Activité des citoyens
+140;Pas d'élections antérieures
+141;Version du serveur
+142;Clauses
+143;h
+144;min
+145;s
+146;Posté le
+147;Estimation des résultats
+148;Vote
+149;Votes
+150;Le vote se termine dans
+151;Titre
+152;Vainqueur
+153;Terminé
+154;auparavant
+155;jours
+156;h
+157;min
+158;dans l'heure écoulée
+159;Le vainqueur était
+160;Loi
+161;Comparer les cartes

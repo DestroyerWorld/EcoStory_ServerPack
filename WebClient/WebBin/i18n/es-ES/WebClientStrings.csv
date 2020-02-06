@@ -1,0 +1,161 @@
+1;404 Página no encontrada
+2;Permitir llamadas de depuración
+3;Servidor Privado
+4;Lista Blanca
+5;Lista Negra
+6;Administrador
+7;Slots Máximos
+8;Ubicación de Aparición
+9;Reputación
+10;Use Waste
+11;Configuración de red
+12;Servidor Público
+13;Dirección IP
+14;Puerto del Servidor de Juego
+15;Web del Servidor de Juego
+16;Rate
+17;Navegador del servidor
+18;GUARDAR
+19;Visor de Causa y Efecto
+20;Seleccionar Categoría
+21;Seleccionar Capa
+22;Maps showing 400 square meters centered at 50,50
+23;Eco Elecciones
+24;Select an election from the menu or you can run for office
+25;Candidatos
+26;Los Funcionarios electos reciben 15 reclamos de propiedad
+27;Cuando se construye un tesoro, puede establecer impuestos (función en curso)
+28;Esta elección se utiliza
+29;Desempate Electoral Instantáneo
+30;Enviar voto
+31;Postularse para un Cargo
+32;Remove Self
+33;Resultados actuales
+34;Nadie ha votado todavía
+35;Votos por ronda
+36;Ver todos los votos
+37;Discusión
+38;Dia
+39;Escribe tu respuesta
+40;Eliminar gráfico
+41;Eliminar Mapa
+42;Enviar
+43;Cancelar
+44;Para iniciar una nueva elección, debe añadirse como candidato
+45;Por favor explique por qué debe ser elegido
+46;Enter Your Speech
+47;Elecciones
+48;Estado del Mundo
+49;Datos científicos
+50;Causa y Efecto
+51;Run For Office
+52;Elección actual
+53;Elecciones previas
+54;Leyes
+55;Proponer una nueva ley
+56;Leyes activas
+57;Leyes propuestas
+58;Ver distritos
+59;Select Map Layer
+60;Datos
+61;Gráficos
+62;Líneas
+63;Bars
+64;Día
+65;View the global effects that shape this world and how they influence each other
+66;Select a category above and use the time bar at the bottom to scroll through history
+67;Cause & Effect Exploration
+68;Users Config
+69;Requiere Autenticación
+70;días/seg
+71;Acciones en juego
+72;Leyes de Eco
+73;Select a law from the menu or you can add a new one
+74;Información de la ley
+75;Reasoning
+76;Resultados Actuales
+77;Esta ley fue aprobada
+78;Sí
+79;No
+80;Añadir Gráfico
+81;Añadir Mapa
+82;Cancelar
+83;Name of Law
+84;Add Districts
+85;Remove Districts
+86;Add New District
+87;Hold right click to draw district
+88;Reasoning
+89;Proponer Ley
+90;Layer Select Dropdown
+91;Terreno
+92;Temperatura
+93;Altura
+94;unity could send a full list of options to the dropdown later
+95;Layer Select by Name or Number
+96;Argument over laws goes here, maps can be resized to fit with text better later
+97;Student Progress
+98;There are no districts set yet
+99;Active Districts
+100;Candidate Ranks For Each Year
+101;No Active Laws
+102;No Proposed Laws
+103;Jugadores en línea
+104;Tiempo
+105;Impacto de Meteorito
+106;Plants
+107;Tamaño del Mundo
+108;Pre-Made Graphs
+109;My Saved Graphs
+110;Vale
+111;Doing Something...
+112;Some information for you to read!
+113;Datasets
+114;Clear Categories
+115;Curvas
+116;Pie
+117;Cargando
+118;Populations
+119;Player Skill Progress
+120;Progreso de la Contaminación
+121;A graph with that title already exists! Choose a unique title for your graph.
+122;Please add a dataset to your graph before saving.
+123;Graph copied. Type a unique name and save it.
+124;Do you want to save your changes before proceeding?
+125;Don't Save
+126;Server
+127;Usuario
+128;Delete Proposal
+129;Rank the candidates from best to worst.
+130;Update Vote
+131;Round
+132;Total
+133;Candidates Ranked
+134;All Votes
+135;Voters
+136;Current Events
+137;Government Activity
+138;User Activity
+139;Citizen Activity
+140;No Previous Elections
+141;Server version
+142;Clauses
+143;hr
+144;min
+145;sec
+146;Posted on
+147;Projected result
+148;Vote
+149;Votes
+150;Vote ends in
+151;Title
+152;Winner
+153;Ended
+154;ago
+155;days
+156;hrs
+157;mins
+158;in the last hour
+159;The winner was
+160;Law
+161;Compare Maps

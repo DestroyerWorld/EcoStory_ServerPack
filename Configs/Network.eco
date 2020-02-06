@@ -1,0 +1,19 @@
+{
+  "PublicServer": true,
+  "Playtime": "",
+  "DiscordAddress": "https://discord.gg/s7HZrqQ",
+  "Password": "",
+  "Description": "[RUS] Eco Story — Role Play Server",
+  "DetailedDescription": "Добро пожаловать! Это Role Play сервер высокой сложностью игры. На сервере действует реальная экономическая система. Пожалуйста, ознакомьтесь со всеми правилами в официальном Discord сервере.",
+  "ServerCategory": "BeginnerHard",
+  "IPAddress": "Any",
+  "WebServerUrl": "",
+  "GameServerPort": 3000,
+  "WebServerPort": 3001,
+  "Rate": 20,
+  "MaxConnections": -1,
+  "ID": "ce1490ca-9750-45ca-bc42-1fe611ad6bd3",
+  "Passport": "66b2fca7-b880-4ac3-8434-0049b2691886",
+  "UPnPEnabled": true,
+  "RelayServerAddress": "88.201.189.119"
+}

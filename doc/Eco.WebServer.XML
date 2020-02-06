@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Eco.WebServer</name>
+    </assembly>
+    <members>
+        <member name="M:Eco.Webserver.Web.Controllers.AnalysisController.GetPlayerStatChanges(System.String,System.Double,System.Double)">
+            <summary>
+            Returns a list of all of this player's stats and the amount by which each stat has changed within the given time window.
+            </summary>
+            <param name="username">The username of the player in question.</param>
+            <param name="startDay">The lower bound on the time range. Default is 0.</param>
+            <param name="endDay">The upper bound on the time range. Default is now.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.AnalysisController.GetPlayerStatChanges(System.Double,System.Double)">
+            <summary>
+            Returns each players' stats and the amount by which each stat has changed within the given time window.
+            </summary>
+            <param name="startDay">The lower bound on the time range. Default is 0.</param>
+            <param name="endDay">The upper bound on the time range. Default is now.</param>
+            <returns>A dictionary from username to list of stat change summaries.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.AnalysisController.GetPlaystyles(System.Double,System.Double)">
+             <summary>
+             Returns the playstyle with the highest score for each player, along with some data about which player actions contributed to the scores.
+            
+             Playstyle scores are given in standard deviations from the server average.  A score of 0 is average compared to all players on this server;
+             a score of 1 is one standard deviation above average; etc.
+             </summary>
+             <param name="startDay">The lower bound on the time range. Default is 0.</param>
+             <param name="endDay">The upper bound on the time range. Default is now.</param>
+             <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.AnalysisController.GetPlaystyles(System.String,System.Double,System.Double)">
+             <summary>
+             Returns a list of all playstyle scores for the given user, along with some data about which player actions contributed to the scores.
+            
+             Playstyle scores are given in standard deviations from the server average.  A score of 0 is average compared to all players on this server;
+             a score of 1 is one standard deviation above average; etc.
+             </summary>
+             <param name="username">The username of the player in question.</param>
+             <param name="startDay">The lower bound on the time range. Default is 0.</param>
+             <param name="endDay">The upper bound on the time range. Default is now.</param>
+             <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.AnalysisController.GenerateDiscussionSuggestions(System.Double,System.Double)">
+            <summary>
+            Returns a list of classroom discussion suggestions, based on server activity within the given time range.
+            </summary>
+            <param name="startDay">The lower bound on the time range. Default is 0.</param>
+            <param name="endDay">The upper bound on the time range. Default is now.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.AnalysisController.GetDiscussion(System.Guid)">
+            <summary>
+            Returns the saved discussion with the given guid, if any.
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.AnalysisController.GetDiscussions">
+            <summary>
+            Returns all saved discussions.
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.AnalysisController.SaveDiscussion(Eco.Webserver.DataTransferObjects.DtoDiscussion)">
+            <summary>
+            Saves the given discussion, overwriting any existing discussion with the same guid.
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.AnalysisController.DeleteDiscussion(System.Guid)">
+            <summary>
+            Deletes the discussion with the given guid.
+            </summary>
+        </member>
+        <member name="T:Eco.Webserver.Web.Controllers.ElectionController">
+            <summary>
+            The API controller in charge of the election system
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.Leader">
+            <summary>
+            Returns the current leader, if any.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.IsElectionRunning">
+            <summary>
+            Returns a bool indicating whether an election is currently running.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.Current">
+            <summary>
+            Returns a summary of the currently running election, if any.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.Previous">
+            <summary>
+            Returns a list of all completed elections.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.GetById(System.Guid)">
+            <summary>
+            Returns the election with the given id.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.ListActivity(System.Double,System.Double,System.Boolean)">
+            <summary>
+            Returns a list of election related events ocurring during the given period, sorted by when they occurred. Types of events are:
+            <ul>
+            <li>started</li>
+            <li>ended</li>
+            <li>candidateJoined</li>
+            <li>votedOn by one or more people (event time will be time of the earliest vote within time period)</li>
+            <li>commentedOn by one or more people (event time will be time of the earliest comment within time period)</li>
+            </ul>
+            </summary>
+            <param name="startDay">The lower bound of the time period. Default is 0.</param>
+            <param name="endDay">The upper bound of the time period. Default is now.</param>
+            <param name="includeVoteChanges">Whether to count a player changing their vote as a new vote. Default is true.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.GetPlayerActivity(System.String,System.Double,System.Double)">
+            <summary>
+            Returns a summary of a player's election related activity within the given time range.
+            </summary>
+            <param name="username">The username of the player in question.</param>
+            <param name="startDay">The lower bound on the time range. Default is 0.</param>
+            <param name="endDay">The upper bound on the time range. Default is now.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.TownhallConstructed">
+            <summary>
+            Will eventually return whether a town hall has been constructed in the world.  Currently returns true.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.Votes(System.Nullable{System.Guid})">
+            <summary>
+            Returns a list of votes that were made on the indicated election.
+            </summary>
+            <param name="guid">The guid of the election in question.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.Vote(Eco.WebServer.DataTransferObjects.RunoffVote,System.String)">
+            <summary>
+            Places a vote on behalf of the given player.  Can only be called if an election is currently running.
+            </summary>
+            <param name="vote">The player's vote.  Must contain a ranked list of all candidates for the current election.</param>
+            <param name="authtoken">The player's authtoken</param>
+            <returns>A failure code if the vote is invalid, the player is not authorized, or the vote cannot be placed for another reason.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.CanAddCandidate(System.String)">
+            <summary>
+            Returns whether the given user is legally able to run in the current election if there is one,
+            or create a new election and run in it if there isn't one.
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.AddCandidate(System.String,System.String)">
+            <summary>
+            Adds the given user as a candidate for the current election.  If there is no election currently ongoing, a new election is started.
+            </summary>
+            <param name="speech">The user's candidate speech for this election</param>
+            <param name="authtoken">The user's authtoken</param>
+            <returns>A failure code if the user is not authorized</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.RemoveCandidate(System.String)">
+            <summary>
+            Removes the given candidate from the currently ongoing election.
+            </summary>
+            <param name="authtoken">The user's authcode</param>
+            <returns>A failure code if the user could not be authorized or was not a candidate in a currently running election.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.ForceElectionEnd(System.String)">
+            <summary>
+            Forces the currently running election to end now, and for the current election winner to become the leader.
+            Can only be called by an admin or dev.
+            </summary>
+            <param name="authtoken">The user's authtoken</param>
+            <returns>A failure code if the user is not authorized, or if there is no election currently running</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ElectionController.AddComment(Eco.Webserver.DataTransferObjects.ChatMessage,System.String)">
+            <summary>
+            Adds a comment to the currently running election, if any.
+            </summary>
+            <param name="comment">The comment to be added to the election</param>
+            <param name="authtoken">The user's authtoken</param>
+            <returns>A failure code if the user is not authorized or there is no election running.</returns>
+        </member>
+        <member name="T:Eco.Webserver.Web.Controllers.LawController">
+            <summary>
+            The API controller in charge of the law system
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.ListLaws">
+            <summary>
+            Returns all laws currently present in the game - that is, all active laws and all laws that are currently being voted on.
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.ListFailedLaws">
+            <summary>
+            Returns all proposed laws whose voting period has ended and which were not passed.
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.ListLawActivity(System.Double,System.Double,System.Boolean)">
+            <summary>
+            Returns a list of law related events ocurring during the given period, sorted by when they occurred. Types of events are:
+            <ul>
+            <li>proposed</li>
+            <li>passed</li>
+            <li>failed</li>
+            <li>votedOn by one or more people (event time will be time of the earliest vote within time period)</li>
+            <li>commentedOn by one or more people (event time will be time of the earliest comment within time period)</li>
+            </ul>
+            </summary>
+            <param name="startDay">The lower bound of the time period. Default is 0.</param>
+            <param name="endDay">The upper bound of the time period. Default is now.</param>
+            <param name="includeVoteChanges">Whether to count a player changing their vote as a new vote. Default is true.</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.GetPlayerActivity(System.String,System.Double,System.Double)">
+            <summary>
+            Returns a summary of a player's law related activity within the given time range.
+            </summary>
+            <param name="username">The username of the player in question.</param>
+            <param name="startDay">The lower bound on the time range. Default is 0.</param>
+            <param name="endDay">The upper bound on the time range. Default is now.</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.CanAddLaw(System.String)">
+            <summary>
+            Returns whether this user is currently allowed to propose a law.
+            </summary>
+            <param name="authtoken">The authtoken of the user in question</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.GetLaw(System.Guid)">
+            <summary>
+            Returns the law with the specified id.
+            </summary>
+            <param name="id">Unique ID of the law</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.AddLaw(Eco.Webserver.DataTransferObjects.AddLawCommand)">
+            <summary>
+            Proposes a new law, using the saved law logic draft for this user.
+            </summary>
+            <param name="command">New law data.  Logic is required, all others are optional.</param>
+            <returns>A failure code if the law cannot be added.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.AddComment(Eco.Webserver.DataTransferObjects.ChatMessage,System.Guid,System.String)">
+            <summary>
+            Adds a comment to a given law.
+            </summary>
+            <param name="comment">The comment structure itself.</param>
+            <param name="lawguid">The GUID of the law</param>
+            <param name="authtoken">Authtoken of the user.</param>
+            <returns>A failure code if the comment cannot be added.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.GetComments(System.Guid)">
+            <summary>
+            Returns comments for a law
+            </summary>
+            <param name="lawguid">Id of the law</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.ForceAddAllLaws(System.String)">
+            <summary>
+            Sets all proposed laws into effect. Can only be done by a dev or admin.
+            </summary>
+            <param name="authtoken">The authtoken of the user.</param>
+            <returns>A failure code if the user was unauthorized.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.ClearLaws(System.String)">
+            <summary>
+            Completely removes all proposed and active laws. Can only be done by a dev or admin.
+            </summary>
+            <param name="authtoken">The authtoken of the user.</param>
+            <returns>A failure code if the user was unauthorized.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.CancelLaw(System.Guid,System.String)">
+            <summary>
+            Cancel a law. Can only be done by a dev or admin.
+            </summary>
+            <param name="guid">GUID of the law</param>
+            <param name="authtoken">Authtoken of the user</param>
+            <returns>Ok if it was able to cancel the law</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.HandleVote(System.Guid,System.Boolean,System.String)">
+            <summary>
+            Votes for or against a law.
+            </summary>
+            <param name="id">Law that should be voted on</param>
+            <param name="agree">If the user is agreeing with the proposal, this ought to be <c>true</c>, otherwise <c>false.</c></param>
+            <param name="authtoken">Authtoken of the user</param>
+            <returns>Nothing in data; status code 200 if the request was handled successfully, another code otherwise.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.GetLogicDraft(System.String)">
+            <summary>
+            Gets the given user's current law draft.  If they have no existing draft, creates a new default draft.
+            </summary>
+            <param name="authtoken">The authtoken of the user whose law draft we want</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.LogicDraftSetString(System.String,System.String,Eco.Gameplay.LegislationSystem.LawLogic.Fields.DropDownOption)">
+            <summary>
+            Set the value of the given drop down in the given user's law draft.
+            </summary>
+            <param name="authtoken">The authtoken of the user editing the field</param>
+            <param name="fieldId">The field id of the drop down field whose value is being set</param>
+            <param name="value">The new value of the drop down field</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.LogicDraftSetNumber(System.String,System.String,System.Single)">
+            <summary>
+            Set the value of the given number field in the given user's law draft.
+            </summary>
+            <param name="authtoken">The authtoken of the user editing the field</param>
+            <param name="fieldId">The field id of the number field whose value is being set</param>
+            <param name="value">The new value of the number field</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.LogicDraftSetString(System.String,System.String,System.String)">
+            <summary>
+            Set the value of the given string field in the given user's law draft.
+            </summary>
+            <param name="authtoken">The authtoken of the user editing the field</param>
+            <param name="fieldId">The field id of the string field whose value is being set</param>
+            <param name="value">The new value of the string field</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.LogicDraftGetDistrictData(System.String,System.String)">
+            <summary>
+            Gets districts data for a district editor node in a user's law draft.
+            </summary>
+            <param name="authtoken">The authtoken of the user whose draft we are examining</param>
+            <param name="fieldId">The field id of the district editor node to reference</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.LogicDraftSetDistrictData(Eco.WebServer.DataTransferObjects.Districts,System.String,System.String)">
+            <summary>
+            Set the value of the given districts field in the given user's law draft.
+            </summary>
+            <param name="districts">The new districts data</param>
+            <param name="authtoken">The authtoken of the user editing the field</param>
+            <param name="fieldId">The field id of the districts field whose value is being set</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.LogicDraftListAdd(System.String,System.String)">
+            <summary>
+            Add a new element to the given list node in the given user's law draft.
+            </summary>
+            <param name="authtoken">The authtoken of the user performing the operation</param>
+            <param name="fieldId">The field id of the list node being added to</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.LogicDraftListRemove(System.String,System.String,System.Int32)">
+            <summary>
+            Remove the indicated element from the given list node in the given user's law draft.
+            </summary>
+            <param name="authtoken">The authtoken of the user performing the operation</param>
+            <param name="fieldId">The field id of the list node being removed from</param>
+            <param name="index">The index of the element to remove from the list</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.LogicDraftListSetIndex(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Moves the indicated element to a different index in the given list node in the given user's law draft.
+            </summary>
+            <param name="authtoken">The authtoken of the user performing the operation</param>
+            <param name="fieldId">The field id of the list node</param>
+            <param name="oldIndex">The original index of the element to move</param>
+            <param name="newIndex">The new index at which to place the element</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.LawController.ConvertToDto(Eco.Gameplay.Items.Law)">
+            <summary>
+            Converts a <see cref="T:Eco.Gameplay.Items.Law"/> to a <see cref="T:Eco.Webserver.DataTransferObjects.Law"/>
+            </summary>
+            <param name="law">Law that should be converted</param>
+            <returns>The law as data transfer object</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ChatController.GetChatLog(System.Double,System.Double)">
+            <summary>
+            Returns all non-private player chat messages sent within the given time range.
+            </summary>
+            <param name="startDay">The lower bound on the time range. Default is 0.</param>
+            <param name="endDay">The upper bound on the time range. Default is now.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ChatController.GetChatLog(System.String,System.Double,System.Double)">
+            <summary>
+            Returns all non-private player chat messages sent to the given tag within the given time range.
+            </summary>
+            <param name="tag">The tag name in question.</param>
+            <param name="startDay">The lower bound on the time range. Default is 0.</param>
+            <param name="endDay">The upper bound on the time range. Default is now.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ChatController.GetChatMessagesSentBy(System.String,System.Double,System.Double)">
+            <summary>
+            Returns all non-private chat messages sent by the given user within the given time range.
+            </summary>
+            <param name="username">The user in question.</param>
+            <param name="startDay">The lower bound on the time range. Default is 0.</param>
+            <param name="endDay">The upper bound on the time range. Default is now.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ChatController.GetNext(Eco.Webserver.DataTransferObjects.ChatMessage,System.Int32)">
+            <summary>
+            Gets the <code>numNextMessages</code> chat messages sent after the given message on the same tag.
+            </summary>
+            <param name="message">The message in question.</param>
+            <param name="numNextMessages">The number of following messages to return.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.ChatController.GetPrevious(Eco.Webserver.DataTransferObjects.ChatMessage,System.Int32)">
+            <summary>
+            Gets the <code>numPreviousMessages</code> chat messages sent before the given message on the same tag.
+            </summary>
+            <param name="message">The message in question.</param>
+            <param name="numPreviousMessages">The number of preceding messages to return.</param>
+            <returns></returns>
+        </member>
+        <member name="T:Eco.Webserver.Web.Controllers.PluginsController">
+            <summary>
+            The API controller in charge of the plugins and config
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.PluginsController.GetPlugins">
+            <summary>
+            Gets the list and status of all running plugins on the server
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.PluginsController.PostPluginConfig(System.String,System.String,Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            Sets the configuration options for the given plugin
+            </summary>
+            <param name="authtoken">Authentication token</param>
+            <param name="name">The name of the plugin.</param>
+            <param name="body">New plugin config.</param>
+        </member>
+        <member name="T:Eco.Webserver.Web.Controllers.StatsController">
+            <summary>
+            The API controller in charge of anything stats-y.
+            </summary>
+        </member>
+        <member name="F:Eco.Webserver.Web.Controllers.StatsController.MaximumSamples">
+            <summary>
+            Maximum amount of samples sent at any time. Proprietary number taken over from the old stats host.
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.StatsController.GetTimeRange">
+            <summary>
+            Returns the timerange of the simulation
+            </summary>
+            <returns>Range containing the timerange of the data, in days</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.StatsController.GetTreeList">
+            <summary>
+            Returns all dataset keys, formatted as a tree. Each key is a list of strings.  A key can be derived from the tree by
+            following any path from a root KeyFragment to a leaf KeyFragment, adding each KeyFragment encountered to a list of strings.
+            </summary>
+            <returns>List of dataset keys, formatted like so: <code>
+            [{"KeyFragment":"CategoryA", "Children":["KeyFragment":"StatA", "Children":[
+            "KeyFragment":"PlayerA", "Children": [],
+            "KeyFragment":"PlayerB", "Children": []
+            ]], "KeyFragment": ...]</code></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.StatsController.GetList">
+            <summary>
+            Returns all dataset keys, formatted as a list, where each key is a list of strings.
+            </summary>
+            <returns>List of dataset keys, formatted like so: <code>[["CategoryA", "StatA", "PlayerA"], ["CategoryB", "StatB"], ...]</code></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.StatsController.GetInfo(System.String[])">
+            <summary>
+            Returns additional metadata associated with this dataset.
+            </summary>
+            <param name="key">The key of the dataset.</param>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.StatsController.GetClassicList">
+            <summary>
+            Classic list.  Deprecated: Use treelist or flatlist instead.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.StatsController.Get(System.String[],System.Double,System.Double)">
+            <summary>
+            Returns <see cref="F:Eco.Webserver.Web.Controllers.StatsController.MaximumSamples"/> data points between <paramref name="time_start"/> and <paramref name="time_end"/> of the selected data.
+            If there are more than <see cref="F:Eco.Webserver.Web.Controllers.StatsController.MaximumSamples"/> samples, it will be averaged out to contain exactly <see cref="F:Eco.Webserver.Web.Controllers.StatsController.MaximumSamples"/>.
+            </summary>
+            <param name="dataset">dataset to take the data from</param>
+            <param name="time_start">Day from which on data is returned. Default is 0.</param>
+            <param name="time_end">Day until which data is returned. Default is now.</param>
+            <returns>A list of floats that returns the data. Might be averaged out if there were too many data points.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.StatsController.Package(System.Int32,System.Nullable{System.Int32},System.Collections.Generic.List{System.String[]})">
+            <summary>
+            Returns a "package" of multiple statistics in the order of their request.
+            </summary>
+            <param name="dayStart">Day from which the data should be taken from. Default is 0.</param>
+            <param name="dayEnd">Day until which data is returned. Default is now.</param>
+            <param name="requestedSets">A list of statistics that should be returned</param>
+            <returns>The statistics to each of the sets, or null if not found, in the order of their request.</returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.StatsController.Graphs">
+            <summary>
+            Returns the list of premade graphs to be displayed on the front page.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.Controllers.StatsController.GenerateTestData(System.Single,System.Int32,System.Boolean,System.Single)">
+            <summary>
+            Generates fake stat data for testing.
+            </summary>
+            <param name="days">The number of days to simulate.</param>
+            <param name="users">The number of users to simulate.</param>
+            <param name="generateClimateData">Whether to generate climate data. Default is false.</param>
+            <param name="pollutionMultiplier">How much pollution to generate. Default is 1.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Eco.Webserver.Web.OwinStartup.GetXmlCommentsFile">
+            <summary>
+            Gets the path for the xml documentation file, used in the web api.
+            </summary>
+            <returns>Absolute Path to web api documentation file</returns>
+        </member>
+        <member name="T:Eco.Webserver.Controllers.MapController">
+            <summary>
+            The API controller in charge of the map and entities found on it
+            </summary>
+        </member>
+        <member name="M:Eco.Webserver.Controllers.MapController.EntityTypes">
+            <summary>
+            Allows access to all species currently available in the simulation.
+            </summary>
+            <returns>A list of all species</returns>
+        </member>
+        <member name="M:Eco.Webserver.Controllers.MapController.Entities(System.String[],System.String[])">
+            <summary>
+            Allows access to all entities currently available in the simulation.
+            </summary>
+            <param name="entityTypes">A list of user type names that will be used to filter the response</param>
+            <param name="states">A list of Animal states that will be used to filter the response</param>
+            <returns>A list of the positions of all organisms</returns>
+        </member>
+        <member name="M:Eco.Webserver.Controllers.MapController.GetDimension">
+            <summary>
+            Returns the dimension of the world, in blocks.
+            </summary>
+            <returns>The world size as vector3</returns>
+        </member>
+        <member name="M:Eco.Webserver.Controllers.MapController.LayerList">
+            <summary>
+            List Layer Names
+            </summary>
+            <returns>A list of all layers</returns>
+        </member>
+        <member name="M:Eco.Webserver.Controllers.MapController.MakeMapJSON">
+            <summary>
+            One request to get all required web map data
+            </summary>
+            <returns>layer names, property list, water level, world time</returns>
+        </member>
+        <member name="M:Eco.Webserver.Controllers.MapController.WaterLevel">
+            <summary>
+            Get water height.
+            </summary>
+            <returns>Water Level</returns>
+        </member>
+        <member name="M:Eco.Webserver.Controllers.MapController.GetInitLayers">
+            <summary>
+            Get layer data
+            </summary>
+            <returns> Layer data in a base64 bson string </returns>
+        </member>
+        <member name="T:Eco.WebServer.Web.Controllers.AdminController">
+            <summary>
+            Admin Controller
+            </summary>
+        </member>
+        <member name="M:Eco.WebServer.Web.Controllers.AdminController.Access(System.String,System.String,System.String)">
+            <summary>
+            Sets how accessible this server is.
+            <param name="authtoken">Authtoken from client.</param>
+            <param name="value">Can be 'public' (available on public server registry), 'private' (requires a password), or 'hidden' (no password, but not on server registry).</param>
+            <param name="password">If setting private, must set a password. If not set to private, this is unused.</param>
+            </summary>
+        </member>
+        <member name="T:Eco.WebServer.Web.Controllers.WorldLayerController">
+            <summary>
+            The API controller that exposes world layers and their relationships.
+            </summary>
+        </member>
+        <member name="M:Eco.WebServer.Web.Controllers.WorldLayerController.ListLayers">
+            <summary>
+            Enumerates every world layer in the simulation.
+            </summary>
+            <returns>A list of all layers in the simulation.</returns>
+        </member>
+        <member name="M:Eco.WebServer.Web.Controllers.WorldLayerController.ListRelevantLayers(System.String,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Enumerates the layers that should be displayed when the user is focused on a particular layer and world area.
+            </summary>
+            <param name="focusLayer">Name of the layer we're querying.</param>
+            <param name="minX">The least x boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <param name="minY">The least y boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <param name="maxX">The greatest x boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <param name="maxY">The greatest y boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <returns>
+            An array of structures describing the layers that should be displayed.
+            </returns>
+        </member>
+        <member name="M:Eco.WebServer.Web.Controllers.WorldLayerController.AreaDescription(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Describes the area selected with a string.
+            </summary>
+            <param name="minX">The least x boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <param name="minY">The least y boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <param name="maxX">The greatest x boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <param name="maxY">The greatest y boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <returns>
+            An string describing the requested area.
+            </returns>
+        </member>
+        <member name="M:Eco.WebServer.Web.Controllers.WorldLayerController.ListRelevantRelationships(System.String,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Enumerates the layer relationships that should be displayed when the user is focused on a particular layer and world area.
+            </summary>
+            <param name="focusLayer">The name of the focused layer.</param>
+            <param name="minX">The least x boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <param name="minY">The least y boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <param name="maxX">The greatest x boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <param name="maxY">The greatest y boundary of the viewed area, in world coordinates.  Should not be wrapped.</param>
+            <returns>
+            An array of structures describing the layer relationships that should be displayed.
+            </returns>
+        </member>
+    </members>
+</doc>

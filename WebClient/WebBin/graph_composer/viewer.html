@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="../inc/js/jquery/jquery-1.11.1.min.js"></script>
+	<script src="../inc/js/highcharts/highcharts.js"></script>
+	<script src="../inc/js/highcharts/modules/exporting.js"></script>
+	<script src="script/graph-iframe.js"></script>
+	
+<link rel="stylesheet" type="text/css" href="../inc/css/pax_demo.css">
+	<style type="text/css">
+		body {
+			margin: 0;
+			background: transparent;
+		}
+		#graph
+		{
+			overflow: hidden;
+			background: white;
+			-webkit-box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.3);
+			box-shadow: 1px 1px 10px -2px rgba(0,0,0,0.3);
+		}
+	</style>
+</head>
+
+<body>
+	<div id="graph"></div>
+	<script>
+	function getGraphData(category, timemin, timemax) {
+		$( function ()
+		{
+			$('#graph').height( '498px' );
+			// Create the graph class
+			var graph = new DatasetGraph('#graph');
+			
+			graph.extendedOptions = { 
+				chart: { 
+						style: {
+							 fontFamily: 'Dosis',
+						},
+						backgroundColor: null,
+						spacingBottom: 20,
+					spacingTop: 10,
+					spacingLeft: 0,
+					spacingRight: 10,
+					marginBottom: 110,
+					marginTop: 50,
+					marginLeft: 65,
+					marginRight: 30,
+					backgroundColor:"#e8ffdf"
+				},
+				title: {
+					style: {
+					 color: '#434348',
+					 fontSize: '25px'
+					},
+				},
+				legend: {
+					itemHiddenStyle: '#4f7b3f',
+					itemStyle: {
+						fontSize: 15
+					},
+					maxHeight:65,
+					itemMarginTop:2
+				},
+				yAxis: {
+					  gridLineColor: '#4f7b3f',
+					  labels: {
+						 style: {
+							 fontSize: '15px',
+							color: '#434348'
+						 }
+					  },
+					  lineColor: '#4f7b3f',
+					  minorGridLineColor: '#4f7b3f',
+					  tickColor: '#4f7b3f',	 
+				 },
+				xAxis: {
+					  gridLineColor: '#4f7b3f',
+					  labels: {
+						 style: {
+							fontSize: '15px',
+							color: '#434348'
+						 }
+					  },
+					  lineColor: '#4f7b3f',
+					  minorGridLineColor: '#4f7b3f',
+					  tickColor: '#4f7b3f',
+					  title: {
+						  offset: 25,
+						 style: {
+							color: '#434348',
+							fontSize:'17px'
+						 }
+					  }
+				},
+				navigation: {
+				  buttonOptions: {
+					 symbolStroke: '#434348',
+					 theme: {
+						/*fill: '#DBFFCF'*/
+					 }
+				  },
+				  menuStyle: {
+				border: '1px solid #477D32',
+				background: '#E4EDE1'
+				 }
+			   }
+			};
+
+			if(timemax == timemin){
+				graph.setType("column");
+			}
+			graph.load(category, timemin, timemax, function()
+			{
+				graph.showTitle(true);
+			});
+		} );
+		
+	};
+	</script>
+</body>
