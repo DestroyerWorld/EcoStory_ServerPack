@@ -507,3 +507,85 @@
  
 [18:54:12.139] [6] [ Info] [Eco] Пользователь с неверными данными пытался соединится: qqmaks
  
+[18:58:21.705] [145] [ Info] [Eco] DISCORDLINK ERROR: System.AggregateException: Exceptions occured within one or more event handlers. Check InnerExceptions for details. ---> System.Exception: Authentication failed. Check your token and try again. ---> DSharpPlus.Exceptions.UnauthorizedException: Unauthorized: 401
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в DSharpPlus.DiscordClient.<InternalUpdateGatewayAsync>d__308.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в DSharpPlus.DiscordClient.<InternalConnectAsync>d__237.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в DSharpPlus.DiscordClient.<ConnectAsync>d__234.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в DSharpPlus.DiscordClient.<ConnectAsync>d__234.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в DSharpPlus.DiscordClient.<<InternalConnectAsync>b__237_1>d.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   в DSharpPlus.AsyncEvent`1.<InvokeAsync>d__13.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+---> (Внутреннее исключение #0) System.Exception: Authentication failed. Check your token and try again. ---> DSharpPlus.Exceptions.UnauthorizedException: Unauthorized: 401
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   в DSharpPlus.DiscordClient.<InternalUpdateGatewayAsync>d__308.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в DSharpPlus.DiscordClient.<InternalConnectAsync>d__237.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в DSharpPlus.DiscordClient.<ConnectAsync>d__234.MoveNext()
+   --- Конец трассировки внутреннего стека исключений ---
+   в DSharpPlus.DiscordClient.<ConnectAsync>d__234.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   в DSharpPlus.DiscordClient.<<InternalConnectAsync>b__237_1>d.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   в DSharpPlus.AsyncEvent`1.<InvokeAsync>d__13.MoveNext()<---
+
+ 
+[19:11:52.813] [136] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-19.07.41
+ 
+[19:41:51.188] [148] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-06-18.41.39
+ 
+[20:11:51.759] [9] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-20.07.41
+ 
+[20:41:50.681] [183] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-06-19.41.39
+ 
+[21:05:31.621] [140] [ Info] [Eco] Пользователь с неверными данными пытался соединится: Goldberg
+ 
+[21:06:00.475] [140] [ Info] [Eco] Пользователь с неверными данными пытался соединится: Goldberg
+ 
+[21:11:52.381] [150] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-05-21.07.41
+ 
+[21:35:06.550] [141] [ Info] [Eco] Пользователь с неверными данными пытался соединится: Persona 
+ 
+[21:41:41.501] [161] [ Info] [log] letmeplay invoked admin command '/save' 
+[21:41:41.501] [9] [ Info] [Eco] Сохранение мира...  
+[21:41:53.259] [6] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-06-20.41.39
+ 
+[21:46:34.412] [161] [ Info] [log] letmeplay invoked admin command '/save' 
+[21:46:34.412] [152] [ Info] [Eco] Сохранение мира...  
+[21:47:36.305] [1] [ Info] [Eco] Сохранение...
+ 
+[21:47:36.305] [1] [ Info] [Eco] Сохранение мира...  
