@@ -1,0 +1,783 @@
+[03:43:00.830] [1] [ Info] [Eco] >>> START EcoServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[03:43:00.859] [1] [ Info] [Eco] Eco Server 0.8.3.2 beta
+ 
+[03:43:00.932] [1] [ Info] [Eco] Server Initialization...  
+[03:43:00.932] [1] [ Info] [Eco] Starting LocalizationPlugin...  
+[03:43:01.295] [1] [ Info] [Eco] Запуск ПлагинНабораМодификаций...  
+[03:43:01.295] [1] [ Info] [Eco] Загрузка модификаций...  
+[03:43:01.424] [1] [ Info] [Eco] Компилирование модификаций...  
+[03:43:02.919] [1] [ Info] [Eco] Загружаем 0Harmony...
+ 
+[03:43:02.922] [1] [ Info] [Eco] Загружаем Asphalt-ModKit...
+ 
+[03:43:03.045] [1] [ Info] [Eco] Загружаем Eco.IntegrationTests...
+ 
+[03:43:03.045] [1] [ Info] [Eco] Загружаем DiscordLinkUnified...
+ 
+[03:43:03.105] [1] [ Info] [Eco] Загружаем HPStorage...
+ 
+[03:43:03.113] [1] [ Info] [Eco] Загрузка модификаций завершена за 1 815,3мс
+ 
+[03:43:03.113] [1] [ Info] [Eco] Запуск МенеджерСети...  
+[03:43:03.127] [7] [ Info] [Eco] Инициализация типов симуляции...  
+[03:43:03.193] [9] [ Info] [Eco] Запуск ПлагинГенератораМира...  
+[03:43:03.193] [13] [ Info] [Eco] Запуск ПлагинРезервногоКопирования...  
+[03:43:03.193] [6] [ Info] [Eco] Запуск ПлагинИгровойСтатистики...  
+[03:43:03.204] [13] [ Info] [Eco] Запуск МенеджерХранилища...  
+[03:43:04.535] [7] [ Info] [Eco] Инициализация предметов...  
+[03:43:05.411] [13] [ Info] [Eco] Запуск Плагин паузы...  
+[03:43:05.421] [13] [ Info] [Eco] Загружаем Pause...  
+[03:43:07.213] [7] [ Info] [Eco] Инициализация навыков...  
+[03:43:07.306] [13] [ Info] [Eco] Запуск БДСтатистики...  
+[03:43:07.306] [10] [ Info] [Eco] Запуск ПлагинМира...  
+[03:43:07.351] [10] [ Info] [Eco] Загружаем World...  
+[03:43:10.726] [10] [ Info] [Eco] Инициализация мира...  
+[03:43:12.409] [10] [ Info] [Eco] Запуск ПлагинВремени...  
+[03:43:12.409] [10] [ Info] [Eco] Загружаем Time...  
+[03:43:12.420] [10] [ Info] [Eco] Запуск ПлагинРепутации...  
+[03:43:12.420] [10] [ Info] [Eco] Загружаем Reputation...  
+[03:43:12.443] [10] [ Info] [Eco] Запуск МенеджерЖильяИгроков...  
+[03:43:12.443] [10] [ Info] [Eco] Запуск МенеджерПользователей...  
+[03:43:12.493] [10] [ Info] [Eco] Загружаем Users...  
+[03:43:12.840] [10] [ Info] [Eco] Инициализация инвентарей...  
+[03:43:12.888] [10] [ Info] [Eco] Запуск МенеджерОбъектовЭко...  
+[03:43:12.903] [10] [ Info] [Eco] Загружаем Objects...  
+[03:43:13.134] [13] [ Info] [Eco] Запуск ПлагинМусора...  
+[03:43:13.134] [36] [ Info] [Eco] Запуск VoiceManager...  
+[03:43:13.134] [31] [ Info] [Eco] Запуск ПлагинУгроз...  
+[03:43:13.134] [30] [ Info] [Eco] Запуск МенеджерКонтроллера...  
+[03:43:13.134] [11] [ Info] [Eco] Запуск НастройкиСложности...  
+[03:43:13.139] [13] [ Info] [Eco] Загружаем Garbage...  
+[03:43:13.139] [10] [ Info] [Eco] Запуск ПлагинЭкономики...  
+[03:43:13.139] [18] [ Info] [Eco] Запуск СерверЧата...  
+[03:43:13.139] [31] [ Info] [Eco] Загружаем Disasters...  
+[03:43:13.139] [10] [ Info] [Eco] Загружаем Economy...  
+[03:43:13.683] [10] [ Info] [Eco] Запуск Законодательство...  
+[03:43:13.683] [18] [ Info] [Eco] Загружаем Chat...  
+[03:43:18.757] [10] [ Info] [Eco] Загружаем Laws...  
+[03:43:18.886] [10] [ Info] [Eco] Запуск МенеджерСобственности...  
+[03:43:18.890] [10] [ Info] [Eco] Загружаем Property...  
+[03:43:19.019] [10] [ Info] [Eco] Запуск МенеджерМиникарты...  
+[03:43:19.019] [10] [ Info] [Eco] Запуск СимуляцияЭко...  
+[03:43:19.094] [10] [ Info] [Eco] Загружаем Plants...  
+[03:43:20.441] [10] [ Info] [Eco] Инициализация растений...  
+[03:43:26.718] [10] [ Info] [Eco] Запуск RouteProbingPlugin...  
+[03:43:26.718] [10] [ Info] [Eco] Загружаем RouteProbing...  
+[03:43:29.069] [10] [ Info] [Eco] Запуск МенеджерСлоёвМира...  
+[03:43:29.069] [10] [ Info] [Eco] Загружаем Layers...  
+[03:43:29.780] [10] [ Info] [Eco] Инициализация слоёв мира...  
+[03:43:29.780] [10] [ Info] [Eco] Загружаем ClimateSim...  
+[03:43:32.663] [10] [ Info] [Eco] Запуск ТрекерЭкономики...  
+[03:43:32.673] [10] [ Info] [Eco] Запуск UserTracker...  
+[03:43:32.673] [10] [ Info] [Eco] Запуск МенеджерМировыхОбъектов...  
+[03:43:32.764] [10] [ Info] [Eco] Загружаем WorldObjects...  
+[03:43:33.799] [10] [ Info] [Eco] Запуск ПлагинКомнат...  
+[03:43:33.799] [10] [ Info] [Eco] Загружаем Rooms...  
+[03:43:33.817] [10] [ Info] [Eco] Запуск ПлагинЦелей...  
+[03:43:33.817] [10] [ Info] [Eco] Загружаем Objectives...  
+[03:43:33.840] [10] [ Info] [Eco] Запуск ПлагинСна...  
+[03:43:33.843] [10] [ Info] [Eco] Загружаем Sleep...  
+[03:43:33.843] [1] [ Info] [Eco] Запуск ПлагинВебСервера...  
+[03:43:33.863] [1] [ Info] [Eco] Запуск OtherAliasCategory...  
+[03:43:33.863] [29] [ Info] [Eco] Запуск Asphalt...  
+[03:43:33.863] [12] [ Info] [Eco] Запуск DiscordLink...  
+[03:43:33.863] [8] [ Info] [Eco] Запуск ПлагинТестовИнтеграции...  
+[03:43:33.971] [1] [ Info] [Eco] Инициализируем ПлагинПеревода...  
+[03:43:33.971] [1] [ Info] [Eco] Инициализируем ПлагинНабораМодификаций...  
+[03:43:34.183] [1] [ Info] [Eco] Инициализируем ПлагинГенератораМира...  
+[03:43:34.183] [1] [ Info] [Eco] Инициализируем МенеджерПользователей...  
+[03:43:34.279] [1] [ Info] [Eco] Инициализируем ПлагинМусора...  
+[03:43:34.297] [1] [ Info] [Eco] Инициализируем ПлагинЭкономики...  
+[03:43:34.407] [1] [ Info] [Eco] Инициализируем Законодательство...  
+[03:43:54.089] [1] [ Info] [Eco] Инициализируем МенеджерСобственности...  
+[03:43:54.122] [1] [ Info] [Eco] Инициализируем МенеджерМиникарты...  
+[03:43:55.113] [1] [ Info] [Eco] Инициализируем UserTracker...  
+[03:43:55.125] [1] [ Info] [Eco] Инициализируем МенеджерМировыхОбъектов...  
+[03:44:01.646] [1] [ Info] [Eco] Инициализируем ПлагинКомнат...  
+[03:44:04.526] [1] [ Info] [Eco] Инициализируем ПлагинСна...  
+[03:44:04.526] [1] [ Info] [Eco] Инициализируем DiscordLink...  
+[03:44:04.559] [1] [ Info] [Eco] Инициализируем ПлагинМира...  
+[03:44:04.562] [1] [ Info] [Eco] Обработка...  
+[03:44:07.275] [30] [ Info] [Eco] DISCORDLINK: Connected to Discord.
+
+ 
+[03:44:07.364] [1] [ Info] [Eco] Сжатие...  
+[03:44:08.425] [32] [ Info] [Eco] DISCORDLINK: Connected and Ready
+ 
+[03:44:11.652] [1] [ Info] [Eco] Инициализируем МенеджерСети...  
+[03:44:11.955] [1] [ Info] [Eco] Инициализируем МенеджерСлоёвМира...  
+[03:44:11.955] [1] [ Info] [Eco] Инициализируем ПлагинВебСервера...  
+[03:44:12.734] [1] [ Info] [Eco] Инициализируем ПлагинТестовИнтеграции...  
+[03:44:12.766] [1] [ Info] [Eco] Server Initialization завершена за 71 833,3мс
+ 
+[03:44:24.233] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.DataPage".
+ 
+[03:44:25.457] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:26.559] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:26.559] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:26.559] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:41.005] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:41.005] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:41.005] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:42.259] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:42.271] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:42.271] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:42.271] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:42.271] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:42.271] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:42.271] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:58.865] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:58.865] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:44:58.865] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:24.773] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:28.154] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:28.156] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:28.156] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:30.532] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:31.694] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:32.873] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:32.873] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:32.873] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:35.167] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:35.167] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:35.167] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:41.062] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:58.388] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:58.388] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:45:58.390] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:25.035] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:28.448] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:28.448] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:28.453] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:32.106] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:32.124] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:32.124] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:32.124] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:34.497] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:34.497] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:34.499] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:40.378] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:42.730] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:42.730] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:42.733] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:58.263] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:58.264] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:46:58.264] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:13.050] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:25.073] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:28.509] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:28.509] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:28.509] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:32.126] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:32.146] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:32.146] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:32.146] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:32.172] [30] [ Info] [log] letmeplay invoked admin command '/give storagerack,3' 
+[03:47:34.552] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:34.552] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:34.552] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:36.101] [30] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:37.059] [30] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:40.300] [30] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:43.052] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:47.890] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:50.320] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:50.320] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:50.320] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:56.349] [30] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:57.294] [30] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:58.265] [30] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:58.611] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:58.611] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:47:58.611] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:02.066] [30] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:03.270] [30] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:04.151] [30] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:10.721] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:13.057] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:25.373] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:28.889] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:28.889] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:28.889] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:32.681] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:33.892] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:33.892] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:33.892] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:37.537] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:38.729] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:39.924] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:41.124] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:41.124] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:42.329] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:43.059] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:43.506] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:44.698] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:45.889] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:47.098] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:48.288] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:54.210] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:55.425] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:55.425] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:55.425] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:57.856] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:57.856] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:57.858] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:58.979] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:58.979] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:48:58.979] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:13.060] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:25.333] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:28.788] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:28.788] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:28.788] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:32.462] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:33.710] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:33.710] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:33.710] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:43.062] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:58.865] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:58.865] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:49:58.865] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:00.147] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:01.366] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:01.366] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:01.366] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:03.825] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:03.827] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:03.827] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:13.063] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:25.685] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:29.165] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:29.171] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:29.171] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:31.670] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:32.896] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:32.896] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:32.896] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:43.065] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:58.376] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:58.376] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:50:58.376] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:06.945] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:09.515] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:09.515] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:09.515] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:13.066] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:25.554] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:29.044] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:29.045] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:29.045] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:32.778] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:32.796] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:32.796] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:32.796] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:35.247] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:35.247] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:35.250] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:41.440] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:43.068] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:58.257] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:58.257] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:51:58.257] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:13.069] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:13.998] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:16.679] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:16.679] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:16.679] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:21.159] [30] [ Info] [log] letmeplay invoked admin command '/save' 
+[03:52:21.159] [136] [ Info] [Eco] Сохранение мира...  
+[03:52:25.655] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:29.281] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:29.281] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:29.281] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:32.009] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:32.033] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:32.033] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:32.033] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:34.490] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:34.490] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:34.490] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:43.076] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:58.990] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:58.990] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:52:58.990] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:13.078] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:14.664] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:18.322] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:18.322] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:18.322] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:20.805] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:23.261] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:23.261] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:23.261] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:25.785] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:28.050] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:28.050] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:28.050] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:31.701] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:32.912] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:32.912] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:32.912] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:43.079] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:58.551] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:58.551] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:53:58.551] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.080] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.378] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.390] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.390] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.390] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.390] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.390] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.390] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.390] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.390] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.390] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.405] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.421] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.437] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.452] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:13.468] [163] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:25.568] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:27.947] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:29.109] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:29.109] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:29.109] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:29.205] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:29.205] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:29.205] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:31.690] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:31.712] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:31.712] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:31.712] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:34.569] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:34.684] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:34.834] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:41.277] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:43.082] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:58.631] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:58.631] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:54:58.631] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:12.949] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:13.084] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:24.977] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:28.501] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:28.501] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:28.501] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:32.505] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:32.531] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:32.531] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:32.531] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:37.534] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:38.791] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:38.791] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:38.791] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:41.417] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:41.417] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:41.417] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:42.951] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:43.085] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:58.845] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:58.845] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:55:58.845] [167] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:56:12.951] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
+[03:56:13.087] [13] [ Info] [Eco] Ошибка при записи статистики в БД: InvalidCastException Не удалось привести тип объекта "LiteDB.EmptyPage" к типу "LiteDB.HeaderPage".
+ 
