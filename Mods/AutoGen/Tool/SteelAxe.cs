@@ -58,7 +58,7 @@ namespace Eco.Mods.TechTree
         public override IDynamicValue SkilledRepairCost { get { return skilledRepairCost; } }
 
 
-        public override float DurabilityRate { get { return DurabilityMax / 1250f; } }
+        public override float DurabilityRate { get { return DurabilityMax / 7500f; } }
         
         public override Item RepairItem         {get{ return Item.Get<SteelItem>(); } }
         public override int FullRepairAmount    {get{ return 8; } }

@@ -1,7 +1,7 @@
 {
-  "CollaborationPreset": "HighCollaboration",
+  "CollaborationPreset": "MediumCollaboration",
   "UnlearnRefundRate": 0.5,
-  "SpecialtyCostMultiplier": 2.0,
+  "SpecialtyCostMultiplier": 1.0,
   "SkillGainMultiplier": 1.0,
   "SpecialtyExperienceDivisor": 20.0,
   "SpecialtyExperiencePerLevel": 25.0,
