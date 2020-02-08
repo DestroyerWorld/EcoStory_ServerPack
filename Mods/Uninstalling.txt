@@ -1,0 +1,8 @@
+Our modpack now alters the vanilla files of your server for the New auto door feature, if you don't want the vanilla auto doors follow this process
+
+Extract The uninstall.zip directly into your mods folder.
+When Prompted to overwrite the files click accept.
+Navigate to EM-Assets Folder Located in the ElixrMods-FullPack-Vx Folder and delete em-autovanilla.unity3d to remove the vanilla door animation/texture changes
+Done.
+
+Please ensure that the em-doors.dll provided in the uninstall zip overwrites the old one or is deleted if the doors pack isn't wanted

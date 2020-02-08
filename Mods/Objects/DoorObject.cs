@@ -1,9 +1,10 @@
 ﻿// Copyright (c) Strange Loop Games. All rights reserved.
 // See LICENSE file in the project root for full license information.
-namespace Eco.Mods.TechTree
+/*namespace Eco.Mods.TechTree
 {
     using Eco.Gameplay.Audio;
     using Eco.Gameplay.Interactions;
+    using Eco.Gameplay.Components;
     using Eco.Gameplay.Objects;
     using Eco.Gameplay.Wires;
     using Eco.Shared.Math;
@@ -13,6 +14,8 @@ namespace Eco.Mods.TechTree
     using Eco.Shared.Utils;
     using Eco.Gameplay.Players;
 
+
+    [RequireComponent(typeof(OnOffComponent))]
     public partial class DoorObject : WorldObject, IWireContainer
     {
         [Serialized] public bool OpensOut { get; private set; }
@@ -70,5 +73,7 @@ namespace Eco.Mods.TechTree
 
             this.SetDirty();
         }
+
     }
 }
+*/
