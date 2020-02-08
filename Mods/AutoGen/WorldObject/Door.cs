@@ -1,4 +1,4 @@
-namespace Eco.Mods.TechTree
+/*namespace Eco.Mods.TechTree
 {
     // [DoNotLocalize]
     using System;
@@ -39,7 +39,7 @@ namespace Eco.Mods.TechTree
         WorldObject,    
         IRepresentsItem
     {
-        public override LocString DisplayName { get { return Localizer.DoStr("Door"); } } 
+         public override LocString DisplayName { get { return Localizer.DoStr("Door"); } } 
 
         public virtual Type RepresentedItemType { get { return typeof(DoorItem); } } 
 
@@ -97,4 +97,4 @@ namespace Eco.Mods.TechTree
             CraftingComponent.AddRecipe(typeof(CarpentryTableObject), this);
         }
     }
-}
+}*/

@@ -1,4 +1,4 @@
-namespace Eco.Mods.TechTree
+/*namespace Eco.Mods.TechTree
 {
     // [DoNotLocalize]
     using System;
@@ -35,7 +35,7 @@ namespace Eco.Mods.TechTree
     [RequireComponent(typeof(PropertyAuthComponent))]
     [RequireComponent(typeof(SolidGroundComponent))]            
     public partial class FramedGlassDoorObject : 
-        DoorObject, 
+        DoorObject,
         IRepresentsItem
     {
         public override LocString DisplayName { get { return Localizer.DoStr("Framed Glass Door"); } } 
@@ -96,4 +96,4 @@ namespace Eco.Mods.TechTree
             CraftingComponent.AddRecipe(typeof(RoboticAssemblyLineObject), this);
         }
     }
-}
+}*/

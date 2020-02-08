@@ -254,7 +254,7 @@ namespace Eco.Mods
             new BlockOccupancy(new Vector3i(0, 2, 0)),
             new BlockOccupancy(new Vector3i(0, 2, 1)),
             });
-            // DoorObject
+            /*// DoorObject
             WorldObject.AddOccupancy<DoorObject>(new List<BlockOccupancy>(){
             new BlockOccupancy(new Vector3i(0, 0, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
             new BlockOccupancy(new Vector3i(0, 1, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
@@ -263,7 +263,7 @@ namespace Eco.Mods
             WorldObject.AddOccupancy<FramedGlassDoorObject>(new List<BlockOccupancy>(){
             new BlockOccupancy(new Vector3i(0, 0, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
             new BlockOccupancy(new Vector3i(0, 1, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
-            });
+            });*/
             // ElectricWallLampObject
             WorldObject.AddOccupancy<ElectricWallLampObject>(new List<BlockOccupancy>(){
             new BlockOccupancy(new Vector3i(0, 0, 0)),
@@ -1641,7 +1641,7 @@ namespace Eco.Mods
             new BlockOccupancy(new Vector3i(0, 0, 0)),
             new BlockOccupancy(new Vector3i(0, 1, 0)),
             });
-            // HewnLogDoorObject
+           /*// HewnLogDoorObject
             WorldObject.AddOccupancy<HewnLogDoorObject>(new List<BlockOccupancy>(){
             new BlockOccupancy(new Vector3i(0, 0, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
             new BlockOccupancy(new Vector3i(0, 1, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
@@ -1655,7 +1655,7 @@ namespace Eco.Mods
             WorldObject.AddOccupancy<LumberDoorObject>(new List<BlockOccupancy>(){
             new BlockOccupancy(new Vector3i(0, 0, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
             new BlockOccupancy(new Vector3i(0, 1, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
-            });
+            });*/
             // StuffedElkObject
             WorldObject.AddOccupancy<StuffedElkObject>(new List<BlockOccupancy>(){
             new BlockOccupancy(new Vector3i(0, 0, -1)),
@@ -2643,7 +2643,7 @@ namespace Eco.Mods
             new BlockOccupancy(new Vector3i(0, 2, -1)),
             new BlockOccupancy(new Vector3i(0, 2, 0)),
             });
-            // LargeCorrugatedSteelDoorObject
+           /* // LargeCorrugatedSteelDoorObject
             WorldObject.AddOccupancy<LargeCorrugatedSteelDoorObject>(new List<BlockOccupancy>(){
             new BlockOccupancy(new Vector3i(0, 0, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
             new BlockOccupancy(new Vector3i(0, 1, 0), typeof(BuildingWorldObjectBlock), new Quaternion(0f, 0f, 0f, 1f), ""),
@@ -2831,7 +2831,7 @@ namespace Eco.Mods
             new BlockOccupancy(new Vector3i(3, 3, 2)),
             new BlockOccupancy(new Vector3i(3, 3, 3)),
             new BlockOccupancy(new Vector3i(3, 3, 4)),
-            });
+            });*/
             // PipeEmitterObject
             WorldObject.AddOccupancy<PipeEmitterObject>(new List<BlockOccupancy>(){
             });
