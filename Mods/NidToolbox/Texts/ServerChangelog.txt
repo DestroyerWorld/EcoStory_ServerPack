@@ -1,0 +1,12 @@
+<br>
+<i><size=26><color=green>16-May</i></color><color=orange> <i>8:55</i></color><color=#ffffcc> <i><u>General Server Update</u></size></color></i>
+
+<b>*</b> This is an <color=yellow>example changelog</color> note for your server;
+<b>*</b> This message is best edited <color=yellow>directly from the file</color>.
+<b>*</b> Added Beautification Mod;
+<b>*</b> Removed outstanding rubble;
+
+
+<i><size=26><color=green>10-May</i></color><color=orange> <i>18:20</i></color><color=#ffffcc> <i><u>Fresh Start Update</u></size></color></i>
+
+<b>*</b> Server has been wiped. Welcome to the new Adventure!

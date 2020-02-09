@@ -1,0 +1,62 @@
+{
+  "ModeratorsModule": {
+    "$type": "NidToolbox.Depository.ModeratorsStorage, NidToolbox",
+    "Moderators": [
+      {
+        "Identifier": "12345678912345678"
+      },
+      {
+        "Identifier": "45678912345567819"
+      },
+      {
+        "Identifier": "98765432198765432"
+      },
+      {
+        "Identifier": "78901234567890123"
+      }
+    ]
+  },
+  "GeneralSettings": {
+    "$type": "NidToolbox.Depository.GeneralSettingsStorage, NidToolbox",
+    "InformationA": "This section contains general settings",
+    "FadeModName": false,
+    "LogChat": false
+  },
+  "MotdModule": {
+    "$type": "NidToolbox.Depository.MotdStorage, NidToolbox",
+    "isEnabled": false,
+    "showAsPopUp": true,
+    "FileName": "Motd.txt",
+    "WindowTitle": "Message of the Day",
+    "showInChat": false
+  },
+  "RulesModule": {
+    "$type": "NidToolbox.Depository.RulesStorage, NidToolbox",
+    "ForceAcceptRules": false,
+    "ForcePassPhrase": false,
+    "PassPhrase": "supersecret",
+    "PreventClaiming": false,
+    "FileName": "Rules.txt",
+    "ForceRulesPopUp": true
+  },
+  "ServerChangelogModule": {
+    "$type": "NidToolbox.Depository.ServerChangelogStorage, NidToolbox",
+    "FileName": "ServerChangelog.txt"
+  },
+  "HomeTeleportModule": {
+    "$type": "NidToolbox.Depository.UserHomesStorage, NidToolbox",
+    "TimerEnabled": true,
+    "TimerMinutes": 60.0,
+    "CostCaloriesEnabled": false,
+    "CostCaloriesAmount": 200.0,
+    "CostGlobalCurrencyEnabled": false,
+    "CostGlobalCurrencyAmount": 50.0
+  },
+  "IpLoggerModule": {
+    "$type": "NidToolbox.Depository.IpLoggerStorage, NidToolbox",
+    "InformationA": "If enabled each time user loggs in, their IP Address will be registered with date and hour they have connected.",
+    "InformationB": "Logs are stored in Mods/NidToolbox/Logs/IPsHistory/<PlayerName>.log",
+    "ModuleEnabled": false,
+    "MakeCSVFile": false
+  }
+}
