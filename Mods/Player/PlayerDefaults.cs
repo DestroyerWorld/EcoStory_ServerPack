@@ -111,11 +111,6 @@ public static class PlayerDefaults
     {
         return new Type[]
         {
-            typeof(RoundedFaceItem),
-            typeof(BlinkyEyelidsItem),
-            typeof(FitTorsoItem),
-            typeof(HumanLimbsItem),
-            typeof(HipHopHipsItem),
         };
     }
 
@@ -124,11 +119,6 @@ public static class PlayerDefaults
         return new Type[]
         {
             typeof(BasicBackpackItem),
-            typeof(TrousersItem),
-            typeof(HenleyItem),
-            typeof(NormalHairItem),
-            typeof(TallBootsItem),
-            typeof(SquareBeltItem),
         };
     }
 }
