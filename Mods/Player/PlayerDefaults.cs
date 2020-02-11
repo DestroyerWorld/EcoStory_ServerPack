@@ -23,7 +23,6 @@ public static class PlayerDefaults
     {
         return new Dictionary<Type, int>
         {
-            { typeof(StarterCampItem), 1 },
             { typeof(PropertyClaimItem), 4 },
         };
     }
@@ -32,15 +31,6 @@ public static class PlayerDefaults
     {
         return new Dictionary<Type, int>
         {
-            { typeof(PropertyClaimItem), 6 },
-            { typeof(PropertyToolItem), 1 },
-            { typeof(StoneAxeItem), 1 },
-            { typeof(WoodenShovelItem), 1 },
-            { typeof(StoneHammerItem), 1 },
-            { typeof(StonePickaxeItem), 1 },
-            { typeof(TorchItem), 1 },
-            { typeof(TorchStandItem), 1 },
-            { typeof(TomatoItem), 5 },
         };
     }
     public static IEnumerable<Type> GetDefaultSpecialties()
