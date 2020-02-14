@@ -31,7 +31,7 @@ namespace Eco.Mods.TechTree
     }
 
     
-    [RequiresSkill(typeof(TailoringSkill), 0)]
+    [RequiresSkill(typeof(TailoringSkill), 1)]
     public class NotchBeltRecipe : Recipe
     {
         public NotchBeltRecipe()

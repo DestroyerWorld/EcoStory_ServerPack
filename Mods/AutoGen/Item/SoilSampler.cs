@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(FertilizersSkill), 0)]      
+    [RequiresSkill(typeof(FertilizersSkill), 1)]      
     public partial class SoilSamplerRecipe : Recipe
     {
         public SoilSamplerRecipe()

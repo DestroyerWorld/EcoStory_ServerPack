@@ -49,7 +49,7 @@ namespace Eco.Mods.TechTree
         public override LocString SpeciesName        { get { return Localizer.DoStr("Beets"); } }
     }
 
-    [RequiresSkill(typeof(FarmingSkill), 0)]    
+    [RequiresSkill(typeof(FarmingSkill), 1)]    
     public class BeetSeedRecipe : Recipe
     {
         public BeetSeedRecipe()

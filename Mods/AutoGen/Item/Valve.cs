@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(MechanicsSkill), 0)]      
+    [RequiresSkill(typeof(MechanicsSkill), 1)]      
     public partial class ValveRecipe : Recipe
     {
         public ValveRecipe()

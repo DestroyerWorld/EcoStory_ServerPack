@@ -21,7 +21,7 @@ namespace Eco.Mods.TechTree
     using Eco.Gameplay.Pipes;
 
     [RequiresModule(typeof(MachinistTableObject))]        
-    [RequiresSkill(typeof(MechanicsSkill), 0)]      
+    [RequiresSkill(typeof(MechanicsSkill), 1)]      
     public partial class PistonRecipe : Recipe
     {
         public PistonRecipe()

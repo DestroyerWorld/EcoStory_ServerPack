@@ -77,7 +77,7 @@
         
     }
 
-    [RequiresSkill(typeof(HewingSkill), 0)]      
+    [RequiresSkill(typeof(HewingSkill), 1)]      
     public partial class DoorRecipe : Recipe
     {
         public DoorRecipe()

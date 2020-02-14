@@ -88,7 +88,7 @@ namespace Eco.Mods.TechTree
         
     }
 
-    [RequiresSkill(typeof(MechanicsSkill), 0)]      
+    [RequiresSkill(typeof(MechanicsSkill), 1)]      
     public partial class AssemblyLineRecipe : Recipe
     {
         public AssemblyLineRecipe()

@@ -26,7 +26,7 @@ namespace Eco.Mods.TechTree
         public override LocString DisplayDescription { get { return Localizer.DoStr("An elevator for transporting loads vertically."); } }
     }
 
-    [RequiresSkill(typeof(MechanicsSkill), 0)] 
+    [RequiresSkill(typeof(MechanicsSkill), 1)] 
     public class WoodenElevatorRecipe : Recipe
     {
         public WoodenElevatorRecipe()

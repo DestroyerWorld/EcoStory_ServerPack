@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(PaperMillingSkill), 0)]      
+    [RequiresSkill(typeof(PaperMillingSkill), 1)]      
     public partial class PaperRecipe : Recipe
     {
         public PaperRecipe()

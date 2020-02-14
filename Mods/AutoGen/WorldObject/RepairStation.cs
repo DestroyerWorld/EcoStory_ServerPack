@@ -75,7 +75,7 @@ namespace Eco.Mods.TechTree
 
         
     }
-
+	[RequiresSkill(typeof(HewingSkill), 1)]
     public partial class RepairStationRecipe : Recipe
     {
         public RepairStationRecipe()

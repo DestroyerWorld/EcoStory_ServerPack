@@ -62,6 +62,7 @@ namespace Eco.Mods.TechTree
 
     [Serialized]
     [Category("Hidden")] 
+	[RequiresSkill(typeof(MortaringSkill), 1)]
     public partial class CarvedPumpkinItem :
         WorldObjectItem<CarvedPumpkinObject> 
     {

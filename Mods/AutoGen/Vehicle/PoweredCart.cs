@@ -26,7 +26,7 @@ namespace Eco.Mods.TechTree
         public override LocString DisplayDescription { get { return Localizer.DoStr("Large cart for hauling sizable loads."); } }
     }
 
-    [RequiresSkill(typeof(MechanicsSkill), 0)] 
+    [RequiresSkill(typeof(MechanicsSkill), 1)] 
     public class PoweredCartRecipe : Recipe
     {
         public PoweredCartRecipe()

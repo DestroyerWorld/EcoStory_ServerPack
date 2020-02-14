@@ -13,6 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
+	[RequiresSkill(typeof(ButcherySkill), 1)]
     public class ShuckClamsRecipe : Recipe
     {
         public ShuckClamsRecipe()

@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(MillingSkill), 0)] 
+    [RequiresSkill(typeof(MillingSkill), 1)] 
     public class BeetSugarRecipe : Recipe
     {
         public BeetSugarRecipe()

@@ -86,7 +86,7 @@ namespace Eco.Mods.TechTree
     }
 
     [RequiresModule(typeof(LatheObject))]           
-    [RequiresSkill(typeof(MechanicsSkill), 0)]      
+    [RequiresSkill(typeof(MechanicsSkill), 1)]      
     public partial class ShaperRecipe : Recipe
     {
         public ShaperRecipe()

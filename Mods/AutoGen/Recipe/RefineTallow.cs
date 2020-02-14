@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(AdvancedCookingSkill), 0)] 
+    [RequiresSkill(typeof(AdvancedCookingSkill), 1)] 
     public class RefineTallowRecipe : Recipe
     {
         public RefineTallowRecipe()

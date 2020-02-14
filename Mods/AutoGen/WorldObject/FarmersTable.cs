@@ -80,7 +80,7 @@ namespace Eco.Mods.TechTree
         
     }
 
-    [RequiresSkill(typeof(FarmingSkill), 0)]      
+    [RequiresSkill(typeof(FarmingSkill), 1)]      
     public partial class FarmersTableRecipe : Recipe
     {
         public FarmersTableRecipe()

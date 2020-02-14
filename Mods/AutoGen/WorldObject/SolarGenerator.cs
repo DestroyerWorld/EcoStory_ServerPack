@@ -88,7 +88,7 @@ namespace Eco.Mods.TechTree
         [Tooltip(8)] private LocString PowerProductionTooltip  { get { return new LocString(string.Format(Localizer.DoStr("Produces: {0}w"), Text.Info(750))); } } 
     }
 
-    [RequiresSkill(typeof(ElectronicsSkill), 0)]      
+    [RequiresSkill(typeof(ElectronicsSkill), 1)]      
     public partial class SolarGeneratorRecipe : Recipe
     {
         public SolarGeneratorRecipe()

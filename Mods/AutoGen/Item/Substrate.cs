@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(ElectronicsSkill), 0)]      
+    [RequiresSkill(typeof(ElectronicsSkill), 1)]      
     public partial class SubstrateRecipe : Recipe
     {
         public SubstrateRecipe()

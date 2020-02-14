@@ -94,7 +94,7 @@ namespace Eco.Mods.TechTree
     }
 
     [RequiresModule(typeof(ElectricStampingPressObject))]           
-    [RequiresSkill(typeof(IndustrySkill), 0)]      
+    [RequiresSkill(typeof(IndustrySkill), 1)]      
     public partial class ElectricLatheRecipe : Recipe
     {
         public ElectricLatheRecipe()
