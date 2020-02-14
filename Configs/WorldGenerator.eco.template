@@ -4,8 +4,8 @@
     "x": 172,
     "y": 172
   },
-  "WaterLevel": 60,
-  "Height": 160,
+  "WaterLevel": 40,
+  "Height": 150,
   "SpawnLocation": {
     "x": 0,
     "y": 0,
@@ -21,11 +21,11 @@
         "$id": "4",
         "PointRadius": 10.0,
         "LandPercentRange": {
-          "min": 0.45,
-          "max": 0.55
+          "min": 0.75,
+          "max": 0.95
         },
         "CoastlineSize": 1,
-        "ShallowOceanSize": 2,
+        "ShallowOceanSize": 0,
         "DesertPercent": 0.06,
         "WarmForestPercent": 0.08,
         "CoolForestPercent": 0.18,
@@ -36,12 +36,12 @@
         "SteppePercent": 0.06,
         "HighDesertPercent": 0.04,
         "NumContinentsRange": {
-          "min": 1.0,
-          "max": 3.0
+          "min": 4.0,
+          "max": 6.0
         },
         "ContinentAvoidRange": {
-          "min": 8.0,
-          "max": 16.0
+          "min": 2.0,
+          "max": 8.0
         },
         "IslandPercent": 0.05,
         "NumSmallIslandsRange": {
@@ -52,13 +52,13 @@
           "min": 4.0,
           "max": 8.0
         },
-        "NumRainforests": 1,
-        "NumWarmForests": 1,
-        "NumCoolForests": 1,
-        "NumTaigas": 1,
-        "NumTundras": 1,
-        "NumIces": 1,
-        "NumDeserts": 1,
+        "NumRainforests": 2,
+        "NumWarmForests": 2,
+        "NumCoolForests": 2,
+        "NumTaigas": 2,
+        "NumTundras": 2,
+        "NumIces": 2,
+        "NumDeserts": 2,
         "NumHighDeserts": 2,
         "NumSteppes": 2,
         "LakeSizeRange": {
@@ -66,11 +66,11 @@
           "max": 0.0018
         },
         "NumLakesRange": {
-          "min": 4.0,
+          "min": 6.0,
           "max": 8.0
         },
         "NumRiversRange": {
-          "min": 2.0,
+          "min": 4.0,
           "max": 5.0
         },
         "RiverAvoidance": 2,
