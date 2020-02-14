@@ -45,7 +45,7 @@ namespace Eco.Mods.TechTree
     [Serialized]
     [Solid, Wall, Constructed,BuildRoomMaterialOption]
     [Tier(1)]                                          
-    [RequiresSkill(typeof(MortaringSkill), 1)]   
+    [RequiresSkill(typeof(MortaringSkill), 0)]   
     public partial class MortaredSandstoneBlock :
         Block            
         , IRepresentsItem   

@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(AdvancedCampfireCookingSkill), 0)] 
+    [RequiresSkill(typeof(AdvancedCampfireCookingSkill), 1)] 
     public class RenderFatRecipe : Recipe
     {
         public RenderFatRecipe()

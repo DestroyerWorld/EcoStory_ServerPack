@@ -18,7 +18,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(SmeltingSkill), 0)]   
+    [RequiresSkill(typeof(SmeltingSkill), 1)]   
     [RepairRequiresSkill(typeof(SmeltingSkill), 1)] 
     public partial class IronScytheRecipe : Recipe
     {

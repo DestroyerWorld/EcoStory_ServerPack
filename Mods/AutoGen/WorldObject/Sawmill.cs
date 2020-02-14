@@ -85,7 +85,7 @@ namespace Eco.Mods.TechTree
         [Tooltip(7)] private LocString PowerConsumptionTooltip { get { return new LocString(string.Format(Localizer.DoStr("Consumes: {0}w"), Text.Info(75))); } }  
     }
 
-    [RequiresSkill(typeof(SmeltingSkill), 0)]      
+    [RequiresSkill(typeof(SmeltingSkill), 1)]      
     public partial class SawmillRecipe : Recipe
     {
         public SawmillRecipe()

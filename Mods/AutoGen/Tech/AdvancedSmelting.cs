@@ -105,7 +105,7 @@ namespace Eco.Mods.TechTree
         public override LocString DisplayName { get { return Localizer.DoStr("Advanced Smelting Skill Scroll"); } }
     }
 
-    [RequiresSkill(typeof(SmeltingSkill), 0)] 
+    [RequiresSkill(typeof(SmeltingSkill), 1)] 
     public partial class AdvancedSmeltingSkillBookRecipe : Recipe
     {
         public AdvancedSmeltingSkillBookRecipe()

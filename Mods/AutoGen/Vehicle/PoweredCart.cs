@@ -83,7 +83,7 @@ typeof(GasolineItem)
             this.GetComponent<PublicStorageComponent>().Initialize(20, 3000000);           
             this.GetComponent<FuelSupplyComponent>().Initialize(2, fuelTypeList);           
             this.GetComponent<FuelConsumptionComponent>().Initialize(25);    
-            this.GetComponent<AirPollutionComponent>().Initialize(0.1f);            
+            this.GetComponent<AirPollutionComponent>().Initialize(0.5f);            
             this.GetComponent<VehicleComponent>().Initialize(15, 1.5f, 1);
         }
     }

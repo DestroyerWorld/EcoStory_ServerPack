@@ -88,7 +88,7 @@ namespace Eco.Mods.TechTree
         
     }
 
-    [RequiresSkill(typeof(SmeltingSkill), 0)]      
+    [RequiresSkill(typeof(SmeltingSkill), 1)]      
     public partial class AnvilRecipe : Recipe
     {
         public AnvilRecipe()

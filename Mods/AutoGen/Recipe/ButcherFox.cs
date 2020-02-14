@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(ButcherySkill), 0)] 
+    [RequiresSkill(typeof(ButcherySkill), 1)] 
     public class ButcherFoxRecipe : Recipe
     {
         public ButcherFoxRecipe()

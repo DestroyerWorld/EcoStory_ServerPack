@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(BricklayingSkill), 0)]      
+    [RequiresSkill(typeof(BricklayingSkill), 1)]      
     public partial class BrickRecipe : Recipe
     {
         public BrickRecipe()

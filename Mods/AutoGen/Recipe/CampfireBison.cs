@@ -12,7 +12,8 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
-
+	
+	[RequiresSkill(typeof(AdvancedCampfireCookingSkill), 1)]
     public class CampfireBisonRecipe : Recipe
     {
         public CampfireBisonRecipe()

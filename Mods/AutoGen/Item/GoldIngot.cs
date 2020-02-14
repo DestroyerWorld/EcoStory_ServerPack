@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(SmeltingSkill), 0)]      
+    [RequiresSkill(typeof(SmeltingSkill), 1)]      
     public partial class GoldIngotRecipe : Recipe
     {
         public GoldIngotRecipe()
@@ -28,7 +28,7 @@ namespace Eco.Mods.TechTree
             this.Products = new CraftingElement[]
             {
                 new CraftingElement<GoldIngotItem>(),          
-            new CraftingElement<TailingsItem>(typeof(SmeltingSkill), 4, SmeltingSkill.MultiplicativeStrategy)
+            new CraftingElement<TailingsItem>(typeof(SmeltingSkill), 20, SmeltingSkill.MultiplicativeStrategy)
 
             };
             this.Ingredients = new CraftingElement[]

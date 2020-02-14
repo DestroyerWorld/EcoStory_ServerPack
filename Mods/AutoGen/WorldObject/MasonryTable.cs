@@ -80,7 +80,7 @@ namespace Eco.Mods.TechTree
         
     }
 
-    [RequiresSkill(typeof(MortaringSkill), 0)]      
+    [RequiresSkill(typeof(MortaringSkill), 1)]      
     public partial class MasonryTableRecipe : Recipe
     {
         public MasonryTableRecipe()

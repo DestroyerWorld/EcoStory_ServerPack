@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(SmeltingSkill), 0)] 
+    [RequiresSkill(typeof(SmeltingSkill), 1)] 
     public class SmeltGoldRecipe : Recipe
     {
         public SmeltGoldRecipe()
@@ -21,7 +21,7 @@ namespace Eco.Mods.TechTree
             this.Products = new CraftingElement[]
             {
                new CraftingElement<GoldIngotItem>(1f),  
-               new CraftingElement<TailingsItem>(typeof(SmeltingSkill), 2f, SmeltingSkill.MultiplicativeStrategy),  
+               new CraftingElement<TailingsItem>(typeof(SmeltingSkill), 10f, SmeltingSkill.MultiplicativeStrategy),  
             };
             this.Ingredients = new CraftingElement[]
             {

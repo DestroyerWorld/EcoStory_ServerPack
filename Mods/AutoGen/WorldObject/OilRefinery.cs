@@ -71,7 +71,7 @@ namespace Eco.Mods.TechTree
             this.GetComponent<FuelConsumptionComponent>().Initialize(50);                    
             this.GetComponent<HousingComponent>().Set(OilRefineryItem.HousingVal);                                
 
-            this.GetComponent<LiquidProducerComponent>().Setup(typeof(SmogItem), (int)(1.4f * 1000f), this.NamedOccupancyOffset("ChimneyOut"));  
+            this.GetComponent<LiquidProducerComponent>().Setup(typeof(SmogItem), (int)(1.4f * 5000f), this.NamedOccupancyOffset("ChimneyOut"));  
             this.GetComponent<LiquidConverterComponent>().Setup(typeof(WaterItem), typeof(SewageItem), this.NamedOccupancyOffset("WaterInputPort"), this.NamedOccupancyOffset("SewageOutputPort"), 300, 0.9f); 
         }
 

@@ -63,7 +63,7 @@ namespace Eco.Mods.Organisms
                 this.Name = "Ceiba";
                 this.DisplayName = Localizer.DoStr("Ceiba");
                 // Lifetime
-                this.MaturityAgeDays = 6;
+                this.MaturityAgeDays = 4;
                 // Generation
                 // Food
                 this.CalorieValue = 12;

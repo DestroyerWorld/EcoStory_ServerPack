@@ -94,7 +94,7 @@ namespace Eco.Mods.TechTree
         [Tooltip(7)] private LocString PowerConsumptionTooltip { get { return new LocString(string.Format(Localizer.DoStr("Consumes: {0}w from fuel"), Text.Info(50))); } } 
     }
 
-    [RequiresSkill(typeof(MortaringSkill), 0)]      
+    [RequiresSkill(typeof(MortaringSkill), 1)]      
     public partial class KilnRecipe : Recipe
     {
         public KilnRecipe()

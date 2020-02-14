@@ -13,6 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
+	[RequiresSkill(typeof(MortaringSkill), 1)] 
     public class ProcessGneissRecipe : Recipe
     {
         public ProcessGneissRecipe()

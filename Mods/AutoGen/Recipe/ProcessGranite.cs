@@ -12,7 +12,8 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
-
+	
+	[RequiresSkill(typeof(MortaringSkill), 1)]
     public class ProcessGraniteRecipe : Recipe
     {
         public ProcessGraniteRecipe()

@@ -30,7 +30,7 @@ namespace Eco.Mods.TechTree
         public override float Calories                          { get { return 490; } }
         public override Nutrients Nutrition                     { get { return nutrition; } }
     }
-
+	[RequiresSkill(typeof(AdvancedCampfireCookingSkill), 1)]
     public partial class CharredTaroRecipe : Recipe
     {
         public CharredTaroRecipe()

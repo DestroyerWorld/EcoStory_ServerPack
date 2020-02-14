@@ -29,7 +29,7 @@ namespace Eco.Mods.Organisms
                 this.Name = "Tortoise";
                 this.DisplayName = Localizer.DoStr("Tortoise");
                 // Lifetime
-                this.MaturityAgeDays = 2f;
+                this.MaturityAgeDays = 1f;
                 // Food
                 this.FoodSources = new List<System.Type>() { typeof(Sagebrush), typeof(CreosoteBush), typeof(PricklyPear), typeof(Agave) };
                 this.CalorieValue = 10f;

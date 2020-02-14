@@ -64,7 +64,7 @@ namespace Eco.Mods.Organisms
                 this.Name = "OldGrowthRedwood";
                 this.DisplayName = Localizer.DoStr("Old Growth Redwood");
                 // Lifetime
-                this.MaturityAgeDays = 30;
+                this.MaturityAgeDays = 10;
                 // Generation
                 // Food
                 this.CalorieValue = 50;

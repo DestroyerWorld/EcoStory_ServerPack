@@ -74,7 +74,7 @@ namespace Eco.Mods.TechTree
             this.GetComponent<FuelConsumptionComponent>().Initialize(50);                    
             this.GetComponent<HousingComponent>().Set(CementKilnItem.HousingVal);                                
 
-            this.GetComponent<LiquidProducerComponent>().Setup(typeof(SmogItem), (int)(0.8f * 1000f), this.NamedOccupancyOffset("ChimneyOut"));  
+            this.GetComponent<LiquidProducerComponent>().Setup(typeof(SmogItem), (int)(0.8f * 5000f), this.NamedOccupancyOffset("ChimneyOut"));  
         }
 
         public override void Destroy()
@@ -106,7 +106,7 @@ namespace Eco.Mods.TechTree
         [Tooltip(7)] private LocString PowerConsumptionTooltip { get { return new LocString(string.Format(Localizer.DoStr("Consumes: {0}w from fuel"), Text.Info(50))); } } 
     }
 
-    [RequiresSkill(typeof(SmeltingSkill), 0)]      
+    [RequiresSkill(typeof(SmeltingSkill), 1)]      
     public partial class CementKilnRecipe : Recipe
     {
         public CementKilnRecipe()

@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(MortaringSkill), 0)]      
+    [RequiresSkill(typeof(MortaringSkill), 1)]      
     public partial class MortaredStoneRecipe : Recipe
     {
         public MortaredStoneRecipe()

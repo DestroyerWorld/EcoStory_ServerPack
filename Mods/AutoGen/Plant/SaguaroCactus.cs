@@ -63,7 +63,7 @@ namespace Eco.Mods.Organisms
                 this.Name = "SaguaroCactus";
                 this.DisplayName = Localizer.DoStr("Saguaro Cactus");
                 // Lifetime
-                this.MaturityAgeDays = 4;
+                this.MaturityAgeDays = 2.5f;
                 // Generation
                 // Food
                 this.CalorieValue = 12;

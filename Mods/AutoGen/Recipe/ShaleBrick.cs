@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(BricklayingSkill), 0)] 
+    [RequiresSkill(typeof(BricklayingSkill), 1)] 
     public class ShaleBrickRecipe : Recipe
     {
         public ShaleBrickRecipe()

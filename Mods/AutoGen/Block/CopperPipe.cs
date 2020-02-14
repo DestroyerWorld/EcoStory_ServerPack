@@ -21,7 +21,7 @@ namespace Eco.Mods.TechTree
     using Eco.Gameplay.Pipes;
     using Eco.Gameplay.Pipes.LiquidComponents; 
 
-    [RequiresSkill(typeof(SmeltingSkill), 0)]      
+    [RequiresSkill(typeof(SmeltingSkill), 1)]      
     public partial class CopperPipeRecipe : Recipe
     {
         public CopperPipeRecipe()
@@ -46,7 +46,7 @@ namespace Eco.Mods.TechTree
     [Solid, Constructed]
     [Tier(2)]                                          
     [DoesntEncase]                                          
-    [RequiresSkill(typeof(SmeltingSkill), 0)]   
+    [RequiresSkill(typeof(SmeltingSkill), 1)]   
     public partial class CopperPipeBlock :
         PipeBlock      
         , IRepresentsItem   

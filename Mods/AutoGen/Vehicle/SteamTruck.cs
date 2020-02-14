@@ -92,7 +92,7 @@ typeof(CoalItem)
             this.GetComponent<PublicStorageComponent>().Initialize(24, 5000000);           
             this.GetComponent<FuelSupplyComponent>().Initialize(2, fuelTypeList);           
             this.GetComponent<FuelConsumptionComponent>().Initialize(25);    
-            this.GetComponent<AirPollutionComponent>().Initialize(0.03f);            
+            this.GetComponent<AirPollutionComponent>().Initialize(0.15f);            
             this.GetComponent<VehicleComponent>().Initialize(18, 2, 2);
             this.GetComponent<StockpileComponent>().Initialize(new Vector3i(2,2,3));  
         }
