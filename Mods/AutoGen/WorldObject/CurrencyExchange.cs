@@ -37,8 +37,8 @@ namespace Eco.Mods.TechTree
     [RequireComponent(typeof(SolidGroundComponent))]            
     [RequireComponent(typeof(RoomRequirementsComponent))]
     [RequireRoomContainment]
-    [RequireRoomVolume(25)]                          
-    [RequireRoomMaterialTier(0.8f)]   
+    [RequireRoomVolume(45)]                          
+    [RequireRoomMaterialTier(1.5f)]   
     public partial class CurrencyExchangeObject : 
         WorldObject,    
         IRepresentsItem

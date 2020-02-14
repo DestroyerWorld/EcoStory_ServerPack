@@ -33,6 +33,8 @@ namespace Eco.Mods.TechTree
     
 
     [Serialized]
+	    [RequireRoomVolume(20)]                          
+    [RequireRoomMaterialTier(0.8f)]   
     public partial class BankItem :
         WorldObjectItem<BankObject> 
     {
