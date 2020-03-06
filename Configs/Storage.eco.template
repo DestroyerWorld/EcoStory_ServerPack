@@ -2,5 +2,5 @@
   "SaveName": "Game",
   "SaveFrequency": 60,
   "CleanupFilesOnExceptions": true,
-  "StorageDirectory": "D:/EcoBackup/Storage"
+  "StorageDirectory": "Storage"
 }
