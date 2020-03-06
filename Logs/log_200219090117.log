@@ -1,0 +1,31 @@
+[09:01:17.310] [1] [ Info] [Eco] >>> START EcoServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[09:01:17.338] [1] [ Info] [Eco] Eco Server 0.8.3.3 beta
+ 
+[09:01:17.409] [1] [ Info] [Eco] Server Initialization...  
+[09:01:17.409] [1] [ Info] [Eco] Starting LocalizationPlugin...  
+[09:01:17.816] [1] [ Info] [Eco] Запуск ПлагинНабораМодификаций...  
+[09:01:17.816] [1] [ Info] [Eco] Загрузка модификаций...  
+[09:01:18.107] [1] [ Info] [Eco] Компилирование модификаций...  
+[09:01:18.512] [1] [ Info] [Eco] Модификации пересобраны с ошибками.
+ 
+[09:01:18.512] [1] [ Info] [Eco] Error in WorldObjectOccupancyAutoGen at 17: Пространство имен "Eco.Mods" уже содержит определение для "OccupancyInitItem" (CS0101)
+Error in WorldObjectOccupancyAutoGen at 25: Пространство имен "Eco.Mods" уже содержит определение для "WorldObjectOccupancy" (CS0101)
+
+ 
+[09:01:18.514] [1] [ Info] [Eco] Загрузка модификаций завершена за 696,2мс
+ 
+[09:01:18.514] [1] [ Info] [Eco] Server Initialization завершена за 1 113,8мс
+ 
+[09:01:18.514] [1] [ Info] [Eco] Failed to load server, Exception was Exception: Exception
+Message:Error in WorldObjectOccupancyAutoGen at 17: Пространство имен "Eco.Mods" уже содержит определение для "OccupancyInitItem" (CS0101)
+Error in WorldObjectOccupancyAutoGen at 25: Пространство имен "Eco.Mods" уже содержит определение для "WorldObjectOccupancy" (CS0101)
+
+Source:Eco.ModKit
+
+System.Exception: Error in WorldObjectOccupancyAutoGen at 17: Пространство имен "Eco.Mods" уже содержит определение для "OccupancyInitItem" (CS0101)
+Error in WorldObjectOccupancyAutoGen at 25: Пространство имен "Eco.Mods" уже содержит определение для "WorldObjectOccupancy" (CS0101)
+
+   at Eco.ModKit.RuntimeCompiler.HandleCompilerError(CompilerResults results)
+   at Eco.ModKit.RuntimeCompiler.CompileMods()
+   at Eco.ModKit.ModKitPlugin..ctor(TaskCompletionSource`1 done)
+ 

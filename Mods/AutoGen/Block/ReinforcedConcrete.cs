@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(CementSkill), 0)]      
+    [RequiresSkill(typeof(CementSkill), 1)]      
     public partial class ReinforcedConcreteRecipe : Recipe
     {
         public ReinforcedConcreteRecipe()

@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(TailoringSkill), 0)]      
+    [RequiresSkill(typeof(TailoringSkill), 1)]      
     public partial class CelluloseFiberRecipe : Recipe
     {
         public CelluloseFiberRecipe()

@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(LumberSkill), 0)] 
+    [RequiresSkill(typeof(LumberSkill), 1)] 
     public class SawBoardsRecipe : Recipe
     {
         public SawBoardsRecipe()

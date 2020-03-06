@@ -21,7 +21,7 @@ namespace Eco.Mods.TechTree
     using Eco.Gameplay.Pipes;
     using Eco.Gameplay.Pipes.LiquidComponents; 
 
-    [RequiresSkill(typeof(AdvancedSmeltingSkill), 0)]      
+    [RequiresSkill(typeof(AdvancedSmeltingSkill), 1)]      
     public partial class SteelPipeRecipe : Recipe
     {
         public SteelPipeRecipe()

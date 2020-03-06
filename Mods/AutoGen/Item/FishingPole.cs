@@ -20,6 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
+	[RequiresSkill(typeof(HewingSkill), 1)]
     public partial class FishingPoleRecipe : Recipe
     {
         public FishingPoleRecipe()

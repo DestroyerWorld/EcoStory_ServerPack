@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(GlassworkingSkill), 0)]      
+    [RequiresSkill(typeof(GlassworkingSkill), 1)]      
     public partial class GlassRecipe : Recipe
     {
         public GlassRecipe()

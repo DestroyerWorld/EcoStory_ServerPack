@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(CementSkill), 0)] 
+    [RequiresSkill(typeof(CementSkill), 1)] 
     public class LimestoneConcreteRecipe : Recipe
     {
         public LimestoneConcreteRecipe()

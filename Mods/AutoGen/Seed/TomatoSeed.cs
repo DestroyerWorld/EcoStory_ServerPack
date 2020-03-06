@@ -49,7 +49,7 @@ namespace Eco.Mods.TechTree
         public override LocString SpeciesName        { get { return Localizer.DoStr("Tomatoes"); } }
     }
 
-    [RequiresSkill(typeof(FarmingSkill), 0)]    
+    [RequiresSkill(typeof(FarmingSkill), 1)]    
     public class TomatoSeedRecipe : Recipe
     {
         public TomatoSeedRecipe()

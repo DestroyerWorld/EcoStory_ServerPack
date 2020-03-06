@@ -1,0 +1,29 @@
+[22:27:53.547] [1] [ Info] [Eco] >>> START EcoServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[22:27:53.575] [1] [ Info] [Eco] Eco Server 0.8.3.3 beta
+ 
+[22:27:53.647] [1] [ Info] [Eco] Server Initialization...  
+[22:27:53.647] [1] [ Info] [Eco] Starting LocalizationPlugin...  
+[22:27:54.021] [1] [ Info] [Eco] Запуск ПлагинНабораМодификаций...  
+[22:27:54.021] [1] [ Info] [Eco] Загрузка модификаций...  
+[22:27:54.293] [1] [ Info] [Eco] Компилирование модификаций...  
+[22:27:55.828] [1] [ Info] [Eco] Загружаем 0Harmony...
+ 
+[22:27:55.828] [1] [ Info] [Eco] Загружаем Asphalt-ModKit...
+ 
+[22:27:55.952] [1] [ Info] [Eco] Загружаем DiscordLinkUnified...
+ 
+[22:27:56.023] [1] [ Info] [Eco] Загрузка модификаций завершена за 2 001,3мс
+ 
+[22:27:56.023] [1] [ Info] [Eco] Server Initialization завершена за 2 378,0мс
+ 
+[22:27:56.029] [1] [ Info] [Eco] Failed to load server, Exception was Exception: ReflectionTypeLoadException
+Message:Не удается загрузить один или более запрошенных типов. Обратитесь к свойству LoaderExceptions для получения дополнительных сведений.
+Source:mscorlib
+
+System.Reflection.ReflectionTypeLoadException: Не удается загрузить один или более запрошенных типов. Обратитесь к свойству LoaderExceptions для получения дополнительных сведений.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.Assembly.GetTypes()
+   at Eco.ModKit.ModKitPlugin.LoadModDlls()
+   at Eco.ModKit.ModKitPlugin.LoadModsData(TaskCompletionSource`1 done)
+   at Eco.ModKit.ModKitPlugin..ctor(TaskCompletionSource`1 done)
+ 

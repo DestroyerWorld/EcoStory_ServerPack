@@ -26,7 +26,7 @@ namespace Eco.Mods.TechTree
         public override LocString DisplayDescription { get { return Localizer.DoStr("Modern truck for hauling sizable loads."); } }
     }
 
-    [RequiresSkill(typeof(IndustrySkill), 0)] 
+    [RequiresSkill(typeof(IndustrySkill), 1)] 
     public class TruckRecipe : Recipe
     {
         public TruckRecipe()

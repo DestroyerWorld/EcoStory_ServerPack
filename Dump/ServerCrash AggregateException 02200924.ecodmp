@@ -1,0 +1,17 @@
+--BEGIN DUMP--
+Dump Time
+02/20/2020 19:09:24
+
+Exception
+Exception: SocketException
+Message:Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 192.168.1.1:35832
+Source:System
+NativeErrorCode:10061
+ErrorCode:10061
+
+System.Net.Sockets.SocketException (0x80004005): Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение 192.168.1.1:35832
+   at System.Net.Sockets.Socket.InternalEndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+--END DUMP--

@@ -1,0 +1,418 @@
+[19:43:21.770] [1] [ Info] [Eco] >>> START EcoServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[19:43:21.797] [1] [ Info] [Eco] Eco Server 0.8.3.3 beta
+ 
+[19:43:21.872] [1] [ Info] [Eco] Server Initialization...  
+[19:43:21.872] [1] [ Info] [Eco] Starting LocalizationPlugin...  
+[19:43:22.285] [1] [ Info] [Eco] Запуск ПлагинНабораМодификаций...  
+[19:43:22.288] [1] [ Info] [Eco] Загрузка модификаций...  
+[19:43:22.603] [1] [ Info] [Eco] Компилирование модификаций...  
+[19:43:24.318] [1] [ Info] [Eco] Загружаем 0Harmony...
+ 
+[19:43:24.318] [1] [ Info] [Eco] Загружаем Asphalt-ModKit...
+ 
+[19:43:24.454] [1] [ Info] [Eco] Загружаем DiscordLink_blue...
+ 
+[19:43:24.506] [1] [ Info] [Eco] Загружаем Eco.IntegrationTests...
+ 
+[19:43:24.506] [1] [ Info] [Eco] Загружаем em-base...
+ 
+[19:43:24.506] [1] [ Info] [Eco] Загружаем NoPlayerCredits...
+ 
+[19:43:24.506] [1] [ Info] [Eco] Загружаем em-greenenergy...
+ 
+[19:43:24.506] [1] [ Info] [Eco] Загружаем em-realisticsmelting...
+ 
+[19:43:24.506] [1] [ Info] [Eco] Загружаем em-shippingcontainers...
+ 
+[19:43:24.506] [1] [ Info] [Eco] Загружаем em-tailingspack...
+ 
+[19:43:24.506] [1] [ Info] [Eco] Загружаем em-arches...
+ 
+[19:43:24.520] [1] [ Info] [Eco] Загружаем em-doors...
+ 
+[19:43:24.520] [1] [ Info] [Eco] Загружаем em-dyes...
+ 
+[19:43:24.520] [1] [ Info] [Eco] Загружаем em-homeobjects...
+ 
+[19:43:24.520] [1] [ Info] [Eco] Загружаем em-transportation...
+ 
+[19:43:24.520] [1] [ Info] [Eco] Загружаем em-windows...
+ 
+[19:43:24.540] [1] [ Info] [Eco] Загружаем em-zymology...
+ 
+[19:43:24.540] [1] [ Info] [Eco] Загружаем NidToolbox...
+ 
+[19:43:24.551] [1] [ Info] [Eco] Загрузка модификаций завершена за 2 262,2мс
+ 
+[19:43:24.551] [1] [ Info] [Eco] Запуск МенеджерСети...  
+[19:43:24.551] [6] [ Info] [Eco] Инициализация типов симуляции...  
+[19:43:24.625] [11] [ Info] [Eco] Запуск ПлагинГенератораМира...  
+[19:43:24.625] [8] [ Info] [Eco] Запуск ПлагинРезервногоКопирования...  
+[19:43:24.625] [9] [ Info] [Eco] Запуск ПлагинИгровойСтатистики...  
+[19:43:24.634] [8] [ Info] [Eco] Запуск МенеджерХранилища...  
+[19:43:26.189] [6] [ Info] [Eco] Инициализация предметов...  
+[19:43:26.273] [6] [ Info] [NidToolbox] Checking Settings.json 
+[19:43:26.273] [6] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\Settings.json exists. 
+[19:43:26.286] [6] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\Settings.json readable and correct. 
+[19:43:26.286] [6] [ Info] [NidToolbox] Checking CommandPermissions.json 
+[19:43:26.286] [6] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\CommandPermissions.json exists. 
+[19:43:26.286] [6] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\CommandPermissions.json readable and correct. 
+[19:43:26.286] [6] [ Info] [NidToolbox] Checking TimerMessages.json 
+[19:43:26.286] [6] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\TimerMessages.json exists. 
+[19:43:26.286] [6] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\TimerMessages.json readable and correct. 
+[19:43:26.286] [6] [ Info] [NidToolbox] Checking ScheduledMessages.json 
+[19:43:26.302] [6] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\ScheduledMessages.json exists. 
+[19:43:26.302] [6] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\ScheduledMessages.json readable and correct. 
+[19:43:26.302] [6] [ Info] [NidToolbox] No UserHomes directory, skipping user homes config checks. 
+[19:43:27.280] [8] [ Info] [Eco] Запуск Плагин паузы...  
+[19:43:27.291] [8] [ Info] [Eco] Загружаем Pause...  
+[19:43:29.659] [6] [ Info] [Eco] Инициализация навыков...  
+[19:43:29.758] [8] [ Info] [Eco] Запуск БДСтатистики...  
+[19:43:29.758] [5] [ Info] [Eco] Запуск ПлагинМира...  
+[19:43:29.798] [5] [ Info] [Eco] Загружаем World...  
+[19:43:33.498] [5] [ Info] [Eco] Инициализация мира...  
+[19:43:34.293] [5] [ Info] [Eco] Запуск ПлагинВремени...  
+[19:43:34.293] [5] [ Info] [Eco] Загружаем Time...  
+[19:43:34.293] [5] [ Info] [Eco] Запуск ПлагинРепутации...  
+[19:43:34.302] [5] [ Info] [Eco] Загружаем Reputation...  
+[19:43:34.302] [5] [ Info] [Eco] Запуск МенеджерЖильяИгроков...  
+[19:43:34.302] [5] [ Info] [Eco] Запуск МенеджерПользователей...  
+[19:43:34.354] [5] [ Info] [Eco] Загружаем Users...  
+[19:43:34.500] [5] [ Info] [Eco] Инициализация инвентарей...  
+[19:43:34.540] [5] [ Info] [Eco] Запуск МенеджерОбъектовЭко...  
+[19:43:34.540] [22] [ Info] [Eco] Запуск ПлагинМусора...  
+[19:43:34.540] [7] [ Info] [Eco] Запуск ПлагинУгроз...  
+[19:43:34.540] [31] [ Info] [Eco] Запуск НастройкиСложности...  
+[19:43:34.540] [28] [ Info] [Eco] Запуск СерверЧата...  
+[19:43:34.553] [22] [ Info] [Eco] Загружаем Garbage...  
+[19:43:34.553] [8] [ Info] [Eco] Запуск ПлагинЭкономики...  
+[19:43:34.553] [29] [ Info] [Eco] Запуск VoiceManager...  
+[19:43:34.553] [5] [ Info] [Eco] Запуск МенеджерКонтроллера...  
+[19:43:34.553] [8] [ Info] [Eco] Загружаем Economy...  
+[19:43:34.678] [7] [ Info] [Eco] Загружаем Disasters...  
+[19:43:34.734] [8] [ Info] [Eco] Запуск Законодательство...  
+[19:43:34.734] [28] [ Info] [Eco] Загружаем Chat...  
+[19:43:34.746] [8] [ Info] [Eco] Загружаем Laws...  
+[19:43:34.801] [8] [ Info] [Eco] Запуск МенеджерСобственности...  
+[19:43:34.801] [8] [ Info] [Eco] Загружаем Property...  
+[19:43:34.860] [8] [ Info] [Eco] Запуск МенеджерМиникарты...  
+[19:43:34.864] [8] [ Info] [Eco] Запуск СимуляцияЭко...  
+[19:43:34.925] [8] [ Info] [Eco] Загружаем Plants...  
+[19:43:36.933] [8] [ Info] [Eco] Инициализация растений...  
+[19:43:43.842] [8] [ Info] [Eco] Запуск RouteProbingPlugin...  
+[19:43:43.842] [8] [ Info] [Eco] Загружаем RouteProbing...  
+[19:43:47.831] [8] [ Info] [Eco] Запуск МенеджерСлоёвМира...  
+[19:43:47.833] [8] [ Info] [Eco] Загружаем Layers...  
+[19:43:48.509] [8] [ Info] [Eco] Инициализация слоёв мира...  
+[19:43:48.509] [8] [ Info] [Eco] Загружаем ClimateSim...  
+[19:43:51.968] [8] [ Info] [Eco] Запуск ТрекерЭкономики...  
+[19:43:51.974] [8] [ Info] [Eco] Запуск UserTracker...  
+[19:43:51.974] [8] [ Info] [Eco] Запуск МенеджерМировыхОбъектов...  
+[19:43:52.071] [8] [ Info] [Eco] Загружаем WorldObjects...  
+[19:43:52.192] [8] [ Info] [Eco] Запуск ПлагинКомнат...  
+[19:43:52.192] [8] [ Info] [Eco] Загружаем Rooms...  
+[19:43:52.192] [8] [ Info] [Eco] Запуск ПлагинЦелей...  
+[19:43:52.192] [8] [ Info] [Eco] Загружаем Objectives...  
+[19:43:52.220] [8] [ Info] [Eco] Запуск ПлагинСна...  
+[19:43:52.220] [8] [ Info] [Eco] Загружаем Sleep...  
+[19:43:52.226] [1] [ Info] [Eco] Запуск ПлагинВебСервера...  
+[19:43:52.226] [1] [ Info] [Eco] Запуск OtherAliasCategory...  
+[19:43:52.226] [34] [ Info] [Eco] Запуск Asphalt...  
+[19:43:52.226] [10] [ Info] [Eco] Запуск ПлагинТестовИнтеграции...  
+[19:43:52.226] [23] [ Info] [Eco] Запуск ChatBase...  
+[19:43:52.239] [15] [ Info] [Eco] Запуск DiscordLink...  
+[19:43:52.239] [33] [ Info] [Eco] Запуск NidToolboxPlugin...  
+[19:43:52.239] [7] [ Info] [Eco] Запуск NoPlayerCreditsPlugin...  
+[19:43:52.335] [1] [ Info] [Eco] Инициализируем ПлагинПеревода...  
+[19:43:52.335] [1] [ Info] [Eco] Инициализируем ПлагинНабораМодификаций...  
+[19:43:52.629] [1] [ Info] [Eco] Инициализируем ПлагинГенератораМира...  
+[19:43:52.631] [1] [ Info] [Eco] Инициализируем МенеджерПользователей...  
+[19:43:52.677] [1] [ Info] [Eco] Инициализируем ПлагинМусора...  
+[19:43:52.677] [1] [ Info] [Eco] Инициализируем ПлагинЭкономики...  
+[19:43:52.702] [1] [ Info] [Eco] Инициализируем Законодательство...  
+[19:43:53.247] [1] [ Info] [Eco] Инициализируем МенеджерСобственности...  
+[19:43:53.277] [1] [ Info] [Eco] Инициализируем МенеджерМиникарты...  
+[19:43:54.253] [1] [ Info] [Eco] Инициализируем UserTracker...  
+[19:43:54.259] [1] [ Info] [Eco] Инициализируем МенеджерМировыхОбъектов...  
+[19:43:54.435] [1] [ Info] [Eco] Инициализируем ПлагинКомнат...  
+[19:43:54.530] [1] [ Info] [Eco] Инициализируем ПлагинСна...  
+[19:43:54.530] [1] [ Info] [Eco] Инициализируем NidToolboxPlugin...  
+[19:43:54.539] [1] [ Info] [NidToolbox] Checking declared file: Mods\NidToolbox\Texts\Motd.txt 
+[19:43:54.539] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Motd.txt exists. 
+[19:43:54.539] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Motd.txt readable. 
+[19:43:54.539] [1] [ Info] [NidToolbox] Checking declared file: Mods\NidToolbox\Texts\Rules.txt 
+[19:43:54.539] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Rules.txt exists. 
+[19:43:54.539] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Rules.txt readable. 
+[19:43:54.539] [1] [ Info] [NidToolbox] Checking declared file: Mods\NidToolbox\Texts\ServerChangelog.txt 
+[19:43:54.539] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\ServerChangelog.txt exists. 
+[19:43:54.539] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\ServerChangelog.txt readable. 
+[19:43:54.654] [1] [ Info] [Eco] Инициализируем NoPlayerCreditsPlugin...  
+[19:43:54.654] [1] [ Info] [Eco] Инициализируем DiscordLink...  
+[19:43:54.693] [1] [ Info] [Eco] Инициализируем ПлагинМира...  
+[19:43:54.693] [1] [ Info] [Eco] Обработка...  
+[19:44:00.456] [138] [ Info] [Eco] DISCORDLINK: Connected to Discord.
+
+ 
+[19:44:00.464] [1] [ Info] [Eco] Сжатие...  
+[19:44:01.662] [139] [ Info] [Eco] DISCORDLINK: Connected and Ready
+ 
+[19:44:04.824] [1] [ Info] [Eco] Инициализируем МенеджерСети...  
+[19:44:05.076] [1] [ Info] [Eco] Инициализируем МенеджерСлоёвМира...  
+[19:44:05.076] [1] [ Info] [Eco] Инициализируем ПлагинВебСервера...  
+[19:44:05.903] [1] [ Info] [Eco] Инициализируем ПлагинТестовИнтеграции...  
+[19:44:05.912] [1] [ Info] [NidToolbox] OK - Mono not detected, not a Linux environment 
+[19:44:05.912] [1] [ Info] [NidToolbox] All commands in config up to date. 
+[19:44:05.980] [1] [ Info] [NidToolbox] Running NidToolbox version 1.8.7 
+[19:44:06.029] [1] [ Info] [Eco] Server Initialization завершена за 44 155,4мс
+ 
+[19:48:18.752] [30] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[19:48:19.132] [34] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:48:29.019] [26] [ Info] [log] Larsa invoked admin command '/eat' 
+[19:48:57.996] [26] [ Info] [log] Larsa invoked admin command '/fly' 
+[19:49:02.060] [34] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:49:08.191] [30] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[19:49:28.014] [30] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[19:49:38.247] [34] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:50:48.304] [140] [ Info] [log] letmeplay invoked admin command '/fly' 
+[19:51:08.929] [26] [ Info] [log] Larsa invoked admin command '/fly' 
+[19:52:24.018] [26] [ Info] [log] Larsa invoked admin command '/fly' 
+[19:57:04.292] [26] [ Info] [log] Larsa invoked admin command '/fly' 
+[19:57:30.237] [34] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:58:00.781] [34] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:58:18.819] [34] [ Info] [log] Dark Avenger invoked admin command '/record' 
+[19:59:55.217] [34] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:00:00.285] [26] [ Info] [log] Larsa invoked admin command '/fly' 
+[20:01:53.567] [36] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:03:32.453] [17] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:11:35.622] [140] [ Info] [log] letmeplay invoked admin command '/give Double Lumber Door' 
+[20:14:08.369] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-05.24.44
+ 
+[20:15:50.975] [30] [ Info] [log] AmeriQ invoked admin command '/dump' 
+[20:27:53.773] [17] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:27:59.887] [17] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:28:03.199] [17] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:28:29.195] [140] [ Info] [log] letmeplay invoked admin command '/give стол,2' 
+[20:28:38.683] [17] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:29:44.108] [26] [ Info] [log] Larsa invoked admin command '/fly' 
+[20:32:27.532] [30] [ Info] [log] AmeriQ invoked admin command '/givealltools 0' 
+[20:34:17.638] [17] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:34:24.548] [17] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:39:28.110] [30] [ Info] [log] AmeriQ invoked admin command '/give wooden sliding window' 
+[20:40:40.033] [30] [ Info] [log] AmeriQ invoked admin command '/give Lumber door' 
+[20:40:56.056] [30] [ Info] [log] AmeriQ invoked admin command '/give Lumber door' 
+[20:41:35.111] [30] [ Info] [log] AmeriQ invoked admin command '/dump' 
+[20:41:41.918] [17] [ Info] [log] Dark Avenger invoked admin command '/eat' 
+[20:42:34.198] [30] [ Info] [log] AmeriQ invoked admin command '/givealltools 0' 
+[20:42:55.937] [17] [ Info] [log] Dark Avenger invoked admin command '/give дверь из пиломатериалов, 20' 
+[20:43:49.907] [26] [ Info] [log] Larsa invoked admin command '/fly' 
+[20:44:07.765] [33] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-16-13.33.15
+ 
+[20:44:14.414] [140] [ Info] [log] letmeplay invoked admin command '/give стул,15' 
+[20:45:05.225] [140] [ Info] [log] letmeplay invoked admin command '/give стул,10' 
+[20:46:27.000] [140] [ Info] [log] letmeplay invoked admin command '/fly' 
+[20:51:23.740] [17] [ Info] [log] Dark Avenger invoked admin command '/give дверь из пиломатериалов, 20' 
+[20:51:46.609] [17] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:56:20.660] [17] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:56:43.575] [17] [ Info] [log] Dark Avenger invoked admin command '/give steal shiping container' 
+[20:58:02.956] [17] [ Info] [log] Dark Avenger invoked admin command '/give Steel Shipping Container' 
+[20:59:00.708] [17] [ Info] [log] Dark Avenger invoked admin command '/give Shipping Container' 
+[20:59:11.538] [17] [ Info] [log] Dark Avenger invoked admin command '/give Shipping Container' 
+[20:59:25.884] [17] [ Info] [log] Dark Avenger invoked admin command '/give Shipping Container' 
+[21:01:20.455] [17] [ Info] [log] Dark Avenger invoked admin command '/give Shipping Container' 
+[21:01:22.713] [30] [ Info] [log] AmeriQ invoked admin command '/give constraction post' 
+[21:01:41.556] [30] [ Info] [log] AmeriQ invoked admin command '/give constraction post' 
+[21:01:46.259] [30] [ Info] [log] AmeriQ invoked admin command '/give constractionpost' 
+[21:02:16.137] [30] [ Info] [log] AmeriQ invoked admin command '/give строительный знак, 20' 
+[21:02:36.865] [140] [ Info] [log] letmeplay invoked admin command '/fly' 
+[21:05:23.671] [17] [ Info] [log] Dark Avenger invoked admin command '/give Steel Shipping Container' 
+[21:06:01.560] [17] [ Info] [log] Dark Avenger invoked admin command '/give Steel Shipping Container' 
+[21:06:20.711] [140] [ Info] [log] letmeplay invoked admin command '/fly' 
+[21:13:08.662] [140] [ Info] [log] letmeplay invoked admin command '/fly' 
+[21:13:27.732] [26] [ Info] [log] Larsa invoked admin command '/eat' 
+[21:14:07.756] [28] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-06.24.44
+ 
+[21:16:19.834] [140] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов' 
+[21:16:28.520] [140] [ Info] [log] letmeplay invoked admin command '/give дверь из камня' 
+[21:16:37.567] [140] [ Info] [log] letmeplay invoked admin command '/fly' 
+[21:17:25.431] [140] [ Info] [log] letmeplay invoked admin command '/give каменная дверь,2' 
+[21:17:47.306] [140] [ Info] [log] letmeplay invoked admin command '/eat' 
+[21:18:14.640] [140] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов' 
+[21:28:13.211] [17] [ Info] [log] Dark Avenger invoked admin command '/give claim' 
+[21:28:32.903] [17] [ Info] [log] Dark Avenger invoked admin command '/give claim, 200' 
+[21:28:39.711] [140] [ Info] [log] letmeplay invoked admin command '/give квитанции землемера,300' 
+[21:36:48.978] [30] [ Info] [log] AmeriQ invoked admin command '/give строительный знак, 20' 
+[21:37:21.229] [17] [ Info] [log] Dark Avenger invoked admin command '/give стол реалтора' 
+[21:37:54.524] [17] [ Info] [log] Dark Avenger invoked admin command '/give стол риелтора' 
+[21:38:04.879] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[21:39:10.665] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[21:42:13.188] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[21:43:03.924] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[21:44:07.943] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-16-20.44.06
+ 
+[21:44:25.027] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[21:46:33.945] [26] [ Info] [log] Larsa invoked admin command '/give строительный знак, 20' 
+[21:48:31.546] [26] [ Info] [log] Larsa invoked admin command '/give строительный молоток' 
+[21:48:53.690] [26] [ Info] [log] Larsa invoked admin command '/give молоток' 
+[21:54:53.934] [140] [ Info] [log] letmeplay invoked admin command '/give Магазин' 
+[22:00:31.202] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[22:00:52.889] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[22:01:07.489] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[22:05:39.761] [140] [ Info] [log] letmeplay invoked admin command '/give Строительный известняк' 
+[22:14:08.303] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-07.24.44
+ 
+[22:22:21.228] [26] [ Info] [log] Larsa invoked admin command '/give стол портного' 
+[22:22:48.179] [140] [ Info] [log] letmeplay invoked admin command '/give Магазин' 
+[22:28:54.016] [140] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов' 
+[22:29:06.864] [140] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов' 
+[22:31:10.779] [26] [ Info] [log] Larsa invoked admin command '/fly' 
+[22:34:54.157] [26] [ Info] [log] Larsa invoked admin command '/fly' 
+[22:39:29.924] [140] [ Info] [log] letmeplay invoked admin command '/save' 
+[22:39:29.932] [33] [ Info] [Eco] Сохранение мира...  
+[22:44:06.156] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-16-21.44.06
+ 
+[23:01:10.290] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[23:03:06.916] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[23:04:26.453] [140] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[23:14:04.449] [140] [ Info] [log] letmeplay invoked admin command '/save' 
+[23:14:04.449] [35] [ Info] [Eco] Сохранение мира...  
+[23:14:09.677] [28] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-08.24.44
+ 
+[23:38:09.053] [140] [ Info] [log] letmeplay invoked admin command '/fly' 
+[23:40:31.141] [140] [ Info] [log] letmeplay invoked admin command '/eat' 
+[23:44:06.187] [24] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-16-22.44.06
+ 
+[23:44:29.216] [140] [ Info] [log] letmeplay invoked admin command '/save' 
+[23:44:29.216] [19] [ Info] [Eco] Сохранение мира...  
+[00:14:06.564] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-09.24.44
+ 
+[00:42:55.763] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[00:44:08.167] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-16-23.44.06
+ 
+[00:44:54.442] [26] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:52:50.111] [26] [ Info] [log] AmeriQ invoked admin command '/dump' 
+[00:59:17.514] [26] [ Info] [log] AmeriQ invoked admin command '/givealltools 0' 
+[01:01:26.339] [26] [ Info] [log] AmeriQ invoked admin command '/dump' 
+[01:03:19.228] [26] [ Info] [log] AmeriQ invoked admin command '/givealltools 0' 
+[01:14:08.057] [28] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-10.24.44
+ 
+[01:17:28.789] [25] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов' 
+[01:19:00.429] [25] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов,2' 
+[01:23:14.875] [26] [ Info] [log] AmeriQ invoked admin command '/give строительный знак' 
+[01:23:20.568] [26] [ Info] [log] AmeriQ invoked admin command '/give строительный знак, 15' 
+[01:24:33.793] [25] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов,2' 
+[01:24:50.711] [25] [ Info] [log] letmeplay invoked admin command '/give маленькая доска из тесанных бревен' 
+[01:25:00.893] [25] [ Info] [log] letmeplay invoked admin command '/give маленькая вывеска  из тесанных бревен' 
+[01:25:15.260] [25] [ Info] [log] letmeplay invoked admin command '/give Маленькая вывеска  из тёсанных брёвен' 
+[01:25:38.080] [25] [ Info] [log] letmeplay invoked admin command '/give Маленькая вывеска из тёсанных брёвен,5' 
+[01:26:09.763] [25] [ Info] [log] letmeplay invoked admin command '/give Маленькая вывеска из тёсанных брёвен,5' 
+[01:27:52.533] [25] [ Info] [log] letmeplay invoked admin command '/give Магазин' 
+[01:27:57.864] [25] [ Info] [log] letmeplay invoked admin command '/give Магазин' 
+[01:29:16.856] [26] [ Info] [log] AmeriQ invoked admin command '/dump' 
+[01:29:37.105] [25] [ Info] [log] letmeplay invoked admin command '/give уголь' 
+[01:30:00.432] [25] [ Info] [log] letmeplay invoked admin command '/give уголь' 
+[01:30:05.041] [25] [ Info] [log] letmeplay invoked admin command '/give уголь,1' 
+[01:30:15.806] [25] [ Info] [log] letmeplay invoked admin command '/give уголь,2' 
+[01:31:06.811] [25] [ Info] [log] letmeplay invoked admin command '/save' 
+[01:31:06.811] [24] [ Info] [Eco] Сохранение мира...  
+[01:35:44.181] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[01:37:24.451] [25] [ Info] [log] letmeplay invoked admin command '/give магазин, 2' 
+[01:44:06.595] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-17-00.44.06
+ 
+[01:45:30.358] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[01:46:49.624] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[01:51:52.623] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[01:54:32.878] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[01:55:56.239] [26] [ Info] [log] AmeriQ invoked admin command '/give стол регистратора' 
+[01:56:06.822] [26] [ Info] [log] AmeriQ invoked admin command '/give registrar table' 
+[01:56:10.257] [26] [ Info] [log] AmeriQ invoked admin command '/give registrar' 
+[01:59:41.279] [26] [ Info] [log] AmeriQ invoked admin command '/givealltools 0' 
+[02:05:25.864] [25] [ Info] [log] letmeplay invoked admin command '/give стул,10' 
+[02:05:54.339] [25] [ Info] [log] letmeplay invoked admin command '/give стул,10' 
+[02:09:10.996] [26] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[02:09:22.591] [26] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[02:09:40.784] [26] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[02:09:54.077] [26] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[02:09:56.246] [25] [ Info] [log] letmeplay invoked admin command '/give стол' 
+[02:10:40.227] [25] [ Info] [log] letmeplay invoked admin command '/give стул,2' 
+[02:14:08.141] [18] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-11.24.44
+ 
+[02:14:50.324] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[02:15:12.554] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[02:22:30.928] [25] [ Info] [log] letmeplay invoked admin command '/give double Sandstone Arch' 
+[02:23:09.412] [25] [ Info] [log] letmeplay invoked admin command '/give Sandstone Arch' 
+[02:44:07.881] [9] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-17-01.44.06
+ 
+[02:50:19.600] [25] [ Info] [log] letmeplay invoked admin command '/give регистратор' 
+[03:14:08.228] [18] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-12.24.44
+ 
+[03:14:28.360] [25] [ Info] [log] letmeplay invoked admin command '/give дверь из плиоматериалов' 
+[03:14:33.426] [25] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов' 
+[03:16:31.927] [25] [ Info] [log] letmeplay invoked admin command '/give дверь' 
+[03:17:00.360] [25] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов' 
+[03:26:50.619] [25] [ Info] [log] letmeplay invoked admin command '/give double lumber door' 
+[03:27:10.354] [25] [ Info] [log] letmeplay invoked admin command '/give дверь из пиломатериалов' 
+[03:35:15.471] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[03:35:19.656] [25] [ Info] [log] letmeplay invoked admin command '/eat' 
+[03:35:29.602] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[03:35:32.805] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[03:44:06.717] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-17-02.44.06
+ 
+[04:00:00.367] [25] [ Info] [log] letmeplay invoked admin command '/give палатка' 
+[04:09:49.320] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[04:14:06.240] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-13.24.44
+ 
+[04:44:07.662] [30] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-17-03.44.06
+ 
+[04:55:39.940] [25] [ Info] [log] letmeplay invoked admin command '/give большая вывеска из тёсанных брёвен' 
+[04:56:24.188] [25] [ Info] [log] letmeplay invoked admin command '/give большая вывеска из тёсанных брёвен' 
+[04:58:48.711] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[04:59:19.507] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[05:00:50.100] [25] [ Info] [log] letmeplay invoked admin command '/give маленькая вывеска из тесанных бревен' 
+[05:01:04.436] [25] [ Info] [log] letmeplay invoked admin command '/give Маленькая вывеска из тёсанных брёвен' 
+[05:01:08.336] [25] [ Info] [log] letmeplay invoked admin command '/give Маленькая вывеска из тёсанных брёвен,10' 
+[05:12:16.622] [25] [ Info] [log] letmeplay invoked admin command '/give большая вывеска из тёсанных брёвен' 
+[05:12:26.490] [25] [ Info] [log] letmeplay invoked admin command '/give большая вывеска из тёсанных брёвен' 
+[05:14:06.720] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-14.24.44
+ 
+[05:16:45.037] [25] [ Info] [log] letmeplay invoked admin command '/give Доска объявлений,2' 
+[05:19:34.695] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко ели,6' 
+[05:21:03.259] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,2-' 
+[05:21:05.742] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,20' 
+[05:23:33.184] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко ели,6' 
+[05:26:08.137] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко ели,6' 
+[05:27:30.198] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,20' 
+[05:33:27.125] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,20' 
+[05:34:12.724] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,20' 
+[05:36:25.828] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко ели,6' 
+[05:37:42.101] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,20' 
+[05:38:06.550] [25] [ Info] [log] letmeplay invoked admin command '/eat' 
+[05:39:11.305] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,20' 
+[05:39:30.317] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,20' 
+[05:42:38.043] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,20' 
+[05:42:40.628] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко травы,20' 
+[05:44:06.260] [33] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-17-04.44.06
+ 
+[05:48:39.853] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко ели,6' 
+[05:50:10.746] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко Секвои' 
+[05:50:13.845] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко Секвойи' 
+[05:50:22.597] [25] [ Info] [log] letmeplay invoked admin command '/give Семечко Секвойи,4' 
+[06:01:53.665] [25] [ Info] [log] letmeplay invoked admin command '/save' 
+[06:01:53.665] [18] [ Info] [Eco] Сохранение мира...  
+[06:10:23.234] [25] [ Info] [log] letmeplay invoked admin command '/give склад' 
+[06:11:12.185] [25] [ Info] [log] letmeplay invoked admin command '/give палатка' 
+[06:11:39.270] [25] [ Info] [log] letmeplay invoked admin command '/give склад' 
+[06:12:27.372] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[06:14:06.247] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-15-15.24.44
+ 
+[06:15:23.862] [25] [ Info] [log] letmeplay invoked admin command '/fly' 
+[06:20:01.023] [25] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[06:20:35.340] [25] [ Info] [log] letmeplay invoked admin command '/give Steel Shipping Container' 
+[06:22:12.077] [25] [ Info] [log] letmeplay invoked admin command '/save' 
+[06:22:12.077] [10] [ Info] [Eco] Сохранение мира...  
+[06:22:32.708] [1] [ Info] [Eco] Сохранение...
+ 
+[06:22:32.708] [1] [ Info] [Eco] Сохранение мира...  
+[06:22:36.361] [1] [ Info] [Eco] Готово
+ 
+[06:22:36.475] [1] [ Info] [Eco] Выключение завершено
+ 

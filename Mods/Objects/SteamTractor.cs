@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
         public override LocString DisplayDescription          { get { return Localizer.DoStr("A tractor powered through steam."); } }
     }
 
-    [RequiresSkill(typeof(MechanicsSkill), 0)] 
+    [RequiresSkill(typeof(MechanicsSkill), 1)] 
     public class SteamTractorRecipe : Recipe
     {
         public SteamTractorRecipe()

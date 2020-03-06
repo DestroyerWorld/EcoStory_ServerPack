@@ -47,6 +47,7 @@ namespace Eco.Mods.TechTree
         
     }
 
+	[RequiresSkill(typeof(HewingSkill), 1)]
     public partial class StockpileRecipe : Recipe
     {
         public StockpileRecipe()

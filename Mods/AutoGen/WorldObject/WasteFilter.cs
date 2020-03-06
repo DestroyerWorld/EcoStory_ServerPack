@@ -79,7 +79,7 @@ namespace Eco.Mods.TechTree
         [Tooltip(7)] private LocString PowerConsumptionTooltip { get { return new LocString(string.Format(Localizer.DoStr("Consumes: {0}w"), Text.Info(250))); } }  
     }
 
-    [RequiresSkill(typeof(MechanicsSkill), 0)]      
+    [RequiresSkill(typeof(MechanicsSkill), 1)]      
     public partial class WasteFilterRecipe : Recipe
     {
         public WasteFilterRecipe()

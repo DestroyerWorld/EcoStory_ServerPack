@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(AdvancedSmeltingSkill), 0)] 
+    [RequiresSkill(typeof(AdvancedSmeltingSkill), 1)] 
     public class SteelRivetsRecipe : Recipe
     {
         public SteelRivetsRecipe()

@@ -76,7 +76,7 @@ namespace Eco.Mods.TechTree
         
     }
 
-    [RequiresSkill(typeof(LumberSkill), 0)]      
+    [RequiresSkill(typeof(LumberSkill), 1)]      
     public partial class SmallStandingLumberSignRecipe : Recipe
     {
         public SmallStandingLumberSignRecipe()

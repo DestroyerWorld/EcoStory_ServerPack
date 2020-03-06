@@ -49,7 +49,7 @@ namespace Eco.Mods.TechTree
         public override LocString SpeciesName        { get { return Localizer.DoStr("CriminiMushroom"); } }
     }
 
-    [RequiresSkill(typeof(FarmingSkill), 0)]    
+    [RequiresSkill(typeof(FarmingSkill), 1)]    
     public class CriminiMushroomSporesRecipe : Recipe
     {
         public CriminiMushroomSporesRecipe()

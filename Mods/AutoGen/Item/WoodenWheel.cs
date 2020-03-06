@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(BasicEngineeringSkill), 0)]      
+    [RequiresSkill(typeof(BasicEngineeringSkill), 1)]      
     public partial class WoodenWheelRecipe : Recipe
     {
         public WoodenWheelRecipe()

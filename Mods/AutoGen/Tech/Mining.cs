@@ -33,7 +33,6 @@ namespace Eco.Mods.TechTree
 
         private static List<Tuple<Type, int>> ItemsGiven = new List<Tuple<Type, int>>
         {
-            new Tuple<Type, int>(typeof(IronPickaxeItem), 1)
         };
 
         public override IEnumerable<Type> ItemTypesGiven { get { return ItemsGiven.Select(tuple => tuple.Item1); } }

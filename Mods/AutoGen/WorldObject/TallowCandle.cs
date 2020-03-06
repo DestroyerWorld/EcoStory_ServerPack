@@ -38,7 +38,7 @@ namespace Eco.Mods.TechTree
     [RequireComponent(typeof(LinkComponent))]                   
     [RequireComponent(typeof(FuelSupplyComponent))]                      
     [RequireComponent(typeof(FuelConsumptionComponent))]                 
-    [RequireComponent(typeof(HousingComponent))]                  
+    [RequireComponent(typeof(HousingComponent))] 
     public partial class TallowCandleObject : 
         WorldObject,    
         IRepresentsItem
@@ -72,7 +72,7 @@ namespace Eco.Mods.TechTree
     }
 
     [Serialized]
-    public partial class TallowCandleItem :
+	public partial class TallowCandleItem :
         WorldObjectItem<TallowCandleObject> 
     {
         public override LocString DisplayName { get { return Localizer.DoStr("Tallow Candle"); } } 
@@ -94,7 +94,8 @@ namespace Eco.Mods.TechTree
         
         [Tooltip(7)] private LocString PowerConsumptionTooltip { get { return new LocString(string.Format(Localizer.DoStr("Consumes: {0}w from fuel"), Text.Info(1))); } } 
     }
-
+	
+	[RequiresSkill(typeof(MortaringSkill), 1)]
     public partial class TallowCandleRecipe : Recipe
     {
         public TallowCandleRecipe()

@@ -111,7 +111,7 @@ namespace Eco.Mods.TechTree
         [Tooltip(8)] private LocString PowerProductionTooltip  { get { return new LocString(string.Format(Localizer.DoStr("Produces: {0}w"), Text.Info(3000))); } } 
     }
 
-    [RequiresSkill(typeof(MechanicsSkill), 0)]      
+    [RequiresSkill(typeof(MechanicsSkill), 1)]      
     public partial class CombustionGeneratorRecipe : Recipe
     {
         public CombustionGeneratorRecipe()

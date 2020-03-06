@@ -93,7 +93,7 @@ namespace Eco.Mods.TechTree
         [Tooltip(7)] private LocString PowerConsumptionTooltip { get { return new LocString(string.Format(Localizer.DoStr("Consumes: {0}w"), Text.Info(1000))); } }  
     }
 
-    [RequiresSkill(typeof(ElectronicsSkill), 0)]      
+    [RequiresSkill(typeof(ElectronicsSkill), 1)]      
     public partial class RoboticAssemblyLineRecipe : Recipe
     {
         public RoboticAssemblyLineRecipe()

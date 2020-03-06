@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(OilDrillingSkill), 0)]      
+    [RequiresSkill(typeof(OilDrillingSkill), 1)]      
     public partial class EpoxyRecipe : Recipe
     {
         public EpoxyRecipe()

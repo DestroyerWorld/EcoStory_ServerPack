@@ -86,7 +86,7 @@ namespace Eco.Mods.TechTree
     }
 
     [RequiresModule(typeof(ElectricLatheObject))]           
-    [RequiresSkill(typeof(IndustrySkill), 0)]      
+    [RequiresSkill(typeof(IndustrySkill), 1)]      
     public partial class ElectricPlanerRecipe : Recipe
     {
         public ElectricPlanerRecipe()

@@ -20,7 +20,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(IndustrySkill), 0)]      
+    [RequiresSkill(typeof(IndustrySkill), 1)]      
     public partial class AdvancedCombustionEngineRecipe : Recipe
     {
         public AdvancedCombustionEngineRecipe()

@@ -21,7 +21,7 @@ namespace Eco.Mods.TechTree
     using Eco.Gameplay.Pipes;
     using Eco.Gameplay.Pipes.LiquidComponents; 
 
-    [RequiresSkill(typeof(OilDrillingSkill), 0)]      
+    [RequiresSkill(typeof(OilDrillingSkill), 1)]      
     public partial class BarrelRecipe : Recipe
     {
         public BarrelRecipe()

@@ -90,7 +90,7 @@ namespace Eco.Mods.TechTree
         
     }
 
-    [RequiresSkill(typeof(HewingSkill), 0)]      
+    [RequiresSkill(typeof(HewingSkill), 1)]      
     public partial class ButcheryTableRecipe : Recipe
     {
         public ButcheryTableRecipe()

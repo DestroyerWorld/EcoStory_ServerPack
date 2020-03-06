@@ -18,7 +18,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
-    [RequiresSkill(typeof(AdvancedSmeltingSkill), 0)]   
+    [RequiresSkill(typeof(AdvancedSmeltingSkill), 1)]   
     [RepairRequiresSkill(typeof(AdvancedSmeltingSkill), 3)] 
     public partial class ModernHammerRecipe : Recipe
     {

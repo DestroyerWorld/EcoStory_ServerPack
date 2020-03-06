@@ -13,7 +13,7 @@ namespace Eco.Mods.TechTree
     using Gameplay.Systems.TextLinks;
     using Eco.Shared.Localization;
 
-    [RequiresSkill(typeof(HewingSkill), 0)] 
+    [RequiresSkill(typeof(HewingSkill), 1)] 
     public class HewLogsRecipe : Recipe
     {
         public HewLogsRecipe()

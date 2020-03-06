@@ -88,7 +88,7 @@ namespace Eco.Mods.TechTree
         
     }
 
-    [RequiresSkill(typeof(ElectronicsSkill), 0)]      
+    [RequiresSkill(typeof(ElectronicsSkill), 1)]      
     public partial class ElectronicsAssemblyRecipe : Recipe
     {
         public ElectronicsAssemblyRecipe()

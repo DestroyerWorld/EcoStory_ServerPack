@@ -34,7 +34,10 @@
         "slg167689",
         "Dark Avanger",
         "76561198159962981",
-        "76561198117468162"
+        "76561198117468162",
+        "76561198850712520",
+        "76561199005862552",
+        "slg166695"
       ]
     }
   },
@@ -141,7 +144,7 @@
     }
   },
   "UnStuckDisableTime": 60.0,
-  "AdminCommandsLoggingLevel": "LogFileAndNotifyEveryone",
+  "AdminCommandsLoggingLevel": "LogFile",
   "DelayNearbyFoodCheckMinutes": 4.0,
   "NearbyFoodSpawnLocationRadius": 20.0,
   "NearbyFoodSpawnCount": 5,

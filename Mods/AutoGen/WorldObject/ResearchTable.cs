@@ -79,7 +79,7 @@ namespace Eco.Mods.TechTree
 
         
     }
-
+	
     public partial class ResearchTableRecipe : Recipe
     {
         public ResearchTableRecipe()

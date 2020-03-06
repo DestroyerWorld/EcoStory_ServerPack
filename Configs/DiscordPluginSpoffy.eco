@@ -1,11 +1,22 @@
 {
-  "BotToken": "",
+  "BotToken": "Njg0NjQ1OTQ3MTIwMDI1NjEw.XmI0_g.mO2ObLIcMmHWrCTre6LdFliRvMc",
   "PlayerConfigs": [
     {
       "Username": "letmeplay",
       "DefaultChannel": {}
     }
   ],
-  "ChannelLinks": [],
+  "ChannelLinks": [
+    {
+      "DiscordGuild": "669125009830182942",
+      "DiscordChannel": "682755380962787414",
+      "EcoChannel": "Ic"
+    },
+    {
+      "DiscordGuild": "669125009830182942",
+      "DiscordChannel": "680703469405077511",
+      "EcoChannel": "Ooc"
+    }
+  ],
   "Debug": false
 }

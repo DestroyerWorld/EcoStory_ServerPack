@@ -1,0 +1,543 @@
+[14:32:20.697] [1] [ Info] [Eco] >>> START EcoServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[14:32:20.726] [1] [ Info] [Eco] Eco Server 0.8.3.3 beta
+ 
+[14:32:20.824] [1] [ Info] [Eco] Server Initialization...  
+[14:32:20.825] [1] [ Info] [Eco] Starting LocalizationPlugin...  
+[14:32:21.460] [1] [ Info] [Eco] Запуск ПлагинНабораМодификаций...  
+[14:32:21.460] [1] [ Info] [Eco] Загрузка модификаций...  
+[14:32:21.834] [1] [ Info] [Eco] Компилирование модификаций...  
+[14:32:23.762] [1] [ Info] [Eco] Загружаем 0Harmony...
+ 
+[14:32:23.762] [1] [ Info] [Eco] Загружаем Asphalt-ModKit...
+ 
+[14:32:23.899] [1] [ Info] [Eco] Загружаем DiscordLink_blue...
+ 
+[14:32:23.950] [1] [ Info] [Eco] Загружаем Eco.IntegrationTests...
+ 
+[14:32:23.950] [1] [ Info] [Eco] Загружаем em-base...
+ 
+[14:32:23.950] [1] [ Info] [Eco] Загружаем NoPlayerCredits...
+ 
+[14:32:23.950] [1] [ Info] [Eco] Загружаем em-greenenergy...
+ 
+[14:32:23.950] [1] [ Info] [Eco] Загружаем em-realisticsmelting...
+ 
+[14:32:23.950] [1] [ Info] [Eco] Загружаем em-shippingcontainers...
+ 
+[14:32:23.950] [1] [ Info] [Eco] Загружаем em-tailingspack...
+ 
+[14:32:23.950] [1] [ Info] [Eco] Загружаем em-arches...
+ 
+[14:32:23.968] [1] [ Info] [Eco] Загружаем em-doors...
+ 
+[14:32:23.968] [1] [ Info] [Eco] Загружаем em-dyes...
+ 
+[14:32:23.968] [1] [ Info] [Eco] Загружаем em-homeobjects...
+ 
+[14:32:23.968] [1] [ Info] [Eco] Загружаем em-transportation...
+ 
+[14:32:23.982] [1] [ Info] [Eco] Загружаем em-windows...
+ 
+[14:32:23.982] [1] [ Info] [Eco] Загружаем em-zymology...
+ 
+[14:32:23.982] [1] [ Info] [Eco] Загружаем HPStorage...
+ 
+[14:32:23.998] [1] [ Info] [Eco] Загружаем NidToolbox...
+ 
+[14:32:23.998] [1] [ Info] [Eco] Загрузка модификаций завершена за 2 542,4мс
+ 
+[14:32:23.998] [1] [ Info] [Eco] Запуск МенеджерСети...  
+[14:32:24.016] [8] [ Info] [Eco] Инициализация типов симуляции...  
+[14:32:24.066] [17] [ Info] [Eco] Запуск ПлагинГенератораМира...  
+[14:32:24.066] [14] [ Info] [Eco] Запуск ПлагинИгровойСтатистики...  
+[14:32:24.066] [16] [ Info] [Eco] Запуск ПлагинРезервногоКопирования...  
+[14:32:24.081] [16] [ Info] [Eco] Запуск МенеджерХранилища...  
+[14:32:24.795] [8] [ Info] [Eco] Инициализация предметов...  
+[14:32:24.870] [8] [ Info] [NidToolbox] Checking Settings.json 
+[14:32:24.873] [8] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\Settings.json exists. 
+[14:32:24.873] [8] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\Settings.json readable and correct. 
+[14:32:24.873] [8] [ Info] [NidToolbox] Checking CommandPermissions.json 
+[14:32:24.873] [8] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\CommandPermissions.json exists. 
+[14:32:24.873] [8] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\CommandPermissions.json readable and correct. 
+[14:32:24.873] [8] [ Info] [NidToolbox] Checking TimerMessages.json 
+[14:32:24.873] [8] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\TimerMessages.json exists. 
+[14:32:24.873] [8] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\TimerMessages.json readable and correct. 
+[14:32:24.873] [8] [ Info] [NidToolbox] Checking ScheduledMessages.json 
+[14:32:24.888] [8] [ Info] [NidToolbox] Config file: Mods\NidToolbox\Config\ScheduledMessages.json exists. 
+[14:32:24.888] [8] [ Info] [NidToolbox] Json file: Mods\NidToolbox\Config\ScheduledMessages.json readable and correct. 
+[14:32:24.888] [8] [ Info] [NidToolbox] No UserHomes directory, skipping user homes config checks. 
+[14:32:28.368] [16] [ Info] [Eco] Запуск Плагин паузы...  
+[14:32:28.374] [16] [ Info] [Eco] Загружаем Pause...  
+[14:32:28.722] [8] [ Info] [Eco] Инициализация навыков...  
+[14:32:28.812] [16] [ Info] [Eco] Запуск БДСтатистики...  
+[14:32:28.812] [10] [ Info] [Eco] Запуск ПлагинМира...  
+[14:32:28.851] [10] [ Info] [Eco] Загружаем World...  
+[14:32:31.824] [10] [ Info] [Eco] Инициализация мира...  
+[14:32:32.931] [10] [ Info] [Eco] Запуск ПлагинВремени...  
+[14:32:32.931] [10] [ Info] [Eco] Загружаем Time...  
+[14:32:32.931] [10] [ Info] [Eco] Запуск ПлагинРепутации...  
+[14:32:32.935] [10] [ Info] [Eco] Загружаем Reputation...  
+[14:32:32.935] [10] [ Info] [Eco] Запуск МенеджерЖильяИгроков...  
+[14:32:32.935] [10] [ Info] [Eco] Запуск МенеджерПользователей...  
+[14:32:33.005] [10] [ Info] [Eco] Загружаем Users...  
+[14:32:33.148] [10] [ Info] [Eco] Инициализация инвентарей...  
+[14:32:33.191] [10] [ Info] [Eco] Запуск МенеджерОбъектовЭко...  
+[14:32:33.191] [34] [ Info] [Eco] Запуск ПлагинМусора...  
+[14:32:33.191] [21] [ Info] [Eco] Запуск МенеджерКонтроллера...  
+[14:32:33.200] [16] [ Info] [Eco] Запуск ПлагинЭкономики...  
+[14:32:33.200] [27] [ Info] [Eco] Запуск ПлагинУгроз...  
+[14:32:33.200] [19] [ Info] [Eco] Запуск СерверЧата...  
+[14:32:33.200] [30] [ Info] [Eco] Запуск VoiceManager...  
+[14:32:33.200] [5] [ Info] [Eco] Запуск НастройкиСложности...  
+[14:32:33.200] [34] [ Info] [Eco] Загружаем Garbage...  
+[14:32:33.222] [16] [ Info] [Eco] Загружаем Economy...  
+[14:32:33.385] [27] [ Info] [Eco] Загружаем Disasters...  
+[14:32:33.392] [16] [ Info] [Eco] Запуск Законодательство...  
+[14:32:33.392] [19] [ Info] [Eco] Загружаем Chat...  
+[14:32:33.426] [16] [ Info] [Eco] Загружаем Laws...  
+[14:32:33.520] [16] [ Info] [Eco] Запуск МенеджерСобственности...  
+[14:32:33.520] [16] [ Info] [Eco] Загружаем Property...  
+[14:32:33.585] [16] [ Info] [Eco] Запуск МенеджерМиникарты...  
+[14:32:33.585] [16] [ Info] [Eco] Запуск СимуляцияЭко...  
+[14:32:33.653] [16] [ Info] [Eco] Загружаем Plants...  
+[14:32:35.731] [16] [ Info] [Eco] Инициализация растений...  
+[14:32:46.188] [16] [ Info] [Eco] Запуск RouteProbingPlugin...  
+[14:32:46.188] [16] [ Info] [Eco] Загружаем RouteProbing...  
+[14:32:49.204] [16] [ Info] [Eco] Запуск МенеджерСлоёвМира...  
+[14:32:49.204] [16] [ Info] [Eco] Загружаем Layers...  
+[14:32:49.867] [16] [ Info] [Eco] Инициализация слоёв мира...  
+[14:32:49.873] [16] [ Info] [Eco] Загружаем ClimateSim...  
+[14:32:53.218] [16] [ Info] [Eco] Запуск ТрекерЭкономики...  
+[14:32:53.218] [16] [ Info] [Eco] Запуск UserTracker...  
+[14:32:53.218] [16] [ Info] [Eco] Запуск МенеджерМировыхОбъектов...  
+[14:32:53.324] [16] [ Info] [Eco] Загружаем WorldObjects...  
+[14:32:53.450] [16] [ Info] [Eco] Запуск ПлагинКомнат...  
+[14:32:53.450] [16] [ Info] [Eco] Загружаем Rooms...  
+[14:32:53.450] [16] [ Info] [Eco] Запуск ПлагинЦелей...  
+[14:32:53.450] [16] [ Info] [Eco] Загружаем Objectives...  
+[14:32:53.477] [16] [ Info] [Eco] Запуск ПлагинСна...  
+[14:32:53.477] [16] [ Info] [Eco] Загружаем Sleep...  
+[14:32:53.483] [1] [ Info] [Eco] Запуск ПлагинВебСервера...  
+[14:32:53.483] [1] [ Info] [Eco] Запуск OtherAliasCategory...  
+[14:32:53.483] [22] [ Info] [Eco] Запуск ПлагинТестовИнтеграции...  
+[14:32:53.483] [14] [ Info] [Eco] Запуск NidToolboxPlugin...  
+[14:32:53.483] [10] [ Info] [Eco] Запуск ChatBase...  
+[14:32:53.483] [33] [ Info] [Eco] Запуск DiscordLink...  
+[14:32:53.483] [23] [ Info] [Eco] Запуск Asphalt...  
+[14:32:53.483] [9] [ Info] [Eco] Запуск NoPlayerCreditsPlugin...  
+[14:32:53.586] [1] [ Info] [Eco] Инициализируем ПлагинПеревода...  
+[14:32:53.586] [1] [ Info] [Eco] Инициализируем ПлагинНабораМодификаций...  
+[14:32:53.877] [1] [ Info] [Eco] Инициализируем ПлагинГенератораМира...  
+[14:32:53.877] [1] [ Info] [Eco] Инициализируем МенеджерПользователей...  
+[14:32:53.918] [1] [ Info] [Eco] Инициализируем ПлагинМусора...  
+[14:32:53.928] [1] [ Info] [Eco] Инициализируем ПлагинЭкономики...  
+[14:32:53.946] [1] [ Info] [Eco] Инициализируем Законодательство...  
+[14:32:56.816] [1] [ Info] [Eco] Инициализируем МенеджерСобственности...  
+[14:32:56.847] [1] [ Info] [Eco] Инициализируем МенеджерМиникарты...  
+[14:32:57.833] [1] [ Info] [Eco] Инициализируем UserTracker...  
+[14:32:57.833] [1] [ Info] [Eco] Инициализируем МенеджерМировыхОбъектов...  
+[14:32:58.113] [1] [ Info] [Eco] Инициализируем ПлагинКомнат...  
+[14:32:58.231] [1] [ Info] [Eco] Инициализируем ПлагинСна...  
+[14:32:58.231] [1] [ Info] [Eco] Инициализируем NidToolboxPlugin...  
+[14:32:58.231] [1] [ Info] [NidToolbox] Checking declared file: Mods\NidToolbox\Texts\Motd.txt 
+[14:32:58.231] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Motd.txt exists. 
+[14:32:58.231] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Motd.txt readable. 
+[14:32:58.231] [1] [ Info] [NidToolbox] Checking declared file: Mods\NidToolbox\Texts\Rules.txt 
+[14:32:58.231] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Rules.txt exists. 
+[14:32:58.231] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\Rules.txt readable. 
+[14:32:58.231] [1] [ Info] [NidToolbox] Checking declared file: Mods\NidToolbox\Texts\ServerChangelog.txt 
+[14:32:58.231] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\ServerChangelog.txt exists. 
+[14:32:58.248] [1] [ Info] [NidToolbox] Config file:  Mods\NidToolbox\Texts\ServerChangelog.txt readable. 
+[14:32:58.345] [1] [ Info] [Eco] Инициализируем NoPlayerCreditsPlugin...  
+[14:32:58.345] [1] [ Info] [Eco] Инициализируем DiscordLink...  
+[14:32:58.375] [1] [ Info] [Eco] Инициализируем ПлагинМира...  
+[14:32:58.375] [1] [ Info] [Eco] Обработка...  
+[14:32:59.433] [1] [ Info] [Eco] Сжатие...  
+[14:33:02.952] [1] [ Info] [Eco] Инициализируем МенеджерСети...  
+[14:33:03.000] [139] [ Info] [Eco] DISCORDLINK: Connected to Discord.
+
+ 
+[14:33:03.188] [1] [ Info] [Eco] Инициализируем МенеджерСлоёвМира...  
+[14:33:03.188] [1] [ Info] [Eco] Инициализируем ПлагинВебСервера...  
+[14:33:03.792] [140] [ Info] [Eco] DISCORDLINK: Connected and Ready
+ 
+[14:33:04.054] [1] [ Info] [Eco] Инициализируем ПлагинТестовИнтеграции...  
+[14:33:04.061] [1] [ Info] [NidToolbox] OK - Mono not detected, not a Linux environment 
+[14:33:04.061] [1] [ Info] [NidToolbox] All commands in config up to date. 
+[14:33:04.140] [1] [ Info] [NidToolbox] Running NidToolbox version 1.8.7 
+[14:33:04.163] [1] [ Info] [Eco] Server Initialization завершена за 43 333,2мс
+ 
+[14:34:35.796] [175] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[14:40:18.008] [175] [ Info] [log] Dark Avenger invoked admin command '/give помидор' 
+[14:40:28.975] [175] [ Info] [log] Dark Avenger invoked admin command '/eat' 
+[15:03:04.621] [30] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-01.44.36
+ 
+[15:03:04.643] [30] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-15.01.39
+ 
+[16:03:04.618] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-16.01.39
+ 
+[16:33:04.632] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-15.33.04
+ 
+[17:03:04.661] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-17.01.39
+ 
+[17:33:04.638] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-16.33.04
+ 
+[18:03:04.639] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-18.01.39
+ 
+[18:14:03.723] [138] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[18:19:19.360] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[18:19:55.673] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[18:25:33.152] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[18:33:04.630] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-17.33.04
+ 
+[18:41:00.128] [33] [ Info] [log] Larsa invoked admin command '/eat' 
+[18:41:15.996] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[18:42:25.776] [33] [ Info] [log] Larsa invoked admin command '/fly' 
+[18:42:29.922] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[18:44:01.081] [33] [ Info] [log] Larsa invoked admin command '/fly' 
+[18:48:03.448] [33] [ Info] [log] Larsa invoked admin command '/fly' 
+[18:48:16.354] [33] [ Info] [log] Larsa invoked admin command '/fly' 
+[18:50:28.016] [33] [ Info] [log] Larsa invoked admin command '/fly' 
+[18:52:28.872] [139] [ Info] [log] Dark Avenger invoked admin command '/record' 
+[18:52:48.777] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[18:58:07.090] [139] [ Info] [log] Dark Avenger invoked admin command '/give кирка' 
+[18:59:07.189] [139] [ Info] [log] Dark Avenger invoked admin command '/givealltools 1' 
+[19:03:04.666] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-19.01.39
+ 
+[19:10:39.984] [139] [ Info] [log] Dark Avenger invoked admin command '/give верстак' 
+[19:22:03.478] [33] [ Info] [log] Larsa invoked admin command '/give ремонтный верстак' 
+[19:22:54.125] [33] [ Info] [log] Larsa invoked admin command '/give ремонтная станция' 
+[19:26:01.614] [139] [ Info] [log] Dark Avenger invoked admin command '/givealltools 3' 
+[19:26:03.608] [139] [ Info] [log] Dark Avenger invoked admin command '/givealltools 3' 
+[19:26:06.620] [139] [ Info] [log] Dark Avenger invoked admin command '/givealltools 2' 
+[19:33:04.662] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-18.33.04
+ 
+[19:33:47.135] [139] [ Info] [log] Dark Avenger invoked admin command '/givealltools 2' 
+[19:33:54.335] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:34:02.851] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:34:07.669] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:35:41.868] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:35:45.344] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:38:47.285] [139] [ Info] [log] Dark Avenger invoked admin command '/givealltools 0' 
+[19:38:50.039] [139] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[19:38:54.558] [139] [ Info] [log] Dark Avenger invoked admin command '/givealltools 1' 
+[20:03:04.560] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-20.01.39
+ 
+[20:33:04.691] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-19.33.04
+ 
+[21:03:04.585] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-21.01.39
+ 
+[21:33:04.705] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-20.33.04
+ 
+[22:03:04.713] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-22.01.39
+ 
+[22:33:04.402] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-21.33.04
+ 
+[23:03:04.740] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-23.01.39
+ 
+[23:33:04.744] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-22.33.04
+ 
+[23:59:49.064] [22] [ Info] [log] AmeriQ invoked admin command '/eat' 
+[00:03:04.394] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-02-29-00.01.39
+ 
+[00:06:36.707] [22] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:06:40.660] [22] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:09:43.329] [22] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:09:45.792] [22] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:11:04.401] [22] [ Info] [log] AmeriQ invoked admin command '/dump' 
+[00:12:25.656] [22] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:20:06.513] [22] [ Info] [log] AmeriQ invoked admin command '/give contract board' 
+[00:21:29.078] [22] [ Info] [log] AmeriQ invoked admin command '/givealltools 0' 
+[00:33:04.760] [30] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-23.33.04
+ 
+[00:38:59.467] [22] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:42:13.723] [22] [ Info] [log] AmeriQ invoked admin command '/dump' 
+[00:42:16.767] [22] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:44:32.108] [22] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:52:38.224] [22] [ Info] [log] AmeriQ invoked admin command '/record' 
+[00:56:50.138] [22] [ Info] [log] AmeriQ invoked admin command '/fly' 
+[00:56:57.116] [22] [ Info] [log] AmeriQ invoked admin command '/give axe' 
+[01:03:04.610] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-01.01.39
+ 
+[01:04:53.173] [22] [ Info] [log] AmeriQ invoked admin command '/give board' 
+[01:05:01.145] [22] [ Info] [log] AmeriQ invoked admin command '/give standing board' 
+[01:05:21.441] [22] [ Info] [log] AmeriQ invoked admin command '/give большая таблика тёсанных брёвен' 
+[01:05:28.745] [22] [ Info] [log] AmeriQ invoked admin command '/give большая табличка тёсанных брёвен' 
+[01:05:35.771] [22] [ Info] [log] AmeriQ invoked admin command '/give большая табличка из тёсанных брёвен' 
+[01:06:07.229] [22] [ Info] [log] AmeriQ invoked admin command '/give hammer' 
+[01:08:06.447] [22] [ Info] [log] AmeriQ invoked admin command '/give Маленькая деревянная телега' 
+[01:16:33.322] [21] [ Info] [log] letmeplay invoked admin command '/fly' 
+[01:20:18.289] [21] [ Info] [log] letmeplay invoked admin command '/fly' 
+[01:20:34.485] [21] [ Info] [log] letmeplay invoked admin command '/eat' 
+[01:33:04.421] [34] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-00.33.04
+ 
+[01:33:33.459] [21] [ Info] [log] letmeplay invoked admin command '/eat' 
+[01:33:36.109] [21] [ Info] [log] letmeplay invoked admin command '/fly' 
+[01:35:49.081] [21] [ Info] [log] letmeplay invoked admin command '/fly' 
+[01:47:55.323] [21] [ Info] [log] letmeplay invoked admin command '/give сыродутная печь' 
+[02:03:04.779] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-02.01.39
+ 
+[02:33:04.765] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-01.33.04
+ 
+[03:03:04.752] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-15.44.36
+ 
+[03:33:04.662] [30] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-02.33.04
+ 
+[03:59:07.037] [24] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[04:03:04.765] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-16.14.36
+ 
+[04:33:04.772] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-03.33.04
+ 
+[05:03:04.778] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-17.14.36
+ 
+[05:31:57.100] [25] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[05:33:04.670] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-04.33.04
+ 
+[06:03:04.794] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-18.14.36
+ 
+[06:33:04.786] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-05.33.04
+ 
+[07:03:04.672] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-19.14.36
+ 
+[07:33:04.821] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-06.33.04
+ 
+[08:03:04.673] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-20.14.36
+ 
+[08:33:04.683] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-07.33.04
+ 
+[09:03:05.955] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-21.14.36
+ 
+[09:33:05.993] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-08.33.04
+ 
+[10:03:06.119] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-22.14.36
+ 
+[10:33:05.998] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-09.33.05
+ 
+[11:03:06.109] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-23.14.36
+ 
+[11:33:06.006] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-10.33.05
+ 
+[12:33:06.145] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-11.33.05
+ 
+[13:03:06.033] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-01.14.36
+ 
+[13:33:06.154] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-12.33.05
+ 
+[14:03:06.158] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-02.14.36
+ 
+[14:33:06.050] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-13.33.05
+ 
+[15:03:05.805] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-15.03.04
+ 
+[15:33:06.165] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-14.33.05
+ 
+[15:33:41.804] [136] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[16:03:06.193] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-16.03.04
+ 
+[16:33:06.043] [34] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-15.33.05
+ 
+[17:03:06.171] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-17.03.04
+ 
+[17:13:29.175] [136] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[17:32:17.363] [138] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[17:33:06.048] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-16.33.05
+ 
+[18:03:06.179] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-18.03.04
+ 
+[18:33:06.194] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-17.33.05
+ 
+[19:03:06.076] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-19.03.04
+ 
+[19:33:06.205] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-18.33.05
+ 
+[20:03:06.252] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-20.03.04
+ 
+[20:11:00.173] [140] [ Info] [log] Dark Avenger invoked admin command '/eat' 
+[20:11:10.871] [140] [ Info] [log] Dark Avenger invoked admin command '/givealltools 0' 
+[20:11:18.269] [140] [ Info] [log] Dark Avenger invoked admin command '/fly' 
+[20:33:06.247] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-19.33.05
+ 
+[21:03:06.124] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-21.03.04
+ 
+[21:33:06.251] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-20.33.05
+ 
+[22:03:06.272] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-22.03.04
+ 
+[22:33:06.122] [30] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-21.33.05
+ 
+[23:03:06.265] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-02-23.03.04
+ 
+[23:33:06.267] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-22.33.05
+ 
+[00:03:06.136] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-01-00.01.39
+ 
+[00:33:06.163] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-23.33.05
+ 
+[01:03:06.274] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-01.03.04
+ 
+[01:07:38.793] [21] [ Info] [log] letmeplay invoked admin command '/record' 
+[01:07:55.850] [21] [ Info] [log] letmeplay invoked admin command '/time 10' 
+[01:08:11.252] [21] [ Info] [log] letmeplay invoked admin command '/record' 
+[01:33:06.331] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-00.33.05
+ 
+[02:03:06.208] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-02.03.04
+ 
+[02:33:06.144] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-01.33.05
+ 
+[03:03:06.347] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-03.03.04
+ 
+[03:33:06.318] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-02.33.05
+ 
+[03:51:17.668] [33] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[04:03:06.353] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-04.03.04
+ 
+[04:33:06.328] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-03.33.05
+ 
+[05:03:06.384] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-05.03.04
+ 
+[05:33:06.352] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-04.33.05
+ 
+[06:03:06.367] [30] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-06.03.04
+ 
+[06:33:05.977] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-05.33.05
+ 
+[07:03:05.985] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-07.03.04
+ 
+[07:04:29.072] [33] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[07:33:06.364] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-06.33.05
+ 
+[08:03:06.370] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-08.03.04
+ 
+[08:33:06.388] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-07.33.05
+ 
+[09:03:06.379] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-09.03.05
+ 
+[09:33:06.403] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-08.33.05
+ 
+[10:03:06.436] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-10.03.05
+ 
+[10:33:06.448] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-09.33.05
+ 
+[11:03:06.050] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-11.03.05
+ 
+[11:33:06.457] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-10.33.05
+ 
+[12:03:06.453] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-12.03.05
+ 
+[12:33:06.457] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-11.33.05
+ 
+[13:03:06.466] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-13.03.05
+ 
+[13:33:06.462] [34] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-12.33.05
+ 
+[14:03:06.461] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-14.03.05
+ 
+[14:33:06.487] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-13.33.05
+ 
+[15:03:06.487] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-15.03.05
+ 
+[15:33:06.518] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-14.33.05
+ 
+[15:43:12.691] [33] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[16:03:06.529] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-16.03.05
+ 
+[16:33:06.521] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-15.33.05
+ 
+[17:03:06.485] [34] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-17.03.05
+ 
+[17:33:06.155] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-16.33.05
+ 
+[18:03:06.116] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-18.03.05
+ 
+[18:33:06.527] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-17.33.05
+ 
+[19:03:06.514] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-19.03.05
+ 
+[19:33:06.551] [30] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-18.33.06
+ 
+[20:03:06.521] [30] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-20.03.05
+ 
+[20:33:06.559] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-19.33.06
+ 
+[21:03:06.546] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-21.03.05
+ 
+[21:33:06.561] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-20.33.06
+ 
+[22:03:06.156] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-22.03.05
+ 
+[22:33:06.159] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-21.33.06
+ 
+[22:52:45.287] [20] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[23:03:06.155] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-03-23.03.05
+ 
+[23:33:06.164] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-22.33.06
+ 
+[23:58:31.661] [33] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[00:33:06.618] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-23.33.06
+ 
+[00:38:51.618] [27] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[01:03:06.579] [15] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-01.03.05
+ 
+[01:33:06.592] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-05-00.33.06
+ 
+[02:03:06.604] [19] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-02.03.05
+ 
+[02:33:06.611] [23] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-05-01.33.06
+ 
+[03:03:06.213] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-03.03.05
+ 
+[03:33:06.208] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-05-02.33.06
+ 
+[04:03:06.244] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-04.03.05
+ 
+[04:07:57.984] [21] [ Info] [log] letmeplay invoked admin command '/fly' 
+[04:08:08.121] [21] [ Info] [log] letmeplay invoked admin command '/record' 
+[04:33:06.611] [32] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-05-03.33.06
+ 
+[04:57:22.187] [142] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[05:03:06.606] [31] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-05.03.05
+ 
+[05:33:06.621] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-05-04.33.06
+ 
+[06:03:06.622] [10] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-06.03.05
+ 
+[06:21:30.939] [136] [ Info] [log] letmeplay invoked admin command '/fly' 
+[06:21:36.303] [136] [ Info] [log] letmeplay invoked admin command '/fly' 
+[06:22:43.660] [136] [ Info] [log] letmeplay invoked admin command '/record' 
+[06:33:06.665] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-05-05.33.06
+ 
+[06:49:51.935] [25] [ Info] [Eco] DISCORDLINK: Resumed connection
+ 
+[07:03:06.711] [12] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-07.03.05
+ 
+[07:33:06.274] [35] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-05-06.33.06
+ 
+[07:42:10.389] [136] [ Info] [log] letmeplay invoked admin command '/record' 
+[07:59:07.461] [136] [ Info] [log] letmeplay invoked admin command '/record' 
+[08:03:06.295] [5] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-04-08.03.05
+ 
+[08:14:21.956] [136] [ Info] [log] letmeplay invoked admin command '/eat' 
+[08:14:33.889] [136] [ Info] [log] letmeplay invoked admin command '/record' 
+[08:15:33.776] [136] [ Info] [log] letmeplay invoked admin command '/record' 
+[08:33:06.626] [14] [ Info] [Eco] Удалена резервная копия - D:/EcoBackup/Storage\Backup\Game-2020-03-05-07.33.06
+ 
+[08:44:06.448] [1] [ Info] [Eco] Сохранение...
+ 
+[08:44:06.448] [1] [ Info] [Eco] Сохранение мира...  
+[08:44:10.716] [1] [ Info] [Eco] Готово
+ 
+[08:44:10.880] [1] [ Info] [Eco] Выключение завершено
+ 

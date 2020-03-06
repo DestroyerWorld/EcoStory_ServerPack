@@ -60,7 +60,10 @@ public static class PlayerDefaults
             typeof(SmithSkill),
             typeof(EngineerSkill),
             typeof(SurvivalistSkill),
-            typeof(TailorSkill)
+            typeof(TailorSkill),
+			typeof(BasicEngineeringSkill),
+			typeof(TailoringSkill),
+			typeof(FarmingSkill),
         };
     }
 

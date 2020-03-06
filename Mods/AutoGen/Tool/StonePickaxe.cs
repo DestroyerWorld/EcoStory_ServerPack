@@ -18,6 +18,7 @@ namespace Eco.Mods.TechTree
     using Eco.World.Blocks;
     using Eco.Gameplay.Pipes;
 
+	[RequiresSkill(typeof(MortaringSkill), 1)]
     public partial class StonePickaxeRecipe : Recipe
     {
         public StonePickaxeRecipe()

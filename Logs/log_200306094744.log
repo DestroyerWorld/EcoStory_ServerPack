@@ -1,0 +1,43 @@
+[09:47:44.808] [1] [ Info] [Eco] >>> START EcoServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null 
+[09:47:44.835] [1] [ Info] [Eco] Eco Server 0.8.3.3 beta
+ 
+[09:47:44.907] [1] [ Info] [Eco] Server Initialization...  
+[09:47:44.907] [1] [ Info] [Eco] Starting LocalizationPlugin...  
+[09:47:45.300] [1] [ Info] [Eco] Запуск ПлагинНабораМодификаций...  
+[09:47:45.300] [1] [ Info] [Eco] Загрузка модификаций...  
+[09:47:45.606] [1] [ Info] [Eco] Компилирование модификаций...  
+[09:47:46.931] [1] [ Info] [Eco] Модификации пересобраны с ошибками.
+ 
+[09:47:46.931] [1] [ Info] [Eco] Error in ResetSkills at 51: "Eco.Gameplay.Players.Player" не содержит определение для "SendTemporaryMessageLoc". Не удалось найти метод  расширения "SendTemporaryMessageLoc", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 55: "Eco.Gameplay.Players.Player" не содержит определение для "SendTemporaryMessageLoc". Не удалось найти метод  расширения "SendTemporaryMessageLoc", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 71: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 76: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 94: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 99: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+
+ 
+[09:47:46.931] [1] [ Info] [Eco] Загрузка модификаций завершена за 1 632,7мс
+ 
+[09:47:46.931] [1] [ Info] [Eco] Server Initialization завершена за 2 031,4мс
+ 
+[09:47:46.960] [1] [ Info] [Eco] Failed to load server, Exception was Exception: Exception
+Message:Error in ResetSkills at 51: "Eco.Gameplay.Players.Player" не содержит определение для "SendTemporaryMessageLoc". Не удалось найти метод  расширения "SendTemporaryMessageLoc", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 55: "Eco.Gameplay.Players.Player" не содержит определение для "SendTemporaryMessageLoc". Не удалось найти метод  расширения "SendTemporaryMessageLoc", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 71: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 76: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 94: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 99: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+
+Source:Eco.ModKit
+
+System.Exception: Error in ResetSkills at 51: "Eco.Gameplay.Players.Player" не содержит определение для "SendTemporaryMessageLoc". Не удалось найти метод  расширения "SendTemporaryMessageLoc", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 55: "Eco.Gameplay.Players.Player" не содержит определение для "SendTemporaryMessageLoc". Не удалось найти метод  расширения "SendTemporaryMessageLoc", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 71: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 76: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 94: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+Error in ResetSkills at 99: "Eco.Gameplay.Players.Player" не содержит определение для "FriendlyName". Не удалось найти метод  расширения "FriendlyName", принимающий первый аргумент типа "Eco.Gameplay.Players.Player"  (пропущена директива using или ссылка на сборку?) (CS1061)
+
+   at Eco.ModKit.RuntimeCompiler.HandleCompilerError(CompilerResults results)
+   at Eco.ModKit.RuntimeCompiler.CompileMods()
+   at Eco.ModKit.ModKitPlugin..ctor(TaskCompletionSource`1 done)
+ 
