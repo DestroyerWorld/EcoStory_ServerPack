@@ -54,7 +54,7 @@ namespace Eco.Mods.TechTree
 
             this.GetComponent<MinimapComponent>().Initialize(Localizer.DoStr("Power"));                
             this.GetComponent<PowerGridComponent>().Initialize(30, new ElectricPower());        
-            this.GetComponent<PowerGeneratorComponent>().Initialize(1000);                       
+            this.GetComponent<PowerGeneratorComponent>().Initialize(200);                       
             this.GetComponent<HousingComponent>().Set(WindTurbineItem.HousingVal);                                
 
         }
@@ -85,7 +85,7 @@ namespace Eco.Mods.TechTree
                                                     TypeForRoomLimit = "", 
         };}}
         
-        [Tooltip(8)] private LocString PowerProductionTooltip  { get { return new LocString(string.Format(Localizer.DoStr("Produces: {0}w"), Text.Info(1000))); } } 
+        [Tooltip(8)] private LocString PowerProductionTooltip  { get { return new LocString(string.Format(Localizer.DoStr("Produces: {0}w"), Text.Info(200))); } } 
     }
 
     [RequiresSkill(typeof(MechanicsSkill), 1)]      
